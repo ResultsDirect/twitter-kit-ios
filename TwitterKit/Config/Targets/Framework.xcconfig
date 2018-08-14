@@ -9,6 +9,7 @@
 DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
 
 DEFINES_MODULE = YES
+MACH_O_TYPE = staticlib
 
 DYLIB_INSTALL_NAME_BASE = @rpath
 
