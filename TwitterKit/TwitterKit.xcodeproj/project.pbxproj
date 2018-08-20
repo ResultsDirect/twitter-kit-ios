@@ -555,7 +555,6 @@
 		DB22426C1C3F22AB008A6DC7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9489E1A1930B95000E5C4F7 /* Social.framework */; };
 		DB22426D1C3F22B3008A6DC7 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370F2F1819B6980E00A51872 /* CoreText.framework */; };
 		DB22426E1C3F22BC008A6DC7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370F2F1D19B698D400A51872 /* QuartzCore.framework */; };
-		DB22427F1C3F24A2008A6DC7 /* libTwitterCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D40087F1B1D033C0091E4D3 /* libTwitterCore.a */; };
 		DB2242801C3F24AF008A6DC7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9489E181930B93500E5C4F7 /* Security.framework */; };
 		DB2590821BA8B0F7008A9380 /* TwitterSocialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C7FCB5A1AE59D5A008F41C9 /* TwitterSocialTests.m */; };
 		DB28A4D71CD419B60067FF72 /* VineTweetV13.json in Resources */ = {isa = PBXBuildFile; fileRef = DB28A4D11CD419B10067FF72 /* VineTweetV13.json */; };
@@ -1397,7 +1396,6 @@
 				DB2242671C3F218F008A6DC7 /* UIKit.framework in Frameworks */,
 				DB2242661C3F2188008A6DC7 /* CoreGraphics.framework in Frameworks */,
 				DB2242611C3F2181008A6DC7 /* CoreData.framework in Frameworks */,
-				DB22427F1C3F24A2008A6DC7 /* libTwitterCore.a in Frameworks */,
 				BFE839801ADF237A0035CBA1 /* libTwitterKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
