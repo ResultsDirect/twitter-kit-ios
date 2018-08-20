@@ -445,7 +445,6 @@
 		9D30C5CD1ACE60E200D0B1FA /* TWTRIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRIdentifier.m; sourceTree = "<group>"; };
 		9D348B411AAFE73B007837FB /* TwitterCore-ios-module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "TwitterCore-ios-module.modulemap"; sourceTree = "<group>"; };
 		9D3E7CD71B1A35260042B1CC /* TWTRAppAuthProvider_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRAppAuthProvider_Private.h; sourceTree = "<group>"; };
-		9D4545431AB0D3C800730817 /* TwitterCore-module.private.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = "TwitterCore-module.private.modulemap"; sourceTree = "<group>"; };
 		9D4545471AB23B6200730817 /* TwitterCore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitterCore-Info.plist"; sourceTree = "<group>"; };
 		9D56452B1ACE2C1300633C16 /* TWTRAuthenticationConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRAuthenticationConstants.h; sourceTree = "<group>"; };
 		9D56452C1ACE2C1300633C16 /* TWTRAuthenticationConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRAuthenticationConstants.m; sourceTree = "<group>"; };
@@ -831,7 +830,6 @@
 			isa = PBXGroup;
 			children = (
 				24AC143D1BE7B174000029B5 /* Config */,
-				9D4545431AB0D3C800730817 /* TwitterCore-module.private.modulemap */,
 				9D348B411AAFE73B007837FB /* TwitterCore-ios-module.modulemap */,
 				9DC3DF161C10B9C900C51A38 /* TwitterCore-tvos-module.modulemap */,
 				9D4545471AB23B6200730817 /* TwitterCore-Info.plist */,
@@ -1181,7 +1179,6 @@
 				3D98960F1B9621CF00B9CABD /* TWTRTokenOnlyAuthSession.h in Headers */,
 				9D30C5CF1ACE60E200D0B1FA /* TWTRIdentifier.h in Headers */,
 				9D0AE5B71AC7400500884B45 /* TWTRDateUtil.h in Headers */,
-				9DF52D9C1ABB67F6004345D0 /* TWTRColorUtil.h in Headers */,
 				6C37A1CA1B22505900C360B4 /* TWTRCoreLanguage.h in Headers */,
 				3DEEF7C31B7A769A00A1B457 /* TWTRNetworkingConstants.h in Headers */,
 				9DBB70511ABB76BB00ED4051 /* TWTRResourcesUtil.h in Headers */,
