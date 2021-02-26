@@ -33,7 +33,7 @@
 #import <TwitterKit/TWTRTwitter_Private.h>
 #import <TwitterKit/TWTRWordRange.h>
 
-NSArray *existingAccounts()
+NSArray *existingAccounts(void)
 {
     NSMutableArray<TWTRComposerAccount *> *accounts = [NSMutableArray array];
 

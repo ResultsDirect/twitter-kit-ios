@@ -27,7 +27,7 @@
  *  Removes all the recorded invocations in the provided UIAppearance proxy for TWTRTweetView.
  *  UIApperance relies on global state, this allows you to reset that state to keep testing from a clean state.
  */
-void resetTweetViewAppearance()
+void resetTweetViewAppearance(void)
 {
     [[[TWTRTweetView appearance] valueForKey:@"_appearanceInvocations"] removeAllObjects];
     [[TWTRTweetView appearance] setTheme:TWTRTweetViewThemeLight];

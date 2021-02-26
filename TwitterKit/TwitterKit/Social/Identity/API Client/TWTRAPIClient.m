@@ -669,26 +669,21 @@ static id<TWTRSessionStore_Private> TWTRSharedSessionStore = nil;
 - (nullable NSString *)mediaIDFromResponseData:(NSData *)data error:(NSError **)error
 {
     NSString *mediaID;
-    void (^setError)(NSError *) = ^(NSError *errorToSet) {
-        if (error) {
-            *error = errorToSet;
-        }
-    };
-
-    NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:error];
+    __block NSError *err = nil;
+    
+    NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:0 error:&err];
     if (json) {
         if ([json isKindOfClass:[NSDictionary class]]) {
             mediaID = json[TWTRMediaIDStringKey];
             if (!mediaID) {
-                NSError *missingKeyError = [NSError errorWithDomain:TWTRErrorDomain code:TWTRErrorCodeMissingParameter userInfo:@{NSLocalizedDescriptionKey: @"API returned dictionary but did not have \"media_id_string\""}];
-                setError(missingKeyError);
+                err = [NSError errorWithDomain:TWTRErrorDomain code:TWTRErrorCodeMissingParameter userInfo:@{NSLocalizedDescriptionKey: @"API returned dictionary but did not have \"media_id_string\""}];
             }
         } else {
-            NSError *invalidTypeError = [NSError errorWithDomain:TWTRErrorDomain code:TWTRErrorCodeMismatchedJSONType userInfo:@{NSLocalizedDescriptionKey: @"API returned invalid JSON type"}];
-            setError(invalidTypeError);
+            err = [NSError errorWithDomain:TWTRErrorDomain code:TWTRErrorCodeMismatchedJSONType userInfo:@{NSLocalizedDescriptionKey: @"API returned invalid JSON type"}];
         }
     }
-
+    
+    if (!mediaID && error) *error = err;
     return mediaID;
 }
 

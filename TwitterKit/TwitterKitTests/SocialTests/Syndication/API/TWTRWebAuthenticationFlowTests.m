@@ -38,7 +38,7 @@
 @end
 
 // Set up the internal class to allow expectations
-id mockWebAuthViewController()
+id mockWebAuthViewController(void)
 {
     id mockController = OCMClassMock([TWTRWebAuthenticationViewController class]);
     OCMStub([mockController alloc]).andReturn(mockController);
