@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRTimelineCursor.h"
+#import <TwitterKit/TWTRTimelineCursor.h>
 
 @implementation TWTRTimelineCursor
 

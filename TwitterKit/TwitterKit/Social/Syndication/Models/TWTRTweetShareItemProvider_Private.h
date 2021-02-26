@@ -19,7 +19,7 @@
  This header is private to the Twitter Kit SDK and not exposed for public SDK consumption
  */
 
-#import "TWTRTweetShareItemProvider.h"
+#import <TwitterKit/TWTRTweetShareItemProvider.h>
 
 FOUNDATION_EXTERN NSString *const TWTRTweetShareItemProviderPlaceholder;
 // For share activity types that take a subject e.g. Email

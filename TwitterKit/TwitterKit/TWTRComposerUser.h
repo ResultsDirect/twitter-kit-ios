@@ -20,8 +20,8 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "TWTRSession.h"
-#import "TWTRUser.h"
+#import <TwitterKit/TWTRSession.h>
+#import <TwitterKit/TWTRUser.h>
 #import "TwitterShareExtensionUI.h"
 
 NS_ASSUME_NONNULL_BEGIN

@@ -19,7 +19,7 @@
  This header is private to the Twitter Core SDK and not exposed for public SDK consumption
  */
 
-#import "TWTRResourcesUtil.h"
+#import <TwitterKit/TWTRResourcesUtil.h>
 
 @interface TWTRResourcesUtil (Private)
 

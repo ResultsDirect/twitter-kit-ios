@@ -20,7 +20,7 @@
  */
 
 #import <UIKit/UIKit.h>
-#import "TWTRMediaType.h"
+#import <TwitterKit/TWTRMediaType.h>
 
 @class TWTRCardEntity;
 @class TWTRTweetMediaEntity;

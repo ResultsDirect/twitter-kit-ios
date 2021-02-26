@@ -31,9 +31,9 @@
 
  */
 
-#import "TWTRGCOAuth.h"
-#import "TWTRNetworkingConstants.h"
-#import "TWTRNetworkingUtil.h"
+#import <TwitterKit/TWTRGCOAuth.h>
+#import <TwitterKit/TWTRNetworkingConstants.h>
+#import <TwitterKit/TWTRNetworkingUtil.h>
 
 #import <CommonCrypto/CommonHMAC.h>
 #import <stdatomic.h>

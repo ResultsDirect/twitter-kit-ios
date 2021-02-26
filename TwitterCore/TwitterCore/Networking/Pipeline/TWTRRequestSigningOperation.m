@@ -15,12 +15,12 @@
  *
  */
 
-#import "TWTRRequestSigningOperation.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRGuestAuthRequestSigner.h"
-#import "TWTRSession.h"
-#import "TWTRUserAuthRequestSigner.h"
-#import "TWTRNetworkingPipelinePackage.h"
+#import <TwitterKit/TWTRRequestSigningOperation.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRGuestAuthRequestSigner.h>
+#import <TwitterKit/TWTRSession.h>
+#import <TwitterKit/TWTRUserAuthRequestSigner.h>
+#import <TwitterKit/TWTRNetworkingPipelinePackage.h>
 
 @interface TWTRRequestSigningOperation ()
 @property (nonatomic, copy) TWTRRequestSigningSuccessBlock successCallbackToExecute;

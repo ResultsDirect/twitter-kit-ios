@@ -36,7 +36,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TWTRSETweet : NSObject <NSCopying>
 
-+ (void)setTwitterText:(id<TwitterTextProtocol>)twitterText;
++ (void)setTwitterText:(Class<TwitterTextProtocol>)twitterText;
 + (Class<TwitterTextProtocol>)twitterText;
 
 @property (nonatomic, nullable, copy) NSNumber *inReplyToTweetID;

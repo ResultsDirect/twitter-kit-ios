@@ -17,10 +17,10 @@
 
 #pragma mark imports
 
-#import "TWTRSEGeoPlaceTableViewCell.h"
-#import "TWTRSEFonts.h"
-#import "TWTRSEGeoPlace.h"
-#import "TWTRSELocalizedString.h"
+#import <TwitterKit/TWTRSEGeoPlaceTableViewCell.h>
+#import <TwitterKit/TWTRSEFonts.h>
+#import <TwitterKit/TWTRSEGeoPlace.h>
+#import <TwitterKit/TWTRSELocalizedString.h>
 #import "UIView+TSEExtensions.h"
 
 #pragma mark - static const definitions

@@ -15,12 +15,12 @@
  *
  */
 
-#import "TWTRSETweetShareViewController.h"
-#import "TWTRSEAccount.h"
-#import "TWTRSESheetPresentationController.h"
-#import "TWTRSETweetComposerViewController.h"
-#import "TWTRSETweetShareConfiguration.h"
-#import "TWTRSETweetShareNavigationController.h"
+#import <TwitterKit/TWTRSETweetShareViewController.h>
+#import <TwitterKit/TWTRSEAccount.h>
+#import <TwitterKit/TWTRSESheetPresentationController.h>
+#import <TwitterKit/TWTRSETweetComposerViewController.h>
+#import <TwitterKit/TWTRSETweetShareConfiguration.h>
+#import <TwitterKit/TWTRSETweetShareNavigationController.h>
 
 @interface TWTRSETweetShareViewController ()
 

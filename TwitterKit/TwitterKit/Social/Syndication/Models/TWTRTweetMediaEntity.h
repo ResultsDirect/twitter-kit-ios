@@ -20,8 +20,8 @@
  */
 
 #import <TwitterKit/TWTRJSONConvertible.h>
-#import "TWTRMediaType.h"
-#import "TWTRTweetEntity.h"
+#import <TwitterKit/TWTRMediaType.h>
+#import <TwitterKit/TWTRTweetEntity.h>
 
 @class TWTRMediaEntitySize;
 @class TWTRVideoMetaData;

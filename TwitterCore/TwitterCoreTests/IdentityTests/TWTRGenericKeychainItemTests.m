@@ -18,8 +18,8 @@
 #import <Foundation/Foundation.h>
 #import <XCTest/XCTest.h>
 #import <OCMock/OCMock.h>
-#import "TWTRGenericKeychainItem.h"
-#import "TWTRSecItemWrapper.h"
+#import <TwitterKit/TWTRGenericKeychainItem.h>
+#import <TwitterKit/TWTRSecItemWrapper.h>
 
 @interface TWTRSimpleNSCodingObject : NSObject <NSCoding>
 

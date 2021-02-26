@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRRuntime.h"
+#import <TwitterKit/TWTRRuntime.h>
 
 @implementation TWTRRuntime
 

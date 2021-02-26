@@ -16,8 +16,8 @@
  */
 
 @import TwitterKit;
-#import "TWTRAppAPIClient.h"
-#import "TWTRAuthenticationConstants.h"
+#import <TwitterKit/TWTRAppAPIClient.h>
+#import <TwitterKit/TWTRAuthenticationConstants.h>
 #import "TWTRTestCase.h"
 
 static NSString *const TWTRTestAccessToken = @"tokentokentoken";

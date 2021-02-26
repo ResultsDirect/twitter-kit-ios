@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRSession.h"
+#import <TwitterKit/TWTRSession.h>
 #import <TwitterKit/TWTRTwitter.h>
 #import <UIKit/UIKit.h>
 

@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRComposerUser.h"
+#import <TwitterKit/TWTRComposerUser.h>
 
 TWTRComposerUser *userFromUser(TWTRUser *twitterKitUser)
 {

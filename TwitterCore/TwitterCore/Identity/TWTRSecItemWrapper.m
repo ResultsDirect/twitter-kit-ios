@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRSecItemWrapper.h"
+#import <TwitterKit/TWTRSecItemWrapper.h>
 
 @implementation TWTRSecItemWrapper
 

@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRUtils.h"
+#import <TwitterKit/TWTRUtils.h>
 #import <Foundation/Foundation.h>
 
 @implementation TWTRUtils

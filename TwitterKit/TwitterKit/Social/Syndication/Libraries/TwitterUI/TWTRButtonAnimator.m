@@ -15,12 +15,12 @@
  *
  */
 
-#import "TWTRButtonAnimator.h"
+#import <TwitterKit/TWTRButtonAnimator.h>
 #import <QuartzCore/CALayer.h>
 #import <UIKit/UIKit.h>
-#import "TWTRAnimatableImageView.h"
-#import "TWTRFrameSheet.h"
-#import "TWTRImageSequenceConfiguration.h"
+#import <TwitterKit/TWTRAnimatableImageView.h>
+#import <TwitterKit/TWTRFrameSheet.h>
+#import <TwitterKit/TWTRImageSequenceConfiguration.h>
 
 @implementation TWTRButtonAnimator
 

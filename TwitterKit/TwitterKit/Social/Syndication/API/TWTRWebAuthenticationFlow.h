@@ -20,7 +20,7 @@
  */
 
 #import <UIKit/UIKit.h>
-#import "TWTRSession.h"
+#import <TwitterKit/TWTRSession.h>
 @class TWTRSessionStore;
 
 NS_ASSUME_NONNULL_BEGIN

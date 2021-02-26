@@ -15,11 +15,11 @@
  *
  */
 
-#import "TWTRGuestSession.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRGuestSession_Private.h"
-#import "TWTRUtils.h"
+#import <TwitterKit/TWTRGuestSession.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRGuestSession_Private.h>
+#import <TwitterKit/TWTRUtils.h>
 
 NSString *const TWTRGuestSessionCreationDateKey = @"TWTRGuestSessionCreationDateKey";
 static NSTimeInterval const TWTRGuestSessionExpirationDuration = 3600;  // One hour

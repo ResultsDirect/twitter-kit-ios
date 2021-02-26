@@ -16,7 +16,7 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "TWTRRuntime.h"
+#import <TwitterKit/TWTRRuntime.h>
 
 @interface TWTRRuntimeTests : XCTestCase
 

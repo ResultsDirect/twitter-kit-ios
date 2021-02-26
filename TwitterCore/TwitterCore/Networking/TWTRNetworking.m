@@ -15,16 +15,16 @@
  *
  */
 
-#import "TWTRNetworking.h"
+#import <TwitterKit/TWTRNetworking.h>
 #import <Foundation/Foundation.h>
-#import "TWTRAPIDateSync.h"
-#import "TWTRAPINetworkErrorsShim.h"
-#import "TWTRAuthConfig.h"
-#import "TWTRCoreConstants.h"
-#import "TWTRNetworkingConstants.h"
-#import "TWTRNetworkingUtil.h"
-#import "TWTRResourcesUtil.h"
-#import "TWTRURLSessionDelegate.h"
+#import <TwitterKit/TWTRAPIDateSync.h>
+#import <TwitterKit/TWTRAPINetworkErrorsShim.h>
+#import <TwitterKit/TWTRAuthConfig.h>
+#import <TwitterKit/TWTRCoreConstants.h>
+#import <TwitterKit/TWTRNetworkingConstants.h>
+#import <TwitterKit/TWTRNetworkingUtil.h>
+#import <TwitterKit/TWTRResourcesUtil.h>
+#import <TwitterKit/TWTRURLSessionDelegate.h>
 
 @implementation TWTRNetworking
 

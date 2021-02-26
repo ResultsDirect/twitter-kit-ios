@@ -23,7 +23,7 @@
 //  UIFontTextStyleCaption1     SFUIText-Regular   12.00pt (our base size)
 //  UIFontTextStyleCaption2     SFUIText-Regular   11.00pt
 
-#import "TWTRFontUtil.h"
+#import <TwitterKit/TWTRFontUtil.h>
 
 static const CGFloat TWTRFontSizeIncrement = 2.0;
 

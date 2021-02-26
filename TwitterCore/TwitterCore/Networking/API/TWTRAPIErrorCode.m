@@ -15,6 +15,6 @@
  *
  */
 
-#import "TWTRAPIErrorCode.h"
+#import <TwitterKit/TWTRAPIErrorCode.h>
 
 NSString *const TWTRAPIErrorDomain = @"TwitterAPIErrorDomain";

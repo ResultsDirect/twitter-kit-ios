@@ -15,9 +15,9 @@
  *
  */
 
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRSession.h"
-#import "TWTRSession_Private.h"
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRSession.h>
+#import <TwitterKit/TWTRSession_Private.h>
 #import "TWTRTestCase.h"
 
 @interface TWTRSessionTests : TWTRTestCase

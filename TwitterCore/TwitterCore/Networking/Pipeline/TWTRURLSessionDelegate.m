@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRURLSessionDelegate.h"
-#import "TWTRServerTrustEvaluator.h"
+#import <TwitterKit/TWTRURLSessionDelegate.h>
+#import <TwitterKit/TWTRServerTrustEvaluator.h>
 
 @interface TWTRURLSessionDelegate ()
 

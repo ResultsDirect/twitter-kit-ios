@@ -21,7 +21,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "TWTRJSONConvertible.h"
+#import <TwitterKit/TWTRJSONConvertible.h>
 
 @class TWTRMediaEntityDisplayConfiguration;
 @class TWTRVideoPlaybackConfiguration;

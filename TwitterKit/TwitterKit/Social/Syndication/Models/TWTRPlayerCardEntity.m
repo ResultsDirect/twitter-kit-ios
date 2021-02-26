@@ -15,16 +15,16 @@
  *
  */
 
-#import "TWTRPlayerCardEntity.h"
-#import "TWTRDictUtil.h"
+#import <TwitterKit/TWTRPlayerCardEntity.h>
+#import <TwitterKit/TWTRDictUtil.h>
 #import "TWTRCardEntity+Subclasses.h"
-#import "TWTRImages.h"
-#import "TWTRJSONKeyRequirement.h"
-#import "TWTRJSONValidator.h"
-#import "TWTRMediaEntityDisplayConfiguration.h"
-#import "TWTRNSCodingUtil.h"
-#import "TWTRValueTransformers.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRImages.h>
+#import <TwitterKit/TWTRJSONKeyRequirement.h>
+#import <TwitterKit/TWTRJSONValidator.h>
+#import <TwitterKit/TWTRMediaEntityDisplayConfiguration.h>
+#import <TwitterKit/TWTRNSCodingUtil.h>
+#import <TwitterKit/TWTRValueTransformers.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 static NSString *const TWTRVineUserIDString = @"586671909";
 

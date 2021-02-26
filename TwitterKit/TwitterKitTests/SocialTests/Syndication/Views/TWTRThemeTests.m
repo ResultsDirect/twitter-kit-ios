@@ -15,13 +15,13 @@
  *
  */
 
-#import "TWTRColorUtil.h"
+#import <TwitterKit/TWTRColorUtil.h>
 #import <XCTest/XCTest.h>
 #import "TWTRFixtureLoader.h"
 #import "TWTRTweetContentView+Layout.h"
-#import "TWTRTweetLabel.h"
-#import "TWTRTweetView.h"
-#import "TWTRTweetView_Private.h"
+#import <TwitterKit/TWTRTweetLabel.h>
+#import <TwitterKit/TWTRTweetView.h>
+#import <TwitterKit/TWTRTweetView_Private.h>
 
 /**
  *  Removes all the recorded invocations in the provided UIAppearance proxy for TWTRTweetView.

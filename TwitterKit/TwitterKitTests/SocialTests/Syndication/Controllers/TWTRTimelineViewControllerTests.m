@@ -18,20 +18,20 @@
 #import <OCMock/OCMock.h>
 #import <UIKit/UIKit.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRKit.h"
-#import "TWTRNotificationCenter.h"
-#import "TWTRNotificationConstants.h"
-#import "TWTRProfileHeaderView.h"
+#import <TwitterKit/TWTRKit.h>
+#import <TwitterKit/TWTRNotificationCenter.h>
+#import <TwitterKit/TWTRNotificationConstants.h>
+#import <TwitterKit/TWTRProfileHeaderView.h>
 #import "TWTRStubTimelineDataSource.h"
 #import "TWTRStubTwitterClient.h"
 #import "TWTRTestCase.h"
-#import "TWTRTimelineCursor.h"
-#import "TWTRTimelineViewController.h"
-#import "TWTRTweet.h"
+#import <TwitterKit/TWTRTimelineCursor.h>
+#import <TwitterKit/TWTRTimelineViewController.h>
+#import <TwitterKit/TWTRTweet.h>
 #import "TWTRTweetContentView+Layout.h"
-#import "TWTRTweetView.h"
-#import "TWTRTweetView_Private.h"
-#import "TWTRTwitter_Private.h"
+#import <TwitterKit/TWTRTweetView.h>
+#import <TwitterKit/TWTRTweetView_Private.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
 
 @interface TWTRTimelineViewController ()
 

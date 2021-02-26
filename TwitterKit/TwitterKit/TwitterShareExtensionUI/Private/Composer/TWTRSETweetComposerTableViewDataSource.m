@@ -15,12 +15,12 @@
  *
  */
 
-#import "TWTRSETweetComposerTableViewDataSource.h"
-#import "TWTRSEConfigurationSelectionTableViewCell.h"
-#import "TWTRSELocalizedString.h"
-#import "TWTRSETweet.h"
-#import "TWTRSETweetShareConfiguration.h"
-#import "TWTRSETweetTextViewContainer.h"
+#import <TwitterKit/TWTRSETweetComposerTableViewDataSource.h>
+#import <TwitterKit/TWTRSEConfigurationSelectionTableViewCell.h>
+#import <TwitterKit/TWTRSELocalizedString.h>
+#import <TwitterKit/TWTRSETweet.h>
+#import <TwitterKit/TWTRSETweetShareConfiguration.h>
+#import <TwitterKit/TWTRSETweetTextViewContainer.h>
 
 @interface TWTRSETweetComposerTableViewDataSource ()
 

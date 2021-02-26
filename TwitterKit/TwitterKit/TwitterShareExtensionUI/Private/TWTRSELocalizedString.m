@@ -15,6 +15,6 @@
  *
  */
 
-#import "TWTRSELocalizedString.h"
+#import <TwitterKit/TWTRSELocalizedString.h>
 
 Class<TWTRSELocalizedResources> TSELocalized;

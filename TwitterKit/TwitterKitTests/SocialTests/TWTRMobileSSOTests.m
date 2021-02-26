@@ -17,7 +17,7 @@
 
 #import <OCMock/OCMock.h>
 #import <XCTest/XCTest.h>
-#import "TWTRMobileSSO.h"
+#import <TwitterKit/TWTRMobileSSO.h>
 
 @interface TWTRMobileSSOTests : XCTestCase
 

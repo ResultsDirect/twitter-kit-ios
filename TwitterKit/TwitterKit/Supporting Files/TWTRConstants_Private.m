@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRConstants_Private.h"
+#import <TwitterKit/TWTRConstants_Private.h>
 
 #pragma mark - Twitter kit constants
 

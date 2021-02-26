@@ -16,8 +16,8 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "TWTRNotificationConstants.h"
-#import "TWTRVideoMediaType.h"
+#import <TwitterKit/TWTRNotificationConstants.h>
+#import <TwitterKit/TWTRVideoMediaType.h>
 
 @interface TWTRMediaConstantTests : XCTestCase
 

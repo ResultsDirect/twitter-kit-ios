@@ -15,22 +15,22 @@
  *
  */
 
-#import "TWTRVideoPlayerView.h"
+#import <TwitterKit/TWTRVideoPlayerView.h>
 
-#import "TWTRAssertionMacros.h"
+#import <TwitterKit/TWTRAssertionMacros.h>
 
-#import "TWTRTweet.h"
-#import "TWTRTwitter_Private.h"
-#import "TWTRUser.h"
-#import "TWTRVideoCTAView.h"
-#import "TWTRVideoControlsView.h"
-#import "TWTRVideoControlsViewSynchronizer.h"
-#import "TWTRVideoDeeplinkConfiguration.h"
-#import "TWTRVideoPlaybackConfiguration.h"
-#import "TWTRVideoPlaybackRules.h"
-#import "TWTRVideoPlayerOutputView.h"
-#import "TWTRVideoPlayerView_Private.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
+#import <TwitterKit/TWTRUser.h>
+#import <TwitterKit/TWTRVideoCTAView.h>
+#import <TwitterKit/TWTRVideoControlsView.h>
+#import <TwitterKit/TWTRVideoControlsViewSynchronizer.h>
+#import <TwitterKit/TWTRVideoDeeplinkConfiguration.h>
+#import <TwitterKit/TWTRVideoPlaybackConfiguration.h>
+#import <TwitterKit/TWTRVideoPlaybackRules.h>
+#import <TwitterKit/TWTRVideoPlayerOutputView.h>
+#import <TwitterKit/TWTRVideoPlayerView_Private.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

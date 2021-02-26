@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRSEImageProvider.h"
-#import "TWTRSETweetAttachment.h"
+#import <TwitterKit/TWTRSEImageProvider.h>
+#import <TwitterKit/TWTRSETweetAttachment.h>
 
 @import MobileCoreServices;
 @import UIKit.UIImage;

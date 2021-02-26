@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRAuthConfig.h"
+#import <TwitterKit/TWTRAuthConfig.h>
 
 @interface TWTRAuthConfig () <NSCoding>
 

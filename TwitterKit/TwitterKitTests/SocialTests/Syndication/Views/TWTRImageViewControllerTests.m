@@ -16,15 +16,15 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRUtils.h"
+#import <TwitterKit/TWTRUtils.h>
 #import <XCTest/XCTest.h>
 #import "TWTRFixtureLoader.h"
 #import "TWTRImageTestHelper.h"
-#import "TWTRImageViewController.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetMediaEntity.h"
-#import "TWTRTweet_Private.h"
-#import "TWTRTwitter_Private.h"
+#import <TwitterKit/TWTRImageViewController.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetMediaEntity.h>
+#import <TwitterKit/TWTRTweet_Private.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
 
 @interface TWTRImageViewController ()
 

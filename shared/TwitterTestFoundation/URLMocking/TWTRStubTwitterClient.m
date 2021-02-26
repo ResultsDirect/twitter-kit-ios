@@ -6,11 +6,11 @@
 //
 
 #import "TWTRStubTwitterClient.h"
-#import "TWTRAPIServiceConfig.h"
-#import "TWTRNetworking.h"
-#import "TWTRSessionStore.h"
-#import "TWTRSessionStore_Private.h"
-#import "TWTRAPIClient_Private.h"
+#import <TwitterKit/TWTRAPIServiceConfig.h>
+#import <TwitterKit/TWTRNetworking.h>
+#import <TwitterKit/TWTRSessionStore.h>
+#import <TwitterKit/TWTRSessionStore_Private.h>
+#import <TwitterKit/TWTRAPIClient_Private.h>
 #import "TWTRTestSessionStore.h"
 
 @implementation TWTRStubTwitterClient

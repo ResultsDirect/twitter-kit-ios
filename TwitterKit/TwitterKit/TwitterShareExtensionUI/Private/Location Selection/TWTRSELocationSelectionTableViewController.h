@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRSESelectionTableViewController.h"
+#import <TwitterKit/TWTRSESelectionTableViewController.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

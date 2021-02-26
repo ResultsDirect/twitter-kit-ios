@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRColorUtil.h"
+#import <TwitterKit/TWTRColorUtil.h>
 
 @implementation TWTRColorUtil
 

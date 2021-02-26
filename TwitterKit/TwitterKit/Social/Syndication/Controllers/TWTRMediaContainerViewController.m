@@ -15,11 +15,11 @@
  *
  */
 
-#import "TWTRMediaContainerViewController.h"
-#import "TWTRImages.h"
-#import "TWTRMediaPresentationController.h"
-#import "TWTRTranslationsUtil.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRMediaContainerViewController.h>
+#import <TwitterKit/TWTRImages.h>
+#import <TwitterKit/TWTRMediaPresentationController.h>
+#import <TwitterKit/TWTRTranslationsUtil.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

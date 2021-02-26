@@ -20,7 +20,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "TWTRAuthSession.h"
+#import <TwitterKit/TWTRAuthSession.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

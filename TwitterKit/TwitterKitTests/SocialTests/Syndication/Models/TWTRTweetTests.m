@@ -16,16 +16,16 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRAPIConstantsStatus.h"
-#import "TWTRCardEntity.h"
+#import <TwitterKit/TWTRAPIConstantsStatus.h>
+#import <TwitterKit/TWTRCardEntity.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRPlayerCardEntity.h"
+#import <TwitterKit/TWTRPlayerCardEntity.h>
 #import "TWTRTestCase.h"
-#import "TWTRTweetMediaEntity.h"
-#import "TWTRTweetRepository.h"
-#import "TWTRTweet_Private.h"
-#import "TWTRUser.h"
-#import "TWTRVideoMetaData.h"
+#import <TwitterKit/TWTRTweetMediaEntity.h>
+#import <TwitterKit/TWTRTweetRepository.h>
+#import <TwitterKit/TWTRTweet_Private.h>
+#import <TwitterKit/TWTRUser.h>
+#import <TwitterKit/TWTRVideoMetaData.h>
 
 typedef void (^InvocationBlock)(NSInvocation *);
 

@@ -15,11 +15,11 @@
  *
  */
 
-#import "TWTRVideoControlsView.h"
+#import <TwitterKit/TWTRVideoControlsView.h>
 #import <AVFoundation/AVFoundation.h>
-#import "TWTRImages.h"
-#import "TWTRStringUtil.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRImages.h>
+#import <TwitterKit/TWTRStringUtil.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 static const CGFloat TWTRControlsMinimumTappableSizeInPoints = 44.0;
 

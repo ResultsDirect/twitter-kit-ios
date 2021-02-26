@@ -16,32 +16,32 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRColorUtil.h"
+#import <TwitterKit/TWTRColorUtil.h>
 #import <XCTest/XCTest.h>
-#import "TWTRAttributedLabel.h"
+#import <TwitterKit/TWTRAttributedLabel.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRFontUtil.h"
-#import "TWTRLikeButton.h"
-#import "TWTRMultiImageViewController.h"
-#import "TWTRNotificationCenter.h"
-#import "TWTRProfileHeaderView.h"
-#import "TWTRShareButton.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetCashtagEntity.h"
+#import <TwitterKit/TWTRFontUtil.h>
+#import <TwitterKit/TWTRLikeButton.h>
+#import <TwitterKit/TWTRMultiImageViewController.h>
+#import <TwitterKit/TWTRNotificationCenter.h>
+#import <TwitterKit/TWTRProfileHeaderView.h>
+#import <TwitterKit/TWTRShareButton.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetCashtagEntity.h>
 #import "TWTRTweetContentView+Layout.h"
-#import "TWTRTweetDelegationHelper.h"
-#import "TWTRTweetHashtagEntity.h"
-#import "TWTRTweetLabel.h"
-#import "TWTRTweetMediaEntity.h"
-#import "TWTRTweetMediaView.h"
-#import "TWTRTweetUrlEntity.h"
-#import "TWTRTweetUserMentionEntity.h"
-#import "TWTRTweetView_Private.h"
-#import "TWTRTweet_Private.h"
-#import "TWTRTwitter_Private.h"
-#import "TWTRUser.h"
-#import "TWTRVideoViewController.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRTweetDelegationHelper.h>
+#import <TwitterKit/TWTRTweetHashtagEntity.h>
+#import <TwitterKit/TWTRTweetLabel.h>
+#import <TwitterKit/TWTRTweetMediaEntity.h>
+#import <TwitterKit/TWTRTweetMediaView.h>
+#import <TwitterKit/TWTRTweetUrlEntity.h>
+#import <TwitterKit/TWTRTweetUserMentionEntity.h>
+#import <TwitterKit/TWTRTweetView_Private.h>
+#import <TwitterKit/TWTRTweet_Private.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
+#import <TwitterKit/TWTRUser.h>
+#import <TwitterKit/TWTRVideoViewController.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 @interface TWTRTweetView () <TWTRProfileHeaderViewDelegate, TWTRAttributedLabelDelegate>
 

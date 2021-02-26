@@ -18,10 +18,10 @@
 #import <XCTest/XCTest.h>
 #import "TWTRFixtureLoader.h"
 #import "TWTRTestCase.h"
-#import "TWTRTimelineFilter.h"
-#import "TWTRTimelineFilterManager.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetUserMentionEntity.h"
+#import <TwitterKit/TWTRTimelineFilter.h>
+#import <TwitterKit/TWTRTimelineFilterManager.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetUserMentionEntity.h>
 
 @class TWTRTweetHashtagEntity;
 @class TWTRTweetUrlEntity;

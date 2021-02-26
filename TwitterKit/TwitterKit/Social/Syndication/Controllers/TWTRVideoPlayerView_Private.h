@@ -19,10 +19,10 @@
  This header is private to the Twitter Kit SDK and not exposed for public SDK consumption
  */
 
-#import "TWTRVideoCTAView.h"
-#import "TWTRVideoControlsViewSynchronizer.h"
-#import "TWTRVideoPlayerOutputView.h"
-#import "TWTRVideoPlayerView.h"
+#import <TwitterKit/TWTRVideoCTAView.h>
+#import <TwitterKit/TWTRVideoControlsViewSynchronizer.h>
+#import <TwitterKit/TWTRVideoPlayerOutputView.h>
+#import <TwitterKit/TWTRVideoPlayerView.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

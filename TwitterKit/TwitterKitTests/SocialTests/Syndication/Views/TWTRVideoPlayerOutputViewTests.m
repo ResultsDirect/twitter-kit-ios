@@ -17,10 +17,10 @@
 
 #import <OCMock/OCMock.h>
 #import <XCTest/XCTest.h>
-#import "TWTRNotificationConstants.h"
-#import "TWTRVideoPlaybackConfiguration.h"
-#import "TWTRVideoPlaybackState.h"
-#import "TWTRVideoPlayerOutputView.h"
+#import <TwitterKit/TWTRNotificationConstants.h>
+#import <TwitterKit/TWTRVideoPlaybackConfiguration.h>
+#import <TwitterKit/TWTRVideoPlaybackState.h>
+#import <TwitterKit/TWTRVideoPlayerOutputView.h>
 
 @interface TWTRVideoPlayerOutputView ()
 

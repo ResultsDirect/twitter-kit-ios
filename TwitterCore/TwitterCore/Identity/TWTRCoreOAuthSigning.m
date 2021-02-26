@@ -15,12 +15,12 @@
  *
  */
 
-#import "TWTRCoreOAuthSigning.h"
-#import "TWTRAuthConfig.h"
-#import "TWTRAuthSession.h"
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRConstants.h"
-#import "TWTRGCOAuth.h"
+#import <TwitterKit/TWTRCoreOAuthSigning.h>
+#import <TwitterKit/TWTRAuthConfig.h>
+#import <TwitterKit/TWTRAuthSession.h>
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRConstants.h>
+#import <TwitterKit/TWTRGCOAuth.h>
 
 NSString *const TWTROAuthEchoRequestURLStringKey = @"X-Auth-Service-Provider";
 NSString *const TWTROAuthEchoAuthorizationHeaderKey = @"X-Verify-Credentials-Authorization";

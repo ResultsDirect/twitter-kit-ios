@@ -20,9 +20,9 @@
  */
 
 #import <UIKit/UIKit.h>
-#import "TWTRImageLoaderCache.h"
-#import "TWTRImageLoaderTaskManager.h"
-#import "TWTRSEImageDownloader.h"
+#import <TwitterKit/TWTRImageLoaderCache.h>
+#import <TwitterKit/TWTRImageLoaderTaskManager.h>
+#import <TwitterKit/TWTRSEImageDownloader.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

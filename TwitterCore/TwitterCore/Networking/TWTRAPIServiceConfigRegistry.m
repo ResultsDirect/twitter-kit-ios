@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRAPIServiceConfigRegistry.h"
-#import "TWTRAssertionMacros.h"
+#import <TwitterKit/TWTRAPIServiceConfigRegistry.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
 
 @interface TWTRAPIServiceConfigRegistry ()
 

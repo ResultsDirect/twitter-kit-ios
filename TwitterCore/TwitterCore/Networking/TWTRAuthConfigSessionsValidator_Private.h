@@ -19,7 +19,7 @@
  This header is private to the Twitter Core SDK and not exposed for public SDK consumption
  */
 
-#include "TWTRAuthConfigSessionsValidator.h"
+#include <TwitterKit/TWTRAuthConfigSessionsValidator.h>
 
 @interface TWTRAuthConfigSessionsValidator ()
 

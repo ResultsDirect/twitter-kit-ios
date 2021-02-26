@@ -15,11 +15,11 @@
  *
  */
 
-#import "TWTRProfileView.h"
-#import "TWTRColorUtil.h"
-#import "TWTRTranslationsUtil.h"
-#import "TWTRTweetViewMetrics.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRProfileView.h>
+#import <TwitterKit/TWTRColorUtil.h>
+#import <TwitterKit/TWTRTranslationsUtil.h>
+#import <TwitterKit/TWTRTweetViewMetrics.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 static CGFloat const TWTRTweetViewProfileCornerRadius = 4.0;
 

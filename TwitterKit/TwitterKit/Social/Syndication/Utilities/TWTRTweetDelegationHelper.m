@@ -15,16 +15,16 @@
  *
  */
 
-#import "TWTRTweetDelegationHelper.h"
+#import <TwitterKit/TWTRTweetDelegationHelper.h>
 #import <UIKit/UIKit.h>
-#import "TWTRConstants_Private.h"
-#import "TWTROSVersionInfo.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetCashtagEntity.h"
-#import "TWTRTweetHashtagEntity.h"
-#import "TWTRTweetUserMentionEntity.h"
-#import "TWTRURLUtility.h"
-#import "TWTRUser.h"
+#import <TwitterKit/TWTRConstants_Private.h>
+#import <TwitterKit/TWTROSVersionInfo.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetCashtagEntity.h>
+#import <TwitterKit/TWTRTweetHashtagEntity.h>
+#import <TwitterKit/TWTRTweetUserMentionEntity.h>
+#import <TwitterKit/TWTRURLUtility.h>
+#import <TwitterKit/TWTRUser.h>
 
 @implementation TWTRTweetDelegationHelper
 

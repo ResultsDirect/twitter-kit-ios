@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRErrors.h"
-#import "TWTRConstants.h"
+#import <TwitterKit/TWTRErrors.h>
+#import <TwitterKit/TWTRConstants.h>
 
 @implementation TWTRErrors
 

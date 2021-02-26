@@ -16,8 +16,8 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRFileManager.h"
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRFileManager.h>
 
 @interface TWTRFileSystemTests : XCTestCase
 

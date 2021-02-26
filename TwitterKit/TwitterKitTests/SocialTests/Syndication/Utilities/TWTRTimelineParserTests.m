@@ -17,8 +17,8 @@
 
 #import <XCTest/XCTest.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRTimelineParser.h"
-#import "TWTRTweet.h"
+#import <TwitterKit/TWTRTimelineParser.h>
+#import <TwitterKit/TWTRTweet.h>
 
 @interface TWTRTimelineParserTests : XCTestCase
 

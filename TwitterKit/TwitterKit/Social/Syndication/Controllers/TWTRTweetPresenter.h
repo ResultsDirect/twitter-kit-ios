@@ -21,7 +21,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "TWTRTweetView.h"
+#import <TwitterKit/TWTRTweetView.h>
 
 @class TWTRTweet;
 @class TWTRTweetEntity;

@@ -15,21 +15,21 @@
  *
  */
 
-#import "TWTRSEAutoCompletionTableViewController.h"
+#import <TwitterKit/TWTRSEAutoCompletionTableViewController.h>
 #import "NSArray+Helpers.h"
-#import "TWTRSEAccount.h"
-#import "TWTRSEAccountTableViewCell.h"
-#import "TWTRSEAutoCompletion.h"
-#import "TWTRSEAutoCompletionResult.h"
-#import "TWTRSEAutoCompletionViewModel.h"
-#import "TWTRSEColors.h"
-#import "TWTRSEFonts.h"
-#import "TWTRSELoadingTableViewCell.h"
-#import "TWTRSELocalizedString.h"
-#import "TWTRSESimpleTextTableViewCell.h"
-#import "TWTRSEThrottledProperty.h"
-#import "TWTRSETweet.h"
-#import "TWTRSETwitterUser.h"
+#import <TwitterKit/TWTRSEAccount.h>
+#import <TwitterKit/TWTRSEAccountTableViewCell.h>
+#import <TwitterKit/TWTRSEAutoCompletion.h>
+#import <TwitterKit/TWTRSEAutoCompletionResult.h>
+#import <TwitterKit/TWTRSEAutoCompletionViewModel.h>
+#import <TwitterKit/TWTRSEColors.h>
+#import <TwitterKit/TWTRSEFonts.h>
+#import <TwitterKit/TWTRSELoadingTableViewCell.h>
+#import <TwitterKit/TWTRSELocalizedString.h>
+#import <TwitterKit/TWTRSESimpleTextTableViewCell.h>
+#import <TwitterKit/TWTRSEThrottledProperty.h>
+#import <TwitterKit/TWTRSETweet.h>
+#import <TwitterKit/TWTRSETwitterUser.h>
 
 typedef NS_ENUM(NSUInteger, TWTRSEAutoCompletionState) {
     TWTRSEAutoCompletionStateWaiting = 1,

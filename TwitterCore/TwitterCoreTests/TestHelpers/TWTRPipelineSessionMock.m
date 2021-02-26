@@ -17,7 +17,7 @@
 
 @import TwitterKit;
 #import "TWTRPipelineSessionMock.h"
-#import "TWTRSessionStore_Private.h"
+#import <TwitterKit/TWTRSessionStore_Private.h>
 
 @implementation TWTRPipelineSessionMock
 

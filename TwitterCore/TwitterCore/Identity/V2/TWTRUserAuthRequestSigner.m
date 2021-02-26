@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRUserAuthRequestSigner.h"
-#import "TWTROAuth1aAuthRequestSigner.h"
+#import <TwitterKit/TWTRUserAuthRequestSigner.h>
+#import <TwitterKit/TWTROAuth1aAuthRequestSigner.h>
 
 @implementation TWTRUserAuthRequestSigner
 

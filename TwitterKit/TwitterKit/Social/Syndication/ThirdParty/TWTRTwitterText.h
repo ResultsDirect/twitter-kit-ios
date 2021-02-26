@@ -15,7 +15,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "TWTRTwitterTextEntity.h"
+#import <TwitterKit/TWTRTwitterTextEntity.h>
 
 @interface TWTRTwitterText : NSObject
 

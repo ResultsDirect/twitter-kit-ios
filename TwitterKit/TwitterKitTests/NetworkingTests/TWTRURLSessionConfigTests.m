@@ -16,7 +16,7 @@
  */
 
 #import "TWTRTestCase.h"
-#import "TWTRURLSessionConfig.h"
+#import <TwitterKit/TWTRURLSessionConfig.h>
 
 @interface TWTRURLSessionConfigTests : TWTRTestCase
 

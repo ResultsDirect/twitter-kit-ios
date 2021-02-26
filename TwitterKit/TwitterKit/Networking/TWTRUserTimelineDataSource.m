@@ -15,14 +15,14 @@
  *
  */
 
-#import "TWTRUserTimelineDataSource.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRMultiThreadUtil.h"
-#import "TWTRAPIClient_Private.h"
-#import "TWTRTimelineCursor.h"
-#import "TWTRTimelineDataSource_Constants.h"
-#import "TWTRTimelineFilterManager.h"
-#import "TWTRTimelineParser.h"
+#import <TwitterKit/TWTRUserTimelineDataSource.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRMultiThreadUtil.h>
+#import <TwitterKit/TWTRAPIClient_Private.h>
+#import <TwitterKit/TWTRTimelineCursor.h>
+#import <TwitterKit/TWTRTimelineDataSource_Constants.h>
+#import <TwitterKit/TWTRTimelineFilterManager.h>
+#import <TwitterKit/TWTRTimelineParser.h>
 
 @interface TWTRUserTimelineDataSource ()
 @property (nonatomic) TWTRTimelineFilterManager *timelineFilterManager;

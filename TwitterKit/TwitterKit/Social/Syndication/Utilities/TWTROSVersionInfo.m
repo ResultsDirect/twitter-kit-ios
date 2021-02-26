@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTROSVersionInfo.h"
+#import <TwitterKit/TWTROSVersionInfo.h>
 #import <UIKit/UIKit.h>
 
 @implementation TWTROSVersionInfo

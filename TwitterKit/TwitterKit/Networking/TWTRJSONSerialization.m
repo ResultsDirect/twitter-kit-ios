@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRJSONSerialization.h"
-#import "TWTRConstants.h"
+#import <TwitterKit/TWTRJSONSerialization.h>
+#import <TwitterKit/TWTRConstants.h>
 
 @implementation TWTRJSONSerialization
 

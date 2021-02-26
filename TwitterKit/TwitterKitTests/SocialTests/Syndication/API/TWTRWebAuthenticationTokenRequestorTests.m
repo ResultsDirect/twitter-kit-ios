@@ -16,16 +16,16 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRGuestSession.h"
-#import "TWTRNetworking.h"
-#import "TWTRSession.h"
+#import <TwitterKit/TWTRGuestSession.h>
+#import <TwitterKit/TWTRNetworking.h>
+#import <TwitterKit/TWTRSession.h>
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 #import "TWTRMockURLSessionProtocol.h"
 #import "TWTRStubTwitterClient.h"
 #import "TWTRTestSessionStore.h"
-#import "TWTRTwitterAPIServiceConfig.h"
-#import "TWTRWebAuthenticationTokenRequestor.h"
+#import <TwitterKit/TWTRTwitterAPIServiceConfig.h>
+#import <TwitterKit/TWTRWebAuthenticationTokenRequestor.h>
 
 @interface TWTRNetworking ()
 

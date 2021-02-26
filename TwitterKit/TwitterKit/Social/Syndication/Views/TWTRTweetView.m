@@ -15,47 +15,47 @@
  *
  */
 
-#import "TWTRTweetView.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRColorUtil.h"
-#import "TWTRDateUtil.h"
-#import "TWTRUtils.h"
-#import "TWTRCardEntity.h"
-#import "TWTRConstants_Private.h"
-#import "TWTRFontUtil.h"
-#import "TWTRImageLoader.h"
-#import "TWTRImageViewController.h"
-#import "TWTRImages.h"
-#import "TWTRLikeButton.h"
-#import "TWTRNotificationCenter.h"
-#import "TWTRNotificationConstants.h"
-#import "TWTRProfileHeaderView.h"
-#import "TWTRProfileView.h"
-#import "TWTRShareButton.h"
-#import "TWTRStore.h"
-#import "TWTRSubscriber.h"
-#import "TWTRTranslationsUtil.h"
-#import "TWTRTweetDelegationHelper.h"
-#import "TWTRTweetLabel.h"
-#import "TWTRTweetMediaEntity.h"
-#import "TWTRTweetMediaView.h"
-#import "TWTRTweetPresenter.h"
-#import "TWTRTweetRepository.h"
-#import "TWTRTweetUrlEntity.h"
-#import "TWTRTweetViewMetrics.h"
-#import "TWTRTweetView_Private.h"
-#import "TWTRTweet_Private.h"
-#import "TWTRTwitter_Private.h"
-#import "TWTRUser.h"
-#import "TWTRVideoMetaData.h"
-#import "TWTRVideoPlaybackConfiguration.h"
-#import "TWTRVideoPlaybackState.h"
-#import "TWTRVideoViewController.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRTweetView.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRColorUtil.h>
+#import <TwitterKit/TWTRDateUtil.h>
+#import <TwitterKit/TWTRUtils.h>
+#import <TwitterKit/TWTRCardEntity.h>
+#import <TwitterKit/TWTRConstants_Private.h>
+#import <TwitterKit/TWTRFontUtil.h>
+#import <TwitterKit/TWTRImageLoader.h>
+#import <TwitterKit/TWTRImageViewController.h>
+#import <TwitterKit/TWTRImages.h>
+#import <TwitterKit/TWTRLikeButton.h>
+#import <TwitterKit/TWTRNotificationCenter.h>
+#import <TwitterKit/TWTRNotificationConstants.h>
+#import <TwitterKit/TWTRProfileHeaderView.h>
+#import <TwitterKit/TWTRProfileView.h>
+#import <TwitterKit/TWTRShareButton.h>
+#import <TwitterKit/TWTRStore.h>
+#import <TwitterKit/TWTRSubscriber.h>
+#import <TwitterKit/TWTRTranslationsUtil.h>
+#import <TwitterKit/TWTRTweetDelegationHelper.h>
+#import <TwitterKit/TWTRTweetLabel.h>
+#import <TwitterKit/TWTRTweetMediaEntity.h>
+#import <TwitterKit/TWTRTweetMediaView.h>
+#import <TwitterKit/TWTRTweetPresenter.h>
+#import <TwitterKit/TWTRTweetRepository.h>
+#import <TwitterKit/TWTRTweetUrlEntity.h>
+#import <TwitterKit/TWTRTweetViewMetrics.h>
+#import <TwitterKit/TWTRTweetView_Private.h>
+#import <TwitterKit/TWTRTweet_Private.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
+#import <TwitterKit/TWTRUser.h>
+#import <TwitterKit/TWTRVideoMetaData.h>
+#import <TwitterKit/TWTRVideoPlaybackConfiguration.h>
+#import <TwitterKit/TWTRVideoPlaybackState.h>
+#import <TwitterKit/TWTRVideoViewController.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 #import "TWTRTweetContentView+Layout.h"
-#import "TWTRTweetContentView.h"
-#import "TWTRTweetContentViewLayoutFactory.h"
+#import <TwitterKit/TWTRTweetContentView.h>
+#import <TwitterKit/TWTRTweetContentViewLayoutFactory.h>
 
 @interface TWTRTweetView () <TWTRAttributedLabelDelegate, TWTRProfileHeaderViewDelegate, TWTRTweetMediaViewDelegate, UIGestureRecognizerDelegate, UITextViewDelegate, TWTRSubscriber>
 

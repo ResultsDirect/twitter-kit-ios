@@ -15,14 +15,14 @@
  *
  */
 
-#import "TWTRUser.h"
-#import "TWTRAPIConstants.h"
-#import "TWTRDictUtil.h"
-#import "TWTRAPIConstantsStatus.h"
-#import "TWTRJSONKeyRequirement.h"
-#import "TWTRJSONValidator.h"
-#import "TWTRNSCodingUtil.h"
-#import "TWTRStringUtil.h"
+#import <TwitterKit/TWTRUser.h>
+#import <TwitterKit/TWTRAPIConstants.h>
+#import <TwitterKit/TWTRDictUtil.h>
+#import <TwitterKit/TWTRAPIConstantsStatus.h>
+#import <TwitterKit/TWTRJSONKeyRequirement.h>
+#import <TwitterKit/TWTRJSONValidator.h>
+#import <TwitterKit/TWTRNSCodingUtil.h>
+#import <TwitterKit/TWTRStringUtil.h>
 
 @interface TWTRUser ()
 

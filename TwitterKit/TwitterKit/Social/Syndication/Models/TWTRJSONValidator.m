@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRJSONValidator.h"
-#import "TWTRJSONKeyRequirement.h"
+#import <TwitterKit/TWTRJSONValidator.h>
+#import <TwitterKit/TWTRJSONKeyRequirement.h>
 
 @interface TWTRJSONValidator ()
 

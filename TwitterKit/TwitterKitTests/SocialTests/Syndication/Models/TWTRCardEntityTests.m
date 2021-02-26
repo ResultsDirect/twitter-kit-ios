@@ -17,7 +17,7 @@
 
 #import <XCTest/XCTest.h>
 #import "TWTRCardEntity+Subclasses.h"
-#import "TWTRCardEntity.h"
+#import <TwitterKit/TWTRCardEntity.h>
 
 @interface TWTRCardEntity ()
 

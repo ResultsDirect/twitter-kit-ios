@@ -17,10 +17,10 @@
 
 #import <OCMock/OCMock.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRMediaEntitySize.h"
+#import <TwitterKit/TWTRMediaEntitySize.h>
 #import "TWTRTestCase.h"
-#import "TWTRTweetMediaEntity.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRTweetMediaEntity.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 @interface TWTRViewUtilTests : TWTRTestCase
 

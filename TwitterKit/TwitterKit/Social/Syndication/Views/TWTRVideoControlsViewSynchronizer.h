@@ -20,8 +20,8 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "TWTRVideoControlsView.h"
-#import "TWTRVideoPlayerOutputView.h"
+#import <TwitterKit/TWTRVideoControlsView.h>
+#import <TwitterKit/TWTRVideoPlayerOutputView.h>
 
 @class TWTRVideoControlsViewSynchronizer;
 

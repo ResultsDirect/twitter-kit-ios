@@ -18,10 +18,10 @@
 #import <OCMock/OCMock.h>
 #import "TUDelorean+Rollback.h"
 #import "TUDelorean.h"
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRDateUtil.h"
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRDateUtil.h>
 #import "TWTRTestCase.h"
-#import "TWTRUserSessionVerifier.h"
+#import <TwitterKit/TWTRUserSessionVerifier.h>
 
 @interface TWTRUserSessionVerifier ()
 

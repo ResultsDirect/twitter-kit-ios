@@ -16,7 +16,7 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "TWTRTweetDelegationHelper.h"
+#import <TwitterKit/TWTRTweetDelegationHelper.h>
 
 @interface TWTRTweetDelegationHelperTest : XCTestCase
 

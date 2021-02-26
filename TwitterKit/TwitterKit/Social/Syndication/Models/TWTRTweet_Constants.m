@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRTweet_Constants.h"
+#import <TwitterKit/TWTRTweet_Constants.h>
 
 NSString *const TWTRTweetCodingFieldCreatedAt = @"createdAt";
 NSString *const TWTRTweetCodingFieldCurrentUserRetweet = @"retweetID";

@@ -16,9 +16,9 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRGuestSession.h"
-#import "TWTRGuestSession_Private.h"
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRGuestSession.h>
+#import <TwitterKit/TWTRGuestSession_Private.h>
 
 @interface TWTRGuestSessionTests : XCTestCase
 @property (nonatomic, copy) NSString *accessToken;

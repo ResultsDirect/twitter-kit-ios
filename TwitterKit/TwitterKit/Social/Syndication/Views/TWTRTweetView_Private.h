@@ -19,7 +19,7 @@
  This header is private to the Twitter Kit SDK and not exposed for public SDK consumption
  */
 
-#import "TWTRTweetViewMetrics.h"
+#import <TwitterKit/TWTRTweetViewMetrics.h>
 
 @class TWTRLikeButton;
 @class TWTRProfileHeaderView;

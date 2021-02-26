@@ -15,9 +15,9 @@
  *
  */
 
-#import "TWTRTweetHashtagEntity.h"
-#import "TWTRDictUtil.h"
-#import "TWTRAPIConstantsStatus.h"
+#import <TwitterKit/TWTRTweetHashtagEntity.h>
+#import <TwitterKit/TWTRDictUtil.h>
+#import <TwitterKit/TWTRAPIConstantsStatus.h>
 
 @implementation TWTRTweetHashtagEntity
 

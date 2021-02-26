@@ -17,7 +17,7 @@
 
 #pragma mark imports
 
-#import "TWTRSESelectionTableViewController.h"
+#import <TwitterKit/TWTRSESelectionTableViewController.h>
 
 @import UIKit;
 

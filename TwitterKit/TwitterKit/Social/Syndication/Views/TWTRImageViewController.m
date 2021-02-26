@@ -15,14 +15,14 @@
  *
  */
 
-#import "TWTRImageViewController.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRImageLoader.h"
-#import "TWTRImageScrollView.h"
-#import "TWTRTranslationsUtil.h"
-#import "TWTRTweetMediaEntity.h"
-#import "TWTRTwitter_Private.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRImageViewController.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRImageLoader.h>
+#import <TwitterKit/TWTRImageScrollView.h>
+#import <TwitterKit/TWTRTranslationsUtil.h>
+#import <TwitterKit/TWTRTweetMediaEntity.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 @interface TWTRImageViewController ()
 

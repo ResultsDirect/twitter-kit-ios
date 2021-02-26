@@ -18,7 +18,7 @@
 #import <XCTest/XCTest.h>
 #import "TWTRFixtureLoader.h"
 #import "TWTRTestCase.h"
-#import "TWTRTimelineFilter.h"
+#import <TwitterKit/TWTRTimelineFilter.h>
 
 @interface TWTRTimelineFilterTests : TWTRTestCase
 @end

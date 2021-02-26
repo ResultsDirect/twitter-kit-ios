@@ -15,9 +15,9 @@
  *
  */
 
-#import "TWTRSETweetShareConfiguration.h"
-#import "TWTRSELocalizedString.h"
-#import "TWTRSETweet.h"
+#import <TwitterKit/TWTRSETweetShareConfiguration.h>
+#import <TwitterKit/TWTRSELocalizedString.h>
+#import <TwitterKit/TWTRSETweet.h>
 
 @implementation TWTRSETweetShareConfiguration
 

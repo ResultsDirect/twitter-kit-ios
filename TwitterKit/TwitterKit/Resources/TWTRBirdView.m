@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRBirdView.h"
-#import "TWTRBezierPaths.h"
+#import <TwitterKit/TWTRBirdView.h>
+#import <TwitterKit/TWTRBezierPaths.h>
 
 static CGFloat const TWTRBirdSmallSize = 16.0;
 static CGFloat const TWTRBirdMediumSize = 24.0;

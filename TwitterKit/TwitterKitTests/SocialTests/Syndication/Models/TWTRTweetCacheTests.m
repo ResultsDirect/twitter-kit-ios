@@ -17,12 +17,12 @@
 
 #import <OCMock/OCMock.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRPersistentStore.h"
+#import <TwitterKit/TWTRPersistentStore.h>
 #import "TWTRTestCase.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetCache.h"
-#import "TWTRTweet_Private.h"
-#import "TWTRUser.h"
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetCache.h>
+#import <TwitterKit/TWTRTweet_Private.h>
+#import <TwitterKit/TWTRUser.h>
 
 #define _TweetTestKey1(key) [NSString stringWithFormat:@"TWTRTweet:%td::%@", [TWTRTweet version], key]
 #define _TweetTestKey2(perspective, key) [NSString stringWithFormat:@"TWTRTweet:%td:%@:%@", [TWTRTweet version], perspective, key]

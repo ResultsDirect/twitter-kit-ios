@@ -15,13 +15,13 @@
  *
  */
 
-#import "TWTRAuthConfigSessionsValidator.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRAuthConfig.h"
-#import "TWTRAuthConfigStore.h"
-#import "TWTRAuthSession.h"
-#import "TWTRSessionStore.h"
-#import "TWTRSessionStore_Private.h"
+#import <TwitterKit/TWTRAuthConfigSessionsValidator.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRAuthConfig.h>
+#import <TwitterKit/TWTRAuthConfigStore.h>
+#import <TwitterKit/TWTRAuthSession.h>
+#import <TwitterKit/TWTRSessionStore.h>
+#import <TwitterKit/TWTRSessionStore_Private.h>
 
 @interface TWTRAuthConfigSessionsValidator ()
 

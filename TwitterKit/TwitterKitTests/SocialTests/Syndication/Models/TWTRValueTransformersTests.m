@@ -16,8 +16,8 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "TWTRJSONConvertible.h"
-#import "TWTRValueTransformers.h"
+#import <TwitterKit/TWTRJSONConvertible.h>
+#import <TwitterKit/TWTRValueTransformers.h>
 
 @interface TWTRConvertibleTestObject : NSObject <TWTRJSONConvertible>
 @property (nonatomic) NSString *name;

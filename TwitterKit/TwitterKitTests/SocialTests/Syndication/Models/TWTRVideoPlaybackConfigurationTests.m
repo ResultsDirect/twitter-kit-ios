@@ -16,13 +16,13 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "TWTRCardEntity.h"
+#import <TwitterKit/TWTRCardEntity.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetMediaEntity.h"
-#import "TWTRTweet_Private.h"
-#import "TWTRVideoDeeplinkConfiguration.h"
-#import "TWTRVideoPlaybackConfiguration.h"
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetMediaEntity.h>
+#import <TwitterKit/TWTRTweet_Private.h>
+#import <TwitterKit/TWTRVideoDeeplinkConfiguration.h>
+#import <TwitterKit/TWTRVideoPlaybackConfiguration.h>
 
 @interface TWTRVideoPlaybackConfigurationTests : XCTestCase
 

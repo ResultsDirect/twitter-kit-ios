@@ -19,7 +19,7 @@
  This header is private to the Twitter Core SDK and not exposed for public SDK consumption
  */
 
-#import "TWTRNetworking.h"
+#import <TwitterKit/TWTRNetworking.h>
 
 @class TWTRAuthConfig;
 

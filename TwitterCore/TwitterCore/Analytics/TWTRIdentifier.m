@@ -18,7 +18,7 @@
 #if IS_UIKIT_AVAILABLE
 #import <AdSupport/AdSupport.h>
 #endif
-#import "TWTRIdentifier.h"
+#import <TwitterKit/TWTRIdentifier.h>
 
 @implementation TWTRIdentifier
 

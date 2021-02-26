@@ -15,12 +15,12 @@
  *
  */
 
-#import "TWTRTweetCache.h"
+#import <TwitterKit/TWTRTweetCache.h>
 
-#import "TWTRPersistentStore.h"
-#import "TWTRTweet.h"
-#import "TWTRTweet_Private.h"
-#import "TWTRVersionedCacheable.h"
+#import <TwitterKit/TWTRPersistentStore.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweet_Private.h>
+#import <TwitterKit/TWTRVersionedCacheable.h>
 
 @implementation TWTRTweetCache
 

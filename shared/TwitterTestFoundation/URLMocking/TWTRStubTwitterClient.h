@@ -5,9 +5,9 @@
 //  Copyright (c) 2014 Twitter. All rights reserved.
 //
 
-#import "TWTRNetworking.h"
+#import <TwitterKit/TWTRNetworking.h>
 #import <TwitterKit/TWTRKit.h>
-#import "TWTRAPIClient.h"
+#import <TwitterKit/TWTRAPIClient.h>
 @protocol TWTRSessionStore;
 @protocol TWTRSessionStore_Private;
 

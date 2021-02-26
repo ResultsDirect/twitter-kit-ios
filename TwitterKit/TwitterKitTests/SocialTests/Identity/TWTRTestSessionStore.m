@@ -16,9 +16,9 @@
  */
 
 #import "TWTRTestSessionStore.h"
-#import "TWTRAuthSession.h"
-#import "TWTRGuestSession.h"
-#import "TWTRSession.h"
+#import <TwitterKit/TWTRAuthSession.h>
+#import <TwitterKit/TWTRGuestSession.h>
+#import <TwitterKit/TWTRSession.h>
 
 @interface TWTRTestSessionStore ()
 

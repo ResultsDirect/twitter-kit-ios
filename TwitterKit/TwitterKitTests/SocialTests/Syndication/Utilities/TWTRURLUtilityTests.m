@@ -17,7 +17,7 @@
 
 #import "TWTRFixtureLoader.h"
 #import "TWTRTestCase.h"
-#import "TWTRURLUtility.h"
+#import <TwitterKit/TWTRURLUtility.h>
 
 @interface TWTRURLUtilityTests : TWTRTestCase
 

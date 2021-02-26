@@ -15,9 +15,9 @@
  *
  */
 
-#import "TWTRTranslationsUtil.h"
-#import "TWTRResourcesUtil.h"
-#import "TWTRConstants_Private.h"
+#import <TwitterKit/TWTRTranslationsUtil.h>
+#import <TwitterKit/TWTRResourcesUtil.h>
+#import <TwitterKit/TWTRConstants_Private.h>
 
 NSString *TWTRLocalizedString(NSString *key)
 {

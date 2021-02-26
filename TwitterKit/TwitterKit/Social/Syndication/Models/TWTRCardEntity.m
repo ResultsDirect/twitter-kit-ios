@@ -15,11 +15,11 @@
  *
  */
 
-#import "TWTRCardEntity.h"
-#import "TWTRDictUtil.h"
-#import "TWTRMultiThreadUtil.h"
+#import <TwitterKit/TWTRCardEntity.h>
+#import <TwitterKit/TWTRDictUtil.h>
+#import <TwitterKit/TWTRMultiThreadUtil.h>
 #import "TWTRCardEntity+Subclasses.h"
-#import "TWTRPlayerCardEntity.h"
+#import <TwitterKit/TWTRPlayerCardEntity.h>
 
 NSString *const TWTRCardSiteValueToUserIDStringTransformerName = @"TWTRCardSiteValueToUserIDStringTransformer";
 NSString *const TWTRCardEntityBindingValueStringTransformerName = @"TWTRCardEntityBindingValueStringTransformer";

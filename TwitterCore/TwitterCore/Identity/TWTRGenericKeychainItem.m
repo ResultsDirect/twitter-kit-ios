@@ -15,10 +15,10 @@
  *
  */
 
-#import "TWTRGenericKeychainItem.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRSecItemWrapper.h"
-#import "TWTRUtils.h"
+#import <TwitterKit/TWTRGenericKeychainItem.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRSecItemWrapper.h>
+#import <TwitterKit/TWTRUtils.h>
 
 NSString *const TWTRGenericKeychainItemErrorDomain = @"TWTRGenericKeychainItemErrorDomain";
 

@@ -20,15 +20,15 @@
 #endif
 #import <UIKit/UIKit.h>
 #import "NSStringPunycodeAdditions.h"
-#import "TWTRTimelineFilter.h"
-#import "TWTRTimelineFilterManager.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetHashtagEntity.h"
-#import "TWTRTweetUrlEntity.h"
-#import "TWTRTweetUserMentionEntity.h"
-#import "TWTRTweet_Private.h"
-#import "TWTRTwitter_Private.h"
-#import "TWTRUser.h"
+#import <TwitterKit/TWTRTimelineFilter.h>
+#import <TwitterKit/TWTRTimelineFilterManager.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetHashtagEntity.h>
+#import <TwitterKit/TWTRTweetUrlEntity.h>
+#import <TwitterKit/TWTRTweetUserMentionEntity.h>
+#import <TwitterKit/TWTRTweet_Private.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
+#import <TwitterKit/TWTRUser.h>
 
 @interface TWTRTimelineFilterManager ()
 @property (nonatomic, copy) TWTRTimelineFilter *filters;

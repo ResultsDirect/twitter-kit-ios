@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRJSONKeyRequirement.h"
+#import <TwitterKit/TWTRJSONKeyRequirement.h>
 
 @implementation TWTRJSONKeyRequirement
 

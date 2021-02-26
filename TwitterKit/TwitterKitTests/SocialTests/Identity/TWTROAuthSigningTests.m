@@ -16,14 +16,14 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRAPIServiceConfigRegistry.h"
-#import "TWTRAuthConfig.h"
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRConstants.h"
-#import "TWTRSession.h"
+#import <TwitterKit/TWTRAPIServiceConfigRegistry.h>
+#import <TwitterKit/TWTRAuthConfig.h>
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRConstants.h>
+#import <TwitterKit/TWTRSession.h>
 #import <XCTest/XCTest.h>
-#import "TWTROAuthSigning.h"
-#import "TWTRTwitterAPIServiceConfig.h"
+#import <TwitterKit/TWTROAuthSigning.h>
+#import <TwitterKit/TWTRTwitterAPIServiceConfig.h>
 
 static NSString *const TWTRFakeConsumerKey = @"com.TWTROAuthSigningTests.consumer.key";
 static NSString *const TWTRFakeConsumerSecret = @"com.TWTROAuthSigningTests.consumer.secret";

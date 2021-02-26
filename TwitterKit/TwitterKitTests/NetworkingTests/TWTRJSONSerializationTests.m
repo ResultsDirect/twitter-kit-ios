@@ -18,7 +18,7 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRJSONSerialization.h"
+#import <TwitterKit/TWTRJSONSerialization.h>
 #import "TWTRTestCase.h"
 
 @interface TWTRJSONSerializationTests : TWTRTestCase

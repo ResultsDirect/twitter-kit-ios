@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Twitter. All rights reserved.
 //
 
-#import "TWTRTweetCache.h"
+#import <TwitterKit/TWTRTweetCache.h>
 
 /*
  *  Provide a stub implementation of TWTRTweetCache to more thoroughly test any classes that depend heavily the way that tweets are loaded from disk.

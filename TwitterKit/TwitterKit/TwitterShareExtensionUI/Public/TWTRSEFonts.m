@@ -17,7 +17,7 @@
 
 #pragma mark imports
 
-#import "TWTRSEFonts.h"
+#import <TwitterKit/TWTRSEFonts.h>
 
 #pragma mark - static const definitions
 

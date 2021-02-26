@@ -19,8 +19,8 @@
  This header is private to the Twitter Core SDK and not exposed for public SDK consumption
  */
 
-#import "TWTRAuthenticator.h"
-#import "TWTRKeychainWrapper.h"
+#import <TwitterKit/TWTRAuthenticator.h>
+#import <TwitterKit/TWTRKeychainWrapper.h>
 
 @interface TWTRAuthenticator ()
 + (TWTRKeychainWrapper *)keychainWrapperForAuthType:(TWTRAuthType)authType;

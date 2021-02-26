@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRSubscription.h"
-#import "TWTRSubscriber.h"
+#import <TwitterKit/TWTRSubscription.h>
+#import <TwitterKit/TWTRSubscriber.h>
 
 @implementation TWTRSubscription
 

@@ -16,7 +16,7 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "TWTRPersistentStore.h"
+#import <TwitterKit/TWTRPersistentStore.h>
 
 @interface TWTRPersistentStoreTests : XCTestCase
 @property (nonatomic, strong) TWTRPersistentStore *store;

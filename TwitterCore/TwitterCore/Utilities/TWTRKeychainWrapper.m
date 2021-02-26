@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRKeychainWrapper.h"
-#import "TWTRSecItemWrapper.h"
+#import <TwitterKit/TWTRKeychainWrapper.h>
+#import <TwitterKit/TWTRSecItemWrapper.h>
 
 @interface TWTRKeychainWrapper (PrivateMethods)
 /*

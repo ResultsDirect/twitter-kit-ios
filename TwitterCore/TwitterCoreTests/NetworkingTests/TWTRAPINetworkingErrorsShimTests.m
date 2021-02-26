@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRAPINetworkErrorsShim.h"
-#import "TWTRNetworkingConstants.h"
+#import <TwitterKit/TWTRAPINetworkErrorsShim.h>
+#import <TwitterKit/TWTRNetworkingConstants.h>
 #import "TWTRTestCase.h"
 
 @interface TWTRAPINetworkingErrorsShimTests : TWTRTestCase

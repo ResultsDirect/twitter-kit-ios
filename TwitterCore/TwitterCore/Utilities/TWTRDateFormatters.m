@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRDateFormatters.h"
+#import <TwitterKit/TWTRDateFormatters.h>
 
 static NSString *const TWTRDateFormatterLock = @"TWTRDateFormatterLock";
 static NSString *const TWTRDateFormatterShortHistorical = @"TWTRDateFormatterShortHistorical";

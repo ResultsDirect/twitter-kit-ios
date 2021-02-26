@@ -31,7 +31,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TWTRTweetView.h"
+#import <TwitterKit/TWTRTweetView.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

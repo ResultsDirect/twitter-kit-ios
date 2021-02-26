@@ -17,9 +17,9 @@
 
 #include <tgmath.h>
 
-#import "TWTRSEColors.h"
-#import "TWTRSEFonts.h"
-#import "TWTRSETweetShareNavigationController.h"
+#import <TwitterKit/TWTRSEColors.h>
+#import <TwitterKit/TWTRSEFonts.h>
+#import <TwitterKit/TWTRSETweetShareNavigationController.h>
 
 @implementation TWTRSETweetShareNavigationController
 

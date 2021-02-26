@@ -16,8 +16,8 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "TWTRVideoPlaybackConfiguration.h"
-#import "TWTRVideoPlaybackRules.h"
+#import <TwitterKit/TWTRVideoPlaybackConfiguration.h>
+#import <TwitterKit/TWTRVideoPlaybackRules.h>
 
 @interface TWTRVideoPlaybackRulesTests : XCTestCase
 

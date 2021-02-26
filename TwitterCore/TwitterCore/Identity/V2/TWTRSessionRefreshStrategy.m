@@ -15,13 +15,13 @@
  *
  */
 
-#import "TWTRSessionRefreshStrategy.h"
-#import "TWTRAPIErrorCode.h"
-#import "TWTRAPIServiceConfig.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRAuthSession.h"
-#import "TWTRGuestSession.h"
-#import "TWTRNetworkSessionProvider.h"
+#import <TwitterKit/TWTRSessionRefreshStrategy.h>
+#import <TwitterKit/TWTRAPIErrorCode.h>
+#import <TwitterKit/TWTRAPIServiceConfig.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRAuthSession.h>
+#import <TwitterKit/TWTRGuestSession.h>
+#import <TwitterKit/TWTRNetworkSessionProvider.h>
 
 @interface TWTRGuestSessionRefreshStrategy ()
 

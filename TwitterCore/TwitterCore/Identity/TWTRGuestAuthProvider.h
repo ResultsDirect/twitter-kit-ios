@@ -21,7 +21,7 @@
 
 @class TWTRAuthConfig;
 @protocol TWTRAPIServiceConfig;
-#import "TWTRAuthenticationProvider.h"
+#import <TwitterKit/TWTRAuthenticationProvider.h>
 
 /**
  Manages activation of new guest tokens.

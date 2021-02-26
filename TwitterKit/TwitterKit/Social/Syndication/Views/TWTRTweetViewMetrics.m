@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRTweetViewMetrics.h"
+#import <TwitterKit/TWTRTweetViewMetrics.h>
 
 CGFloat const TWTRTweetViewMaxWidth = 530.0;
 CGFloat const TWTRTweetViewMinWidth = 200.0;

@@ -16,11 +16,11 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRAuthenticator.h"
-#import "TWTRSessionStore.h"
+#import <TwitterKit/TWTRAuthenticator.h>
+#import <TwitterKit/TWTRSessionStore.h>
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-#import "TWTRSessionMigrator.h"
+#import <TwitterKit/TWTRSessionMigrator.h>
 #import "TWTRTestSessionStore.h"
 
 @interface TWTRSessionMigratorTests : XCTestCase

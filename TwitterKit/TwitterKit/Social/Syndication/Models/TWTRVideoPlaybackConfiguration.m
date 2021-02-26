@@ -15,15 +15,15 @@
  *
  */
 
-#import "TWTRVideoPlaybackConfiguration.h"
-#import "TWTRCardEntity.h"
-#import "TWTRPlayerCardEntity.h"
-#import "TWTRTranslationsUtil.h"
-#import "TWTRTweetMediaEntity.h"
-#import "TWTRTweetUrlEntity.h"
-#import "TWTRVideoDeeplinkConfiguration.h"
-#import "TWTRVideoMetaData.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRVideoPlaybackConfiguration.h>
+#import <TwitterKit/TWTRCardEntity.h>
+#import <TwitterKit/TWTRPlayerCardEntity.h>
+#import <TwitterKit/TWTRTranslationsUtil.h>
+#import <TwitterKit/TWTRTweetMediaEntity.h>
+#import <TwitterKit/TWTRTweetUrlEntity.h>
+#import <TwitterKit/TWTRVideoDeeplinkConfiguration.h>
+#import <TwitterKit/TWTRVideoMetaData.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 @implementation TWTRVideoPlaybackConfiguration
 

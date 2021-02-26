@@ -15,17 +15,17 @@
  *
  */
 
-#import "TWTRSessionStore.h"
-#import "TWTRAPIServiceConfig.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRAuthSession.h"
-#import "TWTRGenericKeychainItem.h"
-#import "TWTRGuestSession.h"
-#import "TWTRNetworkSessionProvider.h"
-#import "TWTRSession.h"
-#import "TWTRSessionRefreshStrategy.h"
+#import <TwitterKit/TWTRSessionStore.h>
+#import <TwitterKit/TWTRAPIServiceConfig.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRAuthSession.h>
+#import <TwitterKit/TWTRGenericKeychainItem.h>
+#import <TwitterKit/TWTRGuestSession.h>
+#import <TwitterKit/TWTRNetworkSessionProvider.h>
+#import <TwitterKit/TWTRSession.h>
+#import <TwitterKit/TWTRSessionRefreshStrategy.h>
 
-#import "TWTRSessionStore_Private.h"
+#import <TwitterKit/TWTRSessionStore_Private.h>
 
 static NSString *const TWTRSessionStoreGuestUserName = @"com.twitter.sdk.ios.core.guest-session-user";
 

@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRAppInstallationUUID.h"
+#import <TwitterKit/TWTRAppInstallationUUID.h>
 
 #pragma mark - Twitter UDID
 

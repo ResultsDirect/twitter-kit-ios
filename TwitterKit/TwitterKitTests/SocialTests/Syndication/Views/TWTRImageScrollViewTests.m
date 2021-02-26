@@ -16,9 +16,9 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRColorUtil.h"
+#import <TwitterKit/TWTRColorUtil.h>
 #import <XCTest/XCTest.h>
-#import "TWTRImageScrollView.h"
+#import <TwitterKit/TWTRImageScrollView.h>
 #import "TWTRImageTestHelper.h"
 
 @interface TWTRImageScrollView ()

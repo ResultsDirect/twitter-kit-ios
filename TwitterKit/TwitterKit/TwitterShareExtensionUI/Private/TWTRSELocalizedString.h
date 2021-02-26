@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRSELocalizedResources.h"
+#import <TwitterKit/TWTRSELocalizedResources.h>
 
 @import Foundation;
 

@@ -17,9 +17,9 @@
 
 #import <XCTest/XCTest.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRKit.h"
+#import <TwitterKit/TWTRKit.h>
 #import "TWTRStubTwitterClient.h"
-#import "TWTRTimelineDelegate.h"
+#import <TwitterKit/TWTRTimelineDelegate.h>
 
 @interface TWTRTimelineViewControllerDelegateTests : XCTestCase <TWTRTimelineDelegate>
 

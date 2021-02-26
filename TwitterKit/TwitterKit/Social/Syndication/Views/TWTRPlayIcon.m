@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRPlayIcon.h"
-#import "TWTRImages.h"
+#import <TwitterKit/TWTRPlayIcon.h>
+#import <TwitterKit/TWTRImages.h>
 
 const CGFloat TWTRPlayIconWidth = 100.0;
 

@@ -15,12 +15,12 @@
  *
  */
 
-#import "TWTRSETweetAttachmentView.h"
-#import "TWTRSETweetAttachment.h"
-#import "TWTRSETweetCocoaItemProviderAttachmentView.h"
-#import "TWTRSETweetCustomCardAttachmentView.h"
-#import "TWTRSETweetImageAttachmentView.h"
-#import "TWTRSETweetURLAttachmentView.h"
+#import <TwitterKit/TWTRSETweetAttachmentView.h>
+#import <TwitterKit/TWTRSETweetAttachment.h>
+#import <TwitterKit/TWTRSETweetCocoaItemProviderAttachmentView.h>
+#import <TwitterKit/TWTRSETweetCustomCardAttachmentView.h>
+#import <TwitterKit/TWTRSETweetImageAttachmentView.h>
+#import <TwitterKit/TWTRSETweetURLAttachmentView.h>
 #import "UIView+TSEExtensions.h"
 
 #pragma mark -

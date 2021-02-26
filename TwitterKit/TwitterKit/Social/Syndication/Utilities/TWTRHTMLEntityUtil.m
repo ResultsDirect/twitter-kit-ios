@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRHTMLEntityUtil.h"
-#import "TWTRStringUtil.h"
+#import <TwitterKit/TWTRHTMLEntityUtil.h>
+#import <TwitterKit/TWTRStringUtil.h>
 
 typedef struct {
     const char *escapeSequence;

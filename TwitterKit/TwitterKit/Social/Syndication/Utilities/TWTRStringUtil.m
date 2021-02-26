@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRStringUtil.h"
+#import <TwitterKit/TWTRStringUtil.h>
 #import <CoreText/CoreText.h>
 
 @implementation TWTRStringUtil

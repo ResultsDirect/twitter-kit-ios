@@ -17,7 +17,7 @@
 
 #import <OCMock/OCMock.h>
 #import <XCTest/XCTest.h>
-#import "TWTRFontUtil.h"
+#import <TwitterKit/TWTRFontUtil.h>
 
 static const CGFloat TWTRDefaultFontSize = 12.0;
 static const CGFloat TWTRLargeFontSize = 18.0;

@@ -15,10 +15,10 @@
  *
  */
 
-#import "TWTRSession.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRSession_Private.h"
+#import <TwitterKit/TWTRSession.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRSession_Private.h>
 
 @implementation TWTRSession
 

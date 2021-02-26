@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRCoreOAuthSigning.h"
+#import <TwitterKit/TWTRCoreOAuthSigning.h>
 
 @class TWTRAuthConfig;
 @class TWTRSession;

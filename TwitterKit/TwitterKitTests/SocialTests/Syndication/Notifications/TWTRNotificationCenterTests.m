@@ -17,10 +17,10 @@
 
 #import <OCMock/OCMock.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRNotificationCenter.h"
-#import "TWTRNotificationConstants.h"
+#import <TwitterKit/TWTRNotificationCenter.h>
+#import <TwitterKit/TWTRNotificationConstants.h>
 #import "TWTRTestCase.h"
-#import "TWTRTweet.h"
+#import <TwitterKit/TWTRTweet.h>
 
 @interface TWTRNotificationCenterTests : TWTRTestCase
 

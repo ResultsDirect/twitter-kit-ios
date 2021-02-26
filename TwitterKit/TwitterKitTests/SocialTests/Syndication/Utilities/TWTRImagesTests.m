@@ -16,7 +16,7 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "TWTRImages.h"
+#import <TwitterKit/TWTRImages.h>
 
 @interface TWTRImagesTests : XCTestCase
 

@@ -15,11 +15,11 @@
  *
  */
 
-#import "TWTRTweetContentView.h"
-#import "TWTRFontUtil.h"
+#import <TwitterKit/TWTRTweetContentView.h>
+#import <TwitterKit/TWTRFontUtil.h>
 #import "TWTRTweetContentView+Layout.h"
-#import "TWTRTweet_Private.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRTweet_Private.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 @interface TWTRTweetContentView ()
 

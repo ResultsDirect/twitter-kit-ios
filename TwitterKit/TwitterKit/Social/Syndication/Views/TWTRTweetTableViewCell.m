@@ -15,18 +15,18 @@
  *
  */
 
-#import "TWTRTweetTableViewCell.h"
-#import "TWTRProfileHeaderView.h"
-#import "TWTRTimestampLabel.h"
-#import "TWTRTranslationsUtil.h"
+#import <TwitterKit/TWTRTweetTableViewCell.h>
+#import <TwitterKit/TWTRProfileHeaderView.h>
+#import <TwitterKit/TWTRTimestampLabel.h>
+#import <TwitterKit/TWTRTranslationsUtil.h>
 #import "TWTRTweetContentView+Layout.h"
-#import "TWTRTweetLabel.h"
-#import "TWTRTweetMediaView.h"
-#import "TWTRTweetView.h"
-#import "TWTRTweetViewSizeCalculator.h"
-#import "TWTRTweetView_Private.h"
-#import "TWTRTweet_Private.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRTweetLabel.h>
+#import <TwitterKit/TWTRTweetMediaView.h>
+#import <TwitterKit/TWTRTweetView.h>
+#import <TwitterKit/TWTRTweetViewSizeCalculator.h>
+#import <TwitterKit/TWTRTweetView_Private.h>
+#import <TwitterKit/TWTRTweet_Private.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 @implementation TWTRTweetTableViewCell
 

@@ -18,7 +18,7 @@
 // Splits a UIImage containing a grid of images (frames) for an animation
 // into an array.
 
-#import "TWTRFrameSheet.h"
+#import <TwitterKit/TWTRFrameSheet.h>
 
 @interface TWTRFrameSheet ()
 @property (nonatomic, readonly) NSUInteger rows;

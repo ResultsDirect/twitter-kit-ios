@@ -17,9 +17,9 @@
 
 #import <OCMock/OCMock.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRImageLoader.h"
-#import "TWTRImageLoaderCache.h"
-#import "TWTRImageLoaderTaskManager.h"
+#import <TwitterKit/TWTRImageLoader.h>
+#import <TwitterKit/TWTRImageLoaderCache.h>
+#import <TwitterKit/TWTRImageLoaderTaskManager.h>
 #import "TWTRTestCase.h"
 #import "TWTRTestImageLoaderCache.h"
 

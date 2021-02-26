@@ -15,24 +15,24 @@
  *
  */
 
-#import "TWTRTweetPresenter.h"
-#import "TWTRColorUtil.h"
-#import "TWTRCardEntity.h"
-#import "TWTRDateFormatter.h"
-#import "TWTRFontUtil.h"
-#import "TWTRHTMLEntityUtil.h"
-#import "TWTRMediaEntityDisplayConfiguration.h"
-#import "TWTRPlayerCardEntity.h"
-#import "TWTRTranslationsUtil.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetCashtagEntity.h"
-#import "TWTRTweetHashtagEntity.h"
-#import "TWTRTweetMediaEntity.h"
-#import "TWTRTweetUrlEntity.h"
-#import "TWTRTweetUserMentionEntity.h"
-#import "TWTRTweet_Private.h"
-#import "TWTRUser.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRTweetPresenter.h>
+#import <TwitterKit/TWTRColorUtil.h>
+#import <TwitterKit/TWTRCardEntity.h>
+#import <TwitterKit/TWTRDateFormatter.h>
+#import <TwitterKit/TWTRFontUtil.h>
+#import <TwitterKit/TWTRHTMLEntityUtil.h>
+#import <TwitterKit/TWTRMediaEntityDisplayConfiguration.h>
+#import <TwitterKit/TWTRPlayerCardEntity.h>
+#import <TwitterKit/TWTRTranslationsUtil.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetCashtagEntity.h>
+#import <TwitterKit/TWTRTweetHashtagEntity.h>
+#import <TwitterKit/TWTRTweetMediaEntity.h>
+#import <TwitterKit/TWTRTweetUrlEntity.h>
+#import <TwitterKit/TWTRTweetUserMentionEntity.h>
+#import <TwitterKit/TWTRTweet_Private.h>
+#import <TwitterKit/TWTRUser.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 const CGFloat TWTRAspectRatio16x10 = 16.0 / 10.0;
 

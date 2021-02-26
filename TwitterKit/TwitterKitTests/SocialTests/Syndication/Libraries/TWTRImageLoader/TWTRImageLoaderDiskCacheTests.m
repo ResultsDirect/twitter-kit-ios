@@ -16,7 +16,7 @@
  */
 
 #import "TWTRFixtureLoader.h"
-#import "TWTRImageLoaderCache.h"
+#import <TwitterKit/TWTRImageLoaderCache.h>
 #import "TWTRTestCase.h"
 
 static const NSUInteger MB = 1048576;

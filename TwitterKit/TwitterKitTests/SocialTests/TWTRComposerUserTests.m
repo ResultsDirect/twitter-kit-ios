@@ -15,11 +15,11 @@
  *
  */
 
-#import "TWTRSession.h"
+#import <TwitterKit/TWTRSession.h>
 #import <XCTest/XCTest.h>
-#import "TWTRComposerUser.h"
+#import <TwitterKit/TWTRComposerUser.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRUser.h"
+#import <TwitterKit/TWTRUser.h>
 
 @interface TWTRComposerUserTests : XCTestCase
 

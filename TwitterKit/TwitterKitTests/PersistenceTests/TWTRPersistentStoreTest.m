@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRPersistentStore.h"
+#import <TwitterKit/TWTRPersistentStore.h>
 #import "TWTRTestCase.h"
 
 #define StoreSize 65536

@@ -15,10 +15,10 @@
  *
  */
 
-#import "TWTRImageLoaderCache.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRImageLoaderImageUtils.h"
-#import "TWTRPersistentStore.h"
+#import <TwitterKit/TWTRImageLoaderCache.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRImageLoaderImageUtils.h>
+#import <TwitterKit/TWTRPersistentStore.h>
 
 @implementation TWTRImageLoaderNilCache
 

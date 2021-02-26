@@ -15,9 +15,9 @@
  *
  */
 
-#import "TWTRSession.h"
+#import <TwitterKit/TWTRSession.h>
 #import <XCTest/XCTest.h>
-#import "TWTRComposerAccount.h"
+#import <TwitterKit/TWTRComposerAccount.h>
 
 @interface TWTRComposerAccountTests : XCTestCase
 

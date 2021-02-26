@@ -15,13 +15,13 @@
  *
  */
 
-#import "TWTRAuthenticator.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRAuthenticationProvider.h"
-#import "TWTRCoreConstants.h"
-#import "TWTRFileManager.h"
-#import "TWTRKeychainWrapper.h"
+#import <TwitterKit/TWTRAuthenticator.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRAuthenticationProvider.h>
+#import <TwitterKit/TWTRCoreConstants.h>
+#import <TwitterKit/TWTRFileManager.h>
+#import <TwitterKit/TWTRKeychainWrapper.h>
 
 @implementation TWTRAuthenticator
 

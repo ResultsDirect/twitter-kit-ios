@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRImageSequenceConfiguration.h"
-#import "TWTRImages.h"
+#import <TwitterKit/TWTRImageSequenceConfiguration.h>
+#import <TwitterKit/TWTRImages.h>
 
 @interface TWTRImageSequenceConfiguration ()
 

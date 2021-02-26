@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRSETweetImageAttachmentView.h"
-#import "TWTRSETweetAttachment.h"
+#import <TwitterKit/TWTRSETweetImageAttachmentView.h>
+#import <TwitterKit/TWTRSETweetAttachment.h>
 
 #pragma mark -
 

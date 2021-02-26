@@ -15,13 +15,13 @@
  *
  */
 
-#import "TWTRImageLoader.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRConstants_Private.h"
-#import "TWTRImageLoaderCache.h"
-#import "TWTRImageLoaderTaskManager.h"
-#import "TWTRSEImageDownloader.h"
-#import "TWTRTwitter_Private.h"
+#import <TwitterKit/TWTRImageLoader.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRConstants_Private.h>
+#import <TwitterKit/TWTRImageLoaderCache.h>
+#import <TwitterKit/TWTRImageLoaderTaskManager.h>
+#import <TwitterKit/TWTRSEImageDownloader.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
 
 #define TWTRImageLoaderQueueName [NSString stringWithFormat:@"%@.image-loader.current-tasks", TWTRBundleID]
 

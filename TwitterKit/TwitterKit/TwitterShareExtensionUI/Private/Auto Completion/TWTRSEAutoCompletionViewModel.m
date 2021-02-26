@@ -15,10 +15,10 @@
  *
  */
 
-#import "TWTRSEAutoCompletionViewModel.h"
-#import "TWTRSEAccount.h"
-#import "TWTRSETweet.h"
-#import "TWTRSEWordRangeCalculator.h"
+#import <TwitterKit/TWTRSEAutoCompletionViewModel.h>
+#import <TwitterKit/TWTRSEAccount.h>
+#import <TwitterKit/TWTRSETweet.h>
+#import <TwitterKit/TWTRSEWordRangeCalculator.h>
 
 @interface NSString (TWTRSEAutoCompletionViewModel)
 - (BOOL)isSpecialAutoCompleteSymbolAtIndex:(NSUInteger)index;

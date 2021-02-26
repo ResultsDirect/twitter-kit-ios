@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRVideoPlaybackRules.h"
+#import <TwitterKit/TWTRVideoPlaybackRules.h>
 
 @implementation TWTRVideoPlaybackRules
 

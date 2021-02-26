@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRConstants.h"
+#import <TwitterKit/TWTRConstants.h>
 
 NSString *const TWTRErrorDomain = @"TWTRErrorDomain";
 

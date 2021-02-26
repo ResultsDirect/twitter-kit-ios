@@ -15,28 +15,28 @@
  *
  */
 
-#import "TWTRTweet.h"
-#import "TWTRAPIConstants.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRDateFormatters.h"
-#import "TWTRDictUtil.h"
-#import "TWTRAPIConstantsStatus.h"
-#import "TWTRCardEntity.h"
-#import "TWTREntityCollection.h"
-#import "TWTRJSONKeyRequirement.h"
-#import "TWTRJSONValidator.h"
-#import "TWTRNSCodingUtil.h"
-#import "TWTRPlayerCardEntity.h"
-#import "TWTRStringUtil.h"
-#import "TWTRTweetHashtagEntity.h"
-#import "TWTRTweetMediaEntity.h"
-#import "TWTRTweetUrlEntity.h"
-#import "TWTRTweet_Constants.h"
-#import "TWTRTweet_Private.h"
-#import "TWTRURLUtility.h"
-#import "TWTRUser.h"
-#import "TWTRValueTransformers.h"
-#import "TWTRVideoMetaData.h"
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRAPIConstants.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRDateFormatters.h>
+#import <TwitterKit/TWTRDictUtil.h>
+#import <TwitterKit/TWTRAPIConstantsStatus.h>
+#import <TwitterKit/TWTRCardEntity.h>
+#import <TwitterKit/TWTREntityCollection.h>
+#import <TwitterKit/TWTRJSONKeyRequirement.h>
+#import <TwitterKit/TWTRJSONValidator.h>
+#import <TwitterKit/TWTRNSCodingUtil.h>
+#import <TwitterKit/TWTRPlayerCardEntity.h>
+#import <TwitterKit/TWTRStringUtil.h>
+#import <TwitterKit/TWTRTweetHashtagEntity.h>
+#import <TwitterKit/TWTRTweetMediaEntity.h>
+#import <TwitterKit/TWTRTweetUrlEntity.h>
+#import <TwitterKit/TWTRTweet_Constants.h>
+#import <TwitterKit/TWTRTweet_Private.h>
+#import <TwitterKit/TWTRURLUtility.h>
+#import <TwitterKit/TWTRUser.h>
+#import <TwitterKit/TWTRValueTransformers.h>
+#import <TwitterKit/TWTRVideoMetaData.h>
 
 NSString *const TWTRTweetPerspectivalUserID = @"perspectival_user_id";
 

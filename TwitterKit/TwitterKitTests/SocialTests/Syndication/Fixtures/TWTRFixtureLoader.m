@@ -16,13 +16,13 @@
  */
 
 #import "TWTRFixtureLoader.h"
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRGuestSession.h"
-#import "TWTRSession.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetMediaEntity.h"
-#import "TWTRTweetUrlEntity.h"
-#import "TWTRUser.h"
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRGuestSession.h>
+#import <TwitterKit/TWTRSession.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetMediaEntity.h>
+#import <TwitterKit/TWTRTweetUrlEntity.h>
+#import <TwitterKit/TWTRUser.h>
 
 @implementation TWTRFixtureLoader
 

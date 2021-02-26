@@ -18,8 +18,8 @@
 #import <OCMock/OCMock.h>
 #import <XCTest/XCTest.h>
 @import TwitterKit;
-#import "TWTRAPIClient_Private.h"
-#import "TWTRListTimelineDataSource.h"
+#import <TwitterKit/TWTRAPIClient_Private.h>
+#import <TwitterKit/TWTRListTimelineDataSource.h>
 #import "TWTRTestCase.h"
 
 @interface TWTRListTimelineDataSourceTests : TWTRTestCase

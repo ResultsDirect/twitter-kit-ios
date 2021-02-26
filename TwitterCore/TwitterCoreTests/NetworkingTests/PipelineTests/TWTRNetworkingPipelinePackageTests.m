@@ -17,7 +17,7 @@
 
 #import <Foundation/Foundation.h>
 #import <XCTest/XCTest.h>
-#import "TWTRNetworkingPipelinePackage.h"
+#import <TwitterKit/TWTRNetworkingPipelinePackage.h>
 #import "TWTRPipelineSessionMock.h"
 
 @interface TWTRNetworkingPipelinePackageTests : XCTestCase

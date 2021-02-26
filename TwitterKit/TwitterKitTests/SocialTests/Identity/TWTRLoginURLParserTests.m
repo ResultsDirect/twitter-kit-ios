@@ -16,9 +16,9 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRAuthConfig.h"
+#import <TwitterKit/TWTRAuthConfig.h>
 #import <XCTest/XCTest.h>
-#import "TWTRLoginURLParser.h"
+#import <TwitterKit/TWTRLoginURLParser.h>
 
 @interface TWTRLoginURLParserTests : XCTestCase
 

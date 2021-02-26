@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRMultiThreadUtil.h"
+#import <TwitterKit/TWTRMultiThreadUtil.h>
 
 @implementation TWTRMultiThreadUtil
 

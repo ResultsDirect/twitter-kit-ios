@@ -17,12 +17,12 @@
 
 #import <XCTest/XCTest.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRTweetCache.h"
-#import "TWTRTweetMediaEntity.h"
-#import "TWTRTweetRepository.h"
-#import "TWTRTweet_Private.h"
-#import "TWTRVideoMetaData.h"
-#import "TWTRVideoPlaybackConfiguration.h"
+#import <TwitterKit/TWTRTweetCache.h>
+#import <TwitterKit/TWTRTweetMediaEntity.h>
+#import <TwitterKit/TWTRTweetRepository.h>
+#import <TwitterKit/TWTRTweet_Private.h>
+#import <TwitterKit/TWTRVideoMetaData.h>
+#import <TwitterKit/TWTRVideoPlaybackConfiguration.h>
 
 @interface TWTRVideoEntityTests : XCTestCase
 

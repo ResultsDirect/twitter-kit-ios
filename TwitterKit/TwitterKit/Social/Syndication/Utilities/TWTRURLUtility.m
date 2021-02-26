@@ -15,10 +15,10 @@
  *
  */
 
-#import "TWTRURLUtility.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetPresenter.h"
-#import "TWTRUser.h"
+#import <TwitterKit/TWTRURLUtility.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetPresenter.h>
+#import <TwitterKit/TWTRUser.h>
 
 NSString *TWTRStatusFormatString = @"https://www.twitter.com/%@/status/%@";
 NSString *TWTRDeepLinkFormatString = @"twitter://status?id=%@";

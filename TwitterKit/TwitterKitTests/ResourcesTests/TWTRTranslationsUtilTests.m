@@ -16,10 +16,10 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRResourcesUtil.h"
-#import "TWTRConstants_Private.h"
+#import <TwitterKit/TWTRResourcesUtil.h>
+#import <TwitterKit/TWTRConstants_Private.h>
 #import "TWTRTestCase.h"
-#import "TWTRTranslationsUtil.h"
+#import <TwitterKit/TWTRTranslationsUtil.h>
 
 @interface TWTRTranslationsUtilTests : TWTRTestCase
 

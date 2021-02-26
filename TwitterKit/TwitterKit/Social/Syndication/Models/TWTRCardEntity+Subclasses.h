@@ -19,7 +19,7 @@
  This header is private to the Twitter Kit SDK and not exposed for public SDK consumption
  */
 
-#import "TWTRCardEntity.h"
+#import <TwitterKit/TWTRCardEntity.h>
 
 extern NSString *const TWTRCardSiteValueToUserIDStringTransformerName;
 extern NSString *const TWTRCardEntityBindingValueStringTransformerName;

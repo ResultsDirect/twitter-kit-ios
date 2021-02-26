@@ -15,14 +15,14 @@
  *
  */
 
-#import "TWTRTweetMediaEntity.h"
-#import "TWTRDictUtil.h"
-#import "TWTRUtils.h"
-#import "TWTRAPIConstantsStatus.h"
-#import "TWTRMediaEntitySize.h"
-#import "TWTRMediaType.h"
-#import "TWTRVideoMetaData.h"
-#import "TWTRVideoPlaybackConfiguration.h"
+#import <TwitterKit/TWTRTweetMediaEntity.h>
+#import <TwitterKit/TWTRDictUtil.h>
+#import <TwitterKit/TWTRUtils.h>
+#import <TwitterKit/TWTRAPIConstantsStatus.h>
+#import <TwitterKit/TWTRMediaEntitySize.h>
+#import <TwitterKit/TWTRMediaType.h>
+#import <TwitterKit/TWTRVideoMetaData.h>
+#import <TwitterKit/TWTRVideoPlaybackConfiguration.h>
 
 @implementation TWTRTweetMediaEntity
 

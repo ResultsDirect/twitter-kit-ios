@@ -16,9 +16,9 @@
  */
 
 #import "TWTRSessionFixtureLoader.h"
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRGuestSession.h"
-#import "TWTRSession.h"
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRGuestSession.h>
+#import <TwitterKit/TWTRSession.h>
 
 @implementation TWTRSessionFixtureLoader
 

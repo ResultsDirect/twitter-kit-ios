@@ -15,21 +15,21 @@
  *
  */
 
-#import "TWTRNetworkSessionProvider.h"
-#import "TWTRAPIConstantsUser.h"
-#import "TWTRAPIServiceConfig.h"
-#import "TWTRAppAuthProvider.h"
-#import "TWTRAppleSocialAuthenticaticationProvider.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRAuthConfig.h"
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRConstants.h"
-#import "TWTRDictUtil.h"
-#import "TWTRGuestAuthProvider.h"
-#import "TWTRGuestSession_Private.h"
-#import "TWTRSession.h"
-#import "TWTRTokenOnlyAuthSession.h"
-#import "TWTRUserAuthRequestSigner.h"
+#import <TwitterKit/TWTRNetworkSessionProvider.h>
+#import <TwitterKit/TWTRAPIConstantsUser.h>
+#import <TwitterKit/TWTRAPIServiceConfig.h>
+#import <TwitterKit/TWTRAppAuthProvider.h>
+#import <TwitterKit/TWTRAppleSocialAuthenticaticationProvider.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRAuthConfig.h>
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRConstants.h>
+#import <TwitterKit/TWTRDictUtil.h>
+#import <TwitterKit/TWTRGuestAuthProvider.h>
+#import <TwitterKit/TWTRGuestSession_Private.h>
+#import <TwitterKit/TWTRSession.h>
+#import <TwitterKit/TWTRTokenOnlyAuthSession.h>
+#import <TwitterKit/TWTRUserAuthRequestSigner.h>
 
 @implementation TWTRNetworkSessionProvider
 

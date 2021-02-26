@@ -15,14 +15,14 @@
  *
  */
 
-#import "TWTRTweetLabel.h"
-#import "TWTRAttributedLabel.h"
-#import "TWTRFontUtil.h"
-#import "TWTRStringUtil.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetUrlEntity.h"
-#import "TWTRTweet_Private.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRTweetLabel.h>
+#import <TwitterKit/TWTRAttributedLabel.h>
+#import <TwitterKit/TWTRFontUtil.h>
+#import <TwitterKit/TWTRStringUtil.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetUrlEntity.h>
+#import <TwitterKit/TWTRTweet_Private.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 @interface TWTRTweetLabel ()
 

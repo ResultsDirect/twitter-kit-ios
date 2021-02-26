@@ -17,9 +17,9 @@
 
 #include <sys/sysctl.h>
 
-#import "TWTRCoreConstants.h"
-#import "TWTRCoreLanguage.h"
-#import "TWTRResourcesUtil_Private.h"
+#import <TwitterKit/TWTRCoreConstants.h>
+#import <TwitterKit/TWTRCoreLanguage.h>
+#import <TwitterKit/TWTRResourcesUtil_Private.h>
 
 NSString *const TWTRResourcesUtilLanguageType = @"lproj";
 NSString *const TWTRResourcesUtilFallbackLanguage = @"en";

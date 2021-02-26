@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRNetworkingPipelinePackage.h"
-#import "TWTRAssertionMacros.h"
+#import <TwitterKit/TWTRNetworkingPipelinePackage.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
 
 @interface TWTRNetworkingPipelinePackage ()
 @property (nonatomic, readwrite) NSInteger attemptCounter;

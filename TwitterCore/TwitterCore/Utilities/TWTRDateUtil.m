@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRDateUtil.h"
-#import "TWTRDateFormatters.h"
+#import <TwitterKit/TWTRDateUtil.h>
+#import <TwitterKit/TWTRDateFormatters.h>
 
 @implementation TWTRDateUtil
 

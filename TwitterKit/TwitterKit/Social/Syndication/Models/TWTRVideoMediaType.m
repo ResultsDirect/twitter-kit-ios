@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRVideoMediaType.h"
+#import <TwitterKit/TWTRVideoMediaType.h>
 
 NSString *TWTRMediaConstantFromMediaType(TWTRMediaType type)
 {

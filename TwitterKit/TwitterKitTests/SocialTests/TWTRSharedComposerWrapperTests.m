@@ -17,12 +17,12 @@
 
 #import <OCMock/OCMock.h>
 #import <XCTest/XCTest.h>
-#import "TWTRComposerNetworking.h"
+#import <TwitterKit/TWTRComposerNetworking.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRSharedComposerWrapper.h"
-#import "TWTRTweet.h"
-#import "TWTRTwitter.h"
-#import "TWTRTwitter_Private.h"
+#import <TwitterKit/TWTRSharedComposerWrapper.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTwitter.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
 #import "TwitterShareExtensionUI.h"
 
 @interface TWTRSETweetShareViewController ()

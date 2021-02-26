@@ -15,9 +15,9 @@
  *
  */
 
-#import "TWTRFileManager.h"
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRCoreConstants.h"
+#import <TwitterKit/TWTRFileManager.h>
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRCoreConstants.h>
 
 @implementation TWTRFileManager
 

@@ -30,11 +30,11 @@
 //                   @"312", [userSubscriber2]}
 //
 
-#import "TWTRStore.h"
-#import "TWTRMultiThreadUtil.h"
-#import "TWTRSubscriber.h"
-#import "TWTRSubscription.h"
-#import "TWTRTweet.h"
+#import <TwitterKit/TWTRStore.h>
+#import <TwitterKit/TWTRMultiThreadUtil.h>
+#import <TwitterKit/TWTRSubscriber.h>
+#import <TwitterKit/TWTRSubscription.h>
+#import <TwitterKit/TWTRTweet.h>
 
 @interface TWTRStore ()
 

@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRComposerAccount.h"
-#import "TWTRSession.h"
+#import <TwitterKit/TWTRComposerAccount.h>
+#import <TwitterKit/TWTRSession.h>
 
 TWTRComposerAccount *accountFromSession(TWTRSession *session)
 {

@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRDictUtil.h"
+#import <TwitterKit/TWTRDictUtil.h>
 
 @implementation TWTRDictUtil
 

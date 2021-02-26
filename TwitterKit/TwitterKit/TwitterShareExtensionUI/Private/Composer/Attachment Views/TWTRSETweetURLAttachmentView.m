@@ -17,10 +17,10 @@
 
 #pragma mark imports
 
-#import "TWTRSETweetURLAttachmentView.h"
-#import "TWTRSEColors.h"
-#import "TWTRSEFonts.h"
-#import "TWTRSETweetAttachment.h"
+#import <TwitterKit/TWTRSETweetURLAttachmentView.h>
+#import <TwitterKit/TWTRSEColors.h>
+#import <TwitterKit/TWTRSEFonts.h>
+#import <TwitterKit/TWTRSETweetAttachment.h>
 #import "UIView+TSEExtensions.h"
 
 @import MobileCoreServices;

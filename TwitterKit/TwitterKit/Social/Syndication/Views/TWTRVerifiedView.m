@@ -15,9 +15,9 @@
  *
  */
 
-#import "TWTRVerifiedView.h"
-#import "TWTRConstants_Private.h"
-#import "TWTRImages.h"
+#import <TwitterKit/TWTRVerifiedView.h>
+#import <TwitterKit/TWTRConstants_Private.h>
+#import <TwitterKit/TWTRImages.h>
 
 static const CGFloat TWTRVerifiedViewPadding = 6;
 static const CGFloat TWTRVerifiedSize = 15;

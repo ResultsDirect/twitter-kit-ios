@@ -16,9 +16,9 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRKeychainWrapper.h"
-#import "TWTRKeychainWrapper_Private.h"
-#import "TWTRSecItemWrapper.h"
+#import <TwitterKit/TWTRKeychainWrapper.h>
+#import <TwitterKit/TWTRKeychainWrapper_Private.h>
+#import <TwitterKit/TWTRSecItemWrapper.h>
 #import "TWTRTestCase.h"
 
 NSString *const keychainServiceTest = @"api.sample.com";

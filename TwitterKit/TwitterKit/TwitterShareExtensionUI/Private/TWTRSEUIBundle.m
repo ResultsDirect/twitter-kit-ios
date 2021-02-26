@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRSEUIBundle.h"
+#import <TwitterKit/TWTRSEUIBundle.h>
 
 @import Foundation;
 @import UIKit.UIImage;

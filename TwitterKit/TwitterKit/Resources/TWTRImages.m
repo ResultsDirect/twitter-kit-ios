@@ -15,11 +15,11 @@
  *
  */
 
-#import "TWTRImages.h"
-#import "TWTRColorUtil.h"
-#import "TWTRConstants_Private.h"
-#import "TWTROSVersionInfo.h"
-#import "TWTRRuntime.h"
+#import <TwitterKit/TWTRImages.h>
+#import <TwitterKit/TWTRColorUtil.h>
+#import <TwitterKit/TWTRConstants_Private.h>
+#import <TwitterKit/TWTROSVersionInfo.h>
+#import <TwitterKit/TWTRRuntime.h>
 
 @implementation TWTRImages
 

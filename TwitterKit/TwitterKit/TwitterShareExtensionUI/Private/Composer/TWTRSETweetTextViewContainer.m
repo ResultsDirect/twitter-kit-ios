@@ -17,13 +17,13 @@
 
 #import <tgmath.h>
 
-#import "TWTRSEFonts.h"
-#import "TWTRSELocalizedString.h"
-#import "TWTRSETweet.h"
-#import "TWTRSETweetAttachment.h"
-#import "TWTRSETweetAttachmentView.h"
-#import "TWTRSETweetTextView.h"
-#import "TWTRSETweetTextViewContainer.h"
+#import <TwitterKit/TWTRSEFonts.h>
+#import <TwitterKit/TWTRSELocalizedString.h>
+#import <TwitterKit/TWTRSETweet.h>
+#import <TwitterKit/TWTRSETweetAttachment.h>
+#import <TwitterKit/TWTRSETweetAttachmentView.h>
+#import <TwitterKit/TWTRSETweetTextView.h>
+#import <TwitterKit/TWTRSETweetTextViewContainer.h>
 #import "UIView+TSEExtensions.h"
 
 #pragma mark - static const definitions

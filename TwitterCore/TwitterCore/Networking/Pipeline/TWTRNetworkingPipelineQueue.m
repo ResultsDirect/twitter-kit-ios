@@ -15,12 +15,12 @@
  *
  */
 
-#import "TWTRNetworkingPipelineQueue.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRConstants.h"
-#import "TWTRAPIDateSync.h"
-#import "TWTRNetworkingPipelinePackage.h"
-#import "TWTRRequestSigningOperation.h"
+#import <TwitterKit/TWTRNetworkingPipelineQueue.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRConstants.h>
+#import <TwitterKit/TWTRAPIDateSync.h>
+#import <TwitterKit/TWTRNetworkingPipelinePackage.h>
+#import <TwitterKit/TWTRRequestSigningOperation.h>
 
 // the cap on the number of TWTRNetworkingPipelineQueue level attempts (including retries) of a failed networking request.
 // this count is in addition to the original request attempt itself.

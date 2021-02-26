@@ -15,10 +15,10 @@
  *
  */
 
-#import "TWTRSEAccountSelectionTableViewController.h"
-#import "TWTRSEAccount.h"
-#import "TWTRSEAccountTableViewCell.h"
-#import "TWTRSELocalizedString.h"
+#import <TwitterKit/TWTRSEAccountSelectionTableViewController.h>
+#import <TwitterKit/TWTRSEAccount.h>
+#import <TwitterKit/TWTRSEAccountTableViewCell.h>
+#import <TwitterKit/TWTRSELocalizedString.h>
 
 #pragma mark -
 

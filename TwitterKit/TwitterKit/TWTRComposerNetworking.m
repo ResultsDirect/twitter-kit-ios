@@ -15,12 +15,12 @@
  *
  */
 
-#import "TWTRComposerNetworking.h"
-#import "TWTRSessionStore.h"
-#import "TWTRAPIClient.h"
-#import "TWTRComposerAccount.h"
-#import "TWTRComposerUser.h"
-#import "TWTRTwitter_Private.h"
+#import <TwitterKit/TWTRComposerNetworking.h>
+#import <TwitterKit/TWTRSessionStore.h>
+#import <TwitterKit/TWTRAPIClient.h>
+#import <TwitterKit/TWTRComposerAccount.h>
+#import <TwitterKit/TWTRComposerUser.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
 
 @interface TWTRComposerNetworking ()
 

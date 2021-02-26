@@ -15,11 +15,11 @@
  *
  */
 
-#import "TWTRAssertionMacros.h"
-#import "TWTRAuthConfig.h"
-#import "TWTRAuthSession.h"
-#import "TWTRGCOAuth.h"
-#import "TWTROAuth1aAuthRequestSigner.h"
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRAuthConfig.h>
+#import <TwitterKit/TWTRAuthSession.h>
+#import <TwitterKit/TWTRGCOAuth.h>
+#import <TwitterKit/TWTROAuth1aAuthRequestSigner.h>
 
 @implementation TWTROAuth1aAuthRequestSigner
 

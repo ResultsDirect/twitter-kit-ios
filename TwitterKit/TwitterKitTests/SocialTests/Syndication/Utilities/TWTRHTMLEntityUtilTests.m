@@ -16,7 +16,7 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "TWTRHTMLEntityUtil.h"
+#import <TwitterKit/TWTRHTMLEntityUtil.h>
 
 @interface TWTRHTMLEntityUtilTests : XCTestCase
 

@@ -15,13 +15,13 @@
  *
  */
 
-#import "TWTRVideoCTAView.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRColorUtil.h"
-#import "TWTRFontUtil.h"
-#import "TWTRImages.h"
-#import "TWTRVideoDeeplinkConfiguration.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRVideoCTAView.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRColorUtil.h>
+#import <TwitterKit/TWTRFontUtil.h>
+#import <TwitterKit/TWTRImages.h>
+#import <TwitterKit/TWTRVideoDeeplinkConfiguration.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 static const CGFloat TWTRVideoCTABorderViewCornerRadius = 16.0;
 

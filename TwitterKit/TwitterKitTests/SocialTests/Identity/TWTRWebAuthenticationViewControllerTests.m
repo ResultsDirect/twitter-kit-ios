@@ -17,16 +17,16 @@
 
 #import <OCMock/OCMock.h>
 #import <SafariServices/SafariServices.h>
-#import "TWTRAuthConfig.h"
-#import "TWTRSessionStore_Private.h"
-#import "TWTRUtils.h"
+#import <TwitterKit/TWTRAuthConfig.h>
+#import <TwitterKit/TWTRSessionStore_Private.h>
+#import <TwitterKit/TWTRUtils.h>
 #import <XCTest/XCTest.h>
-#import "TWTRAPIClient.h"
-#import "TWTRLoginURLParser.h"
-#import "TWTRTwitter.h"
-#import "TWTRTwitter_Private.h"
-#import "TWTRWebAuthenticationViewController.h"
-#import "TWTRWebViewController.h"
+#import <TwitterKit/TWTRAPIClient.h>
+#import <TwitterKit/TWTRLoginURLParser.h>
+#import <TwitterKit/TWTRTwitter.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
+#import <TwitterKit/TWTRWebAuthenticationViewController.h>
+#import <TwitterKit/TWTRWebViewController.h>
 
 @interface TWTRWebAuthenticationViewControllerTests : XCTestCase
 

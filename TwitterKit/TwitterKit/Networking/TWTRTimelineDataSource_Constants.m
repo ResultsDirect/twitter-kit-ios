@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRTimelineDataSource_Constants.h"
+#import <TwitterKit/TWTRTimelineDataSource_Constants.h>
 
 const NSUInteger TWTRTimelineDataSourceDefaultMaxTweetsPerRequest = 30;
 const BOOL TWTRTimelineDataSourceDefaultIncludeReplies = NO;

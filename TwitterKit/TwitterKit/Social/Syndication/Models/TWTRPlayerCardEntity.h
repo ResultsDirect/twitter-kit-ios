@@ -20,7 +20,7 @@
  */
 
 #import <UIKit/UIKit.h>
-#import "TWTRCardEntity.h"
+#import <TwitterKit/TWTRCardEntity.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

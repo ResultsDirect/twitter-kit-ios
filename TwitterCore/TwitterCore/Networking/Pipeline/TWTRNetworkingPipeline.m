@@ -15,10 +15,10 @@
  *
  */
 
-#import "TWTRNetworkingPipeline.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRNetworkingPipelinePackage.h"
-#import "TWTRNetworkingPipelineQueue.h"
+#import <TwitterKit/TWTRNetworkingPipeline.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRNetworkingPipelinePackage.h>
+#import <TwitterKit/TWTRNetworkingPipelineQueue.h>
 
 static NSString *const TWTRNetworkingPipelineGuestKey = @"TWTRNetworkingPipelineGuestKey";
 

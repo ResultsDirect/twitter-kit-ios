@@ -17,11 +17,11 @@
 
 #import <OCMock/OCMock.h>
 #import <XCTest/XCTest.h>
-#import "TWTRAttributedLabel.h"
+#import <TwitterKit/TWTRAttributedLabel.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRTweetLabel.h"
-#import "TWTRTweetUrlEntity.h"
-#import "TWTRTweet_Private.h"
+#import <TwitterKit/TWTRTweetLabel.h>
+#import <TwitterKit/TWTRTweetUrlEntity.h>
+#import <TwitterKit/TWTRTweet_Private.h>
 
 @interface TWTRTweetEntityRange ()
 - (instancetype)initWithEntity:(TWTRTweetEntity *)entity textRange:(NSRange)range;

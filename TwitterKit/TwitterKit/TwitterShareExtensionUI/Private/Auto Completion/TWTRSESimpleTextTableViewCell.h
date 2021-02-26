@@ -17,7 +17,7 @@
 
 @import UIKit;
 
-#import "TWTRSEBaseTableViewCell.h"
+#import <TwitterKit/TWTRSEBaseTableViewCell.h>
 
 @interface TWTRSESimpleTextTableViewCell : TWTRSEBaseTableViewCell
 

@@ -15,40 +15,40 @@
  *
  */
 
-#import "TWTRAPIClient.h"
+#import <TwitterKit/TWTRAPIClient.h>
 #import <AVFoundation/AVFoundation.h>
-#import "TWTRAPIConstantsUser.h"
-#import "TWTRAPIErrorCode.h"
-#import "TWTRAPINetworkErrorsShim.h"
-#import "TWTRAPIServiceConfig.h"
-#import "TWTRAPIServiceConfigRegistry.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRConstants.h"
-#import "TWTRDictUtil.h"
-#import "TWTRGuestAuthRequestSigner.h"
-#import "TWTRMultipartFormDocument.h"
-#import "TWTRNetworkingConstants.h"
-#import "TWTRNetworkingPipeline.h"
-#import "TWTRSessionStore.h"
-#import "TWTRSessionStore_Private.h"
-#import "TWTRURLSessionDelegate.h"
-#import "TWTRUserAuthRequestSigner.h"
-#import "TWTRAPIClient_Private.h"
-#import "TWTRAPIConstantsStatus.h"
-#import "TWTRAPIConstantsTimelines.h"
-#import "TWTRJSONSerialization.h"
-#import "TWTRMediaType.h"
-#import "TWTRTimelineCursor.h"
-#import "TWTRTimelineFilterManager.h"
-#import "TWTRTimelineParser.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetRepository.h"
-#import "TWTRTweet_Private.h"
-#import "TWTRTwitterAPIConfiguration.h"
-#import "TWTRTwitterAPIServiceConfig.h"
-#import "TWTRTwitter_Private.h"
-#import "TWTRURLSessionConfig.h"
-#import "TWTRUser.h"
+#import <TwitterKit/TWTRAPIConstantsUser.h>
+#import <TwitterKit/TWTRAPIErrorCode.h>
+#import <TwitterKit/TWTRAPINetworkErrorsShim.h>
+#import <TwitterKit/TWTRAPIServiceConfig.h>
+#import <TwitterKit/TWTRAPIServiceConfigRegistry.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRConstants.h>
+#import <TwitterKit/TWTRDictUtil.h>
+#import <TwitterKit/TWTRGuestAuthRequestSigner.h>
+#import <TwitterKit/TWTRMultipartFormDocument.h>
+#import <TwitterKit/TWTRNetworkingConstants.h>
+#import <TwitterKit/TWTRNetworkingPipeline.h>
+#import <TwitterKit/TWTRSessionStore.h>
+#import <TwitterKit/TWTRSessionStore_Private.h>
+#import <TwitterKit/TWTRURLSessionDelegate.h>
+#import <TwitterKit/TWTRUserAuthRequestSigner.h>
+#import <TwitterKit/TWTRAPIClient_Private.h>
+#import <TwitterKit/TWTRAPIConstantsStatus.h>
+#import <TwitterKit/TWTRAPIConstantsTimelines.h>
+#import <TwitterKit/TWTRJSONSerialization.h>
+#import <TwitterKit/TWTRMediaType.h>
+#import <TwitterKit/TWTRTimelineCursor.h>
+#import <TwitterKit/TWTRTimelineFilterManager.h>
+#import <TwitterKit/TWTRTimelineParser.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetRepository.h>
+#import <TwitterKit/TWTRTweet_Private.h>
+#import <TwitterKit/TWTRTwitterAPIConfiguration.h>
+#import <TwitterKit/TWTRTwitterAPIServiceConfig.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
+#import <TwitterKit/TWTRURLSessionConfig.h>
+#import <TwitterKit/TWTRUser.h>
 
 NSString *const TWTRTweetsNotLoadedKey = @"TweetsNotLoaded";
 static NSString *const TWTRAPIConstantsCreateTweetPath = @"/1.1/statuses/update.json";

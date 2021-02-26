@@ -16,7 +16,7 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "TWTRMultipartFormDocument.h"
+#import <TwitterKit/TWTRMultipartFormDocument.h>
 
 @interface TWTRMultipartFormDocumentTests : XCTestCase
 @property (nonatomic, copy) NSString *boundary;

@@ -16,9 +16,9 @@
  */
 
 #import <UIKit/UIKit.h>
-#import "TWTRSession.h"
-#import "TWTRSessionStore.h"
-#import "TWTRAPIClient.h"
+#import <TwitterKit/TWTRSession.h>
+#import <TwitterKit/TWTRSessionStore.h>
+#import <TwitterKit/TWTRAPIClient.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

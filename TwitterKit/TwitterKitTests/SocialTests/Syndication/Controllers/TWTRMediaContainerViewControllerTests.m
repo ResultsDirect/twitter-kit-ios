@@ -16,8 +16,8 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "TWTRMediaContainerViewController.h"
-#import "TWTRMediaPresentationController.h"
+#import <TwitterKit/TWTRMediaContainerViewController.h>
+#import <TwitterKit/TWTRMediaPresentationController.h>
 
 @interface MockMediaViewController : UIViewController <TWTRMediaContainerPresentable>
 @property (nonatomic, readonly) BOOL didCallTransitionWillBegin;

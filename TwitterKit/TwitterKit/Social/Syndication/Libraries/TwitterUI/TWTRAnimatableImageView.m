@@ -15,11 +15,11 @@
  *
  */
 
-#import "TWTRAnimatableImageView.h"
+#import <TwitterKit/TWTRAnimatableImageView.h>
 #import <QuartzCore/CAAnimation.h>
 #import <QuartzCore/QuartzCore.h>
 #import <UIKit/UIKit.h>
-#import "TWTRFrameSheet.h"
+#import <TwitterKit/TWTRFrameSheet.h>
 
 @interface TWTRAnimatableImageView ()
 @property (nonatomic, copy) void (^animationCompletion)(BOOL);

@@ -18,14 +18,14 @@
 #import <Foundation/Foundation.h>
 #import <OCMock/OCMock.h>
 #import <XCTest/XCTest.h>
-#import "TWTRGuestAuthRequestSigner.h"
-#import "TWTRNetworkingPipeline.h"
-#import "TWTRNetworkingPipelinePackage.h"
+#import <TwitterKit/TWTRGuestAuthRequestSigner.h>
+#import <TwitterKit/TWTRNetworkingPipeline.h>
+#import <TwitterKit/TWTRNetworkingPipelinePackage.h>
 #import "TWTRPipelineSessionMock.h"
-#import "TWTRRequestSigningOperation.h"
-#import "TWTRSession.h"
+#import <TwitterKit/TWTRRequestSigningOperation.h>
+#import <TwitterKit/TWTRSession.h>
 #import "TWTRSessionFixtureLoader.h"
-#import "TWTRUserAuthRequestSigner.h"
+#import <TwitterKit/TWTRUserAuthRequestSigner.h>
 
 @interface TWTRRequestSigningOperationTests : XCTestCase
 @property (nonatomic) NSOperationQueue *operationQueue;

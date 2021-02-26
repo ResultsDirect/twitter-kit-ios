@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRMediaType.h"
+#import <TwitterKit/TWTRMediaType.h>
 
 static NSString *const TWTRTweetMediaEntityContentTypeGif = @"animated_gif";
 static NSString *const TWTRTweetMediaEntityContentTypePhoto = @"photo";

@@ -19,10 +19,10 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 @import TwitterKit;
-#import "TWTRAPIClient_Private.h"
-#import "TWTRKit.h"
-#import "TWTRTimelineCursor.h"
-#import "TWTRUserTimelineDataSource.h"
+#import <TwitterKit/TWTRAPIClient_Private.h>
+#import <TwitterKit/TWTRKit.h>
+#import <TwitterKit/TWTRTimelineCursor.h>
+#import <TwitterKit/TWTRUserTimelineDataSource.h>
 
 @interface TWTRUserTimelineDataSourceTests : XCTestCase
 

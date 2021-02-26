@@ -15,11 +15,11 @@
  *
  */
 
-#import "TWTRDateFormatters.h"
+#import <TwitterKit/TWTRDateFormatters.h>
 #import <XCTest/XCTest.h>
-#import "TWTRJSONKeyRequirement.h"
-#import "TWTRJSONValidator.h"
-#import "TWTRValueTransformers.h"
+#import <TwitterKit/TWTRJSONKeyRequirement.h>
+#import <TwitterKit/TWTRJSONValidator.h>
+#import <TwitterKit/TWTRValueTransformers.h>
 
 @interface TWTRJSONValidatorTests : XCTestCase
 @property (nonatomic) NSValueTransformer *serverDateTransformer;

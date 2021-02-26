@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRAPIServiceConfig.h"
-#import "TWTRUtils.h"
+#import <TwitterKit/TWTRAPIServiceConfig.h>
+#import <TwitterKit/TWTRUtils.h>
 
 NSURL *TWTRAPIURLWithPath(id<TWTRAPIServiceConfig> apiServiceConfig, NSString *path)
 {

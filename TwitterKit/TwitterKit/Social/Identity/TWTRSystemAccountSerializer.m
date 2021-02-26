@@ -15,10 +15,10 @@
  *
  */
 
-#import "TWTRSystemAccountSerializer.h"
+#import <TwitterKit/TWTRSystemAccountSerializer.h>
 #import <Accounts/Accounts.h>
-#import "TWTRAssertionMacros.h"
-#import "TWTRAuthenticationConstants.h"
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRAuthenticationConstants.h>
 
 @implementation TWTRSystemAccountSerializer
 

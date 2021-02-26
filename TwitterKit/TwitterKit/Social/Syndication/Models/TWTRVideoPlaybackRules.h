@@ -20,8 +20,8 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "TWTRMediaType.h"
-#import "TWTRVideoPlaybackConfiguration.h"
+#import <TwitterKit/TWTRMediaType.h>
+#import <TwitterKit/TWTRVideoPlaybackConfiguration.h>
 
 @interface TWTRVideoPlaybackRules : NSObject
 

@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRCoreLanguage.h"
+#import <TwitterKit/TWTRCoreLanguage.h>
 
 @implementation TWTRCoreLanguage
 

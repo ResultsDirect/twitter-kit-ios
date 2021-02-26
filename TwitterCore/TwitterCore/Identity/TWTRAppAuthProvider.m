@@ -15,15 +15,15 @@
  *
  */
 
-#import "TWTRAppAuthProvider.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRAPIServiceConfig.h"
-#import "TWTRAuthConfig.h"
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRAuthenticationProvider_Private.h"
-#import "TWTRNetworking.h"
-#import "TWTRNetworkingConstants.h"
-#import "TWTRUtils.h"
+#import <TwitterKit/TWTRAppAuthProvider.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRAPIServiceConfig.h>
+#import <TwitterKit/TWTRAuthConfig.h>
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRAuthenticationProvider_Private.h>
+#import <TwitterKit/TWTRNetworking.h>
+#import <TwitterKit/TWTRNetworkingConstants.h>
+#import <TwitterKit/TWTRUtils.h>
 
 @interface TWTRAppAuthProvider ()
 

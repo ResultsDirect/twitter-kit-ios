@@ -18,9 +18,9 @@
 #import <XCTest/XCTest.h>
 #import "TWTRFixtureLoader.h"
 #import "TWTRSampleSubscriber.h"
-#import "TWTRStore.h"
-#import "TWTRSubscription.h"
-#import "TWTRTweet.h"
+#import <TwitterKit/TWTRStore.h>
+#import <TwitterKit/TWTRSubscription.h>
+#import <TwitterKit/TWTRTweet.h>
 
 @interface TWTRStoreTests : XCTestCase
 

@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRSETweetCustomCardAttachmentView.h"
-#import "TWTRSETweetAttachment.h"
+#import <TwitterKit/TWTRSETweetCustomCardAttachmentView.h>
+#import <TwitterKit/TWTRSETweetAttachment.h>
 
 @interface TWTRSETweetCustomCardAttachmentView ()
 

@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRMediaPresentationController.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRMediaPresentationController.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 @interface TWTRMediaPresentationController ()
 

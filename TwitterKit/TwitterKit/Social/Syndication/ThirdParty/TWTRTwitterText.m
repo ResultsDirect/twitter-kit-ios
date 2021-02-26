@@ -10,7 +10,7 @@
 //  http://www.apache.org/licenses/LICENSE-2.0
 //
 
-#import "TWTRTwitterText.h"
+#import <TwitterKit/TWTRTwitterText.h>
 
 #pragma mark - Regular Expressions
 

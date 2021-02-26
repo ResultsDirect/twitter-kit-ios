@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRWordRange.h"
+#import <TwitterKit/TWTRWordRange.h>
 #import <CoreFoundation/CFStringTokenizer.h>
 #import <Foundation/Foundation.h>
 

@@ -15,13 +15,13 @@
  *
  */
 
-#import "TWTRValueTransformers.h"
-#import "TWTRAPIConstants.h"
-#import "TWTRDateFormatters.h"
-#import "TWTRDictUtil.h"
-#import "TWTRCardEntity.h"
-#import "TWTRJSONConvertible.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRValueTransformers.h>
+#import <TwitterKit/TWTRAPIConstants.h>
+#import <TwitterKit/TWTRDateFormatters.h>
+#import <TwitterKit/TWTRDictUtil.h>
+#import <TwitterKit/TWTRCardEntity.h>
+#import <TwitterKit/TWTRJSONConvertible.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 NSString *const TWTRServerDateValueTransformerName = @"TWTRServerDateValueTransfomer";
 NSString *const TWTRMyRetweetIDValueTransformerName = @"TWTRMyRetweetIDValueTransformer";

@@ -15,21 +15,21 @@
  *
  */
 
-#import "TWTRTimelineViewController.h"
-#import "TWTRMultiThreadUtil.h"
-#import "TWTRSessionStore.h"
-#import "TWTRCollectionTimelineDataSource.h"
-#import "TWTRNotificationConstants.h"
-#import "TWTRTimelineCursor.h"
-#import "TWTRTimelineDataSource.h"
-#import "TWTRTimelineDelegate.h"
-#import "TWTRTimelineFilter.h"
-#import "TWTRTimelineMessageView.h"
-#import "TWTRTranslationsUtil.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetTableViewCell.h"
-#import "TWTRTweetView.h"
-#import "TWTRTwitter_Private.h"
+#import <TwitterKit/TWTRTimelineViewController.h>
+#import <TwitterKit/TWTRMultiThreadUtil.h>
+#import <TwitterKit/TWTRSessionStore.h>
+#import <TwitterKit/TWTRCollectionTimelineDataSource.h>
+#import <TwitterKit/TWTRNotificationConstants.h>
+#import <TwitterKit/TWTRTimelineCursor.h>
+#import <TwitterKit/TWTRTimelineDataSource.h>
+#import <TwitterKit/TWTRTimelineDelegate.h>
+#import <TwitterKit/TWTRTimelineFilter.h>
+#import <TwitterKit/TWTRTimelineMessageView.h>
+#import <TwitterKit/TWTRTranslationsUtil.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetTableViewCell.h>
+#import <TwitterKit/TWTRTweetView.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
 
 static NSString *const TWTRCellReuseIdentifier = @"TweetCell";
 static CGFloat const TWTREstimatedRowHeight = 150;

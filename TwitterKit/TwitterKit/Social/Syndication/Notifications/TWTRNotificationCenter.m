@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRNotificationCenter.h"
-#import "TWTRNotificationConstants.h"
+#import <TwitterKit/TWTRNotificationCenter.h>
+#import <TwitterKit/TWTRNotificationConstants.h>
 
 @implementation TWTRNotificationCenter
 

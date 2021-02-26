@@ -20,9 +20,9 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "TWTRAuthConfig.h"
-#import "TWTRLoginURLParser.h"
-#import "TWTRTwitter.h"
+#import <TwitterKit/TWTRAuthConfig.h>
+#import <TwitterKit/TWTRLoginURLParser.h>
+#import <TwitterKit/TWTRTwitter.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

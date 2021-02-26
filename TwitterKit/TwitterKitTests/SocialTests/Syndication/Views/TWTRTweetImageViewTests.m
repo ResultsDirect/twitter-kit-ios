@@ -20,15 +20,15 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRMediaEntityDisplayConfiguration.h"
-#import "TWTRPlayIcon.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetImageView.h"
-#import "TWTRTweetMediaEntity.h"
-#import "TWTRTweetMediaView.h"
-#import "TWTRTweetPresenter.h"
-#import "TWTRTweet_Private.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRMediaEntityDisplayConfiguration.h>
+#import <TwitterKit/TWTRPlayIcon.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetImageView.h>
+#import <TwitterKit/TWTRTweetMediaEntity.h>
+#import <TwitterKit/TWTRTweetMediaView.h>
+#import <TwitterKit/TWTRTweetPresenter.h>
+#import <TwitterKit/TWTRTweet_Private.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 @interface TWTRTweetImageViewTests : XCTestCase
 

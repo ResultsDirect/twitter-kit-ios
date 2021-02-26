@@ -20,10 +20,10 @@
  */
 
 #import <UIKit/UIKit.h>
-#import "TWTRProfileHeaderView.h"
-#import "TWTRTweetContentViewLayoutFactory.h"
-#import "TWTRTweetLabel.h"
-#import "TWTRTweetMediaView.h"
+#import <TwitterKit/TWTRProfileHeaderView.h>
+#import <TwitterKit/TWTRTweetContentViewLayoutFactory.h>
+#import <TwitterKit/TWTRTweetLabel.h>
+#import <TwitterKit/TWTRTweetMediaView.h>
 @class TWTRTweet;
 @class TWTRTweetMediaEntity;
 @class TWTRTweetMediaView;

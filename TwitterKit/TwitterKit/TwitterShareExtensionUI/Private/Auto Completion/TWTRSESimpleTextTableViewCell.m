@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRSESimpleTextTableViewCell.h"
+#import <TwitterKit/TWTRSESimpleTextTableViewCell.h>
 
 @implementation TWTRSESimpleTextTableViewCell
 

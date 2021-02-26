@@ -18,7 +18,7 @@
 #import <OCMock/OCMock.h>
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-#import "TWTROSVersionInfo.h"
+#import <TwitterKit/TWTROSVersionInfo.h>
 
 @interface TWTROSVersionInfoTests : XCTestCase
 

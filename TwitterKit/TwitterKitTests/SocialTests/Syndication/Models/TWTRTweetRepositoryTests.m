@@ -16,19 +16,19 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRConstants.h"
-#import "TWTRSession.h"
-#import "TWTRSessionStore.h"
-#import "TWTRAPIClient.h"
-#import "TWTRAPIClient_Private.h"
+#import <TwitterKit/TWTRConstants.h>
+#import <TwitterKit/TWTRSession.h>
+#import <TwitterKit/TWTRSessionStore.h>
+#import <TwitterKit/TWTRAPIClient.h>
+#import <TwitterKit/TWTRAPIClient_Private.h>
 #import "TWTRFixtureLoader.h"
 #import "TWTRStubTweetCache.h"
 #import "TWTRStubTwitterClient.h"
 #import "TWTRTestCase.h"
 #import "TWTRTestSessionStore.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetCache.h"
-#import "TWTRTweetRepository.h"
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetCache.h>
+#import <TwitterKit/TWTRTweetRepository.h>
 
 static NSArray *TWTRTweetRepositoryTestsTweetsJSON;
 static NSArray *TWTRTweetRepositoryTestsTweets;

@@ -15,10 +15,10 @@
  *
  */
 
-#import "TWTRTimelineMessageView.h"
-#import "TWTRColorUtil.h"
-#import "TWTRFontUtil.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRTimelineMessageView.h>
+#import <TwitterKit/TWTRColorUtil.h>
+#import <TwitterKit/TWTRFontUtil.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 @interface TWTRTimelineMessageView ()
 

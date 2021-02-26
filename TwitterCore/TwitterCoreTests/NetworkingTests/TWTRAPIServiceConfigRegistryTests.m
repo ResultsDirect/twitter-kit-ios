@@ -17,8 +17,8 @@
 
 #import <Foundation/Foundation.h>
 #import <XCTest/XCTest.h>
-#import "TWTRAPIServiceConfig.h"
-#import "TWTRAPIServiceConfigRegistry.h"
+#import <TwitterKit/TWTRAPIServiceConfig.h>
+#import <TwitterKit/TWTRAPIServiceConfigRegistry.h>
 #import "TWTRFakeAPIServiceConfig.h"
 
 @interface TWTRAPIServiceConfigRegistryTests : XCTestCase

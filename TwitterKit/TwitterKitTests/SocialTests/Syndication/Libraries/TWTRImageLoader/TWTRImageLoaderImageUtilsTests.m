@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRImageLoaderImageUtils.h"
+#import <TwitterKit/TWTRImageLoaderImageUtils.h>
 #import "TWTRImageTestHelper.h"
 #import "TWTRTestCase.h"
 

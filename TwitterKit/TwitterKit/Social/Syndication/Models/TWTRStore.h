@@ -22,7 +22,7 @@
 //  This object holds on to the list of subscribers for being notified of changes
 //  of state inside of TwitterKit.
 
-#import "TWTRSubscriber.h"
+#import <TwitterKit/TWTRSubscriber.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

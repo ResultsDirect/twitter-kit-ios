@@ -16,9 +16,9 @@
  */
 
 @import TwitterKit;
-#import "TWTRAuthenticationConstants.h"
+#import <TwitterKit/TWTRAuthenticationConstants.h>
 #import "TWTRTestCase.h"
-#import "TWTRUserAPIClient.h"
+#import <TwitterKit/TWTRUserAPIClient.h>
 
 @interface TWTRUserAPIClientTests : XCTestCase
 

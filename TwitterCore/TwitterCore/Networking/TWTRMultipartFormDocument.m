@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRMultipartFormDocument.h"
-#import "TWTRAssertionMacros.h"
+#import <TwitterKit/TWTRMultipartFormDocument.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
 
 static NSString *const TWTRMultipartFormDataType = @"multipart/form-data";
 static NSString *const TWTRBoundaryKey = @"boundary";

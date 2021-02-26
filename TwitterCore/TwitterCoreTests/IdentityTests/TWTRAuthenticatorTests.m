@@ -16,11 +16,11 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRAuthenticator.h"
-#import "TWTRAuthenticator_Private.h"
-#import "TWTRKeychainWrapper.h"
-#import "TWTRKeychainWrapper_Private.h"
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRAuthenticator.h>
+#import <TwitterKit/TWTRAuthenticator_Private.h>
+#import <TwitterKit/TWTRKeychainWrapper.h>
+#import <TwitterKit/TWTRKeychainWrapper_Private.h>
 #import "TWTRTestCase.h"
 
 @interface TWTRAuthenticator ()

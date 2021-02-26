@@ -19,7 +19,7 @@
  This header is private to the Twitter Kit SDK and not exposed for public SDK consumption
  */
 
-#import "TWTRSessionMigrating.h"
+#import <TwitterKit/TWTRSessionMigrating.h>
 
 @interface TWTRSessionMigrator : NSObject <TWTRSessionMigrating>
 

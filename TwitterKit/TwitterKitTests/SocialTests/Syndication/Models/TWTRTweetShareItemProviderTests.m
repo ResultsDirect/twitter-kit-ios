@@ -18,11 +18,11 @@
 #import <OCMock/OCMock.h>
 #import "TWTRFixtureLoader.h"
 #import "TWTRTestCase.h"
-#import "TWTRTranslationsUtil.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetShareItemProvider.h"
-#import "TWTRTweetShareItemProvider_Private.h"
-#import "TWTRUser.h"
+#import <TwitterKit/TWTRTranslationsUtil.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetShareItemProvider.h>
+#import <TwitterKit/TWTRTweetShareItemProvider_Private.h>
+#import <TwitterKit/TWTRUser.h>
 
 static TWTRTweet *tweet;
 

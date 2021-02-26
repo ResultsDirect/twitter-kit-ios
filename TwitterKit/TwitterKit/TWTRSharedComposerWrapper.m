@@ -15,23 +15,23 @@
  *
  */
 
-#import "TWTRSharedComposerWrapper.h"
+#import <TwitterKit/TWTRSharedComposerWrapper.h>
 #import <AVFoundation/AVFoundation.h>
-#import "TWTRAssertionMacros.h"
-#import "TWTRSessionStore.h"
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRSessionStore.h>
 #import <UIKit/UIKit.h>
-#import "TWTRComposerAccount.h"
-#import "TWTRComposerNetworking.h"
-#import "TWTRComposerViewController.h"
-#import "TWTRErrors.h"
-#import "TWTRLocalizedResources.h"
-#import "TWTRSETweet.h"
-#import "TWTRSETweetAttachment.h"
-#import "TWTRSETweetShareViewController.h"
-#import "TWTRTwitter.h"
-#import "TWTRTwitterText.h"
-#import "TWTRTwitter_Private.h"
-#import "TWTRWordRange.h"
+#import <TwitterKit/TWTRComposerAccount.h>
+#import <TwitterKit/TWTRComposerNetworking.h>
+#import <TwitterKit/TWTRComposerViewController.h>
+#import <TwitterKit/TWTRErrors.h>
+#import <TwitterKit/TWTRLocalizedResources.h>
+#import <TwitterKit/TWTRSETweet.h>
+#import <TwitterKit/TWTRSETweetAttachment.h>
+#import <TwitterKit/TWTRSETweetShareViewController.h>
+#import <TwitterKit/TWTRTwitter.h>
+#import <TwitterKit/TWTRTwitterText.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
+#import <TwitterKit/TWTRWordRange.h>
 
 NSArray *existingAccounts()
 {

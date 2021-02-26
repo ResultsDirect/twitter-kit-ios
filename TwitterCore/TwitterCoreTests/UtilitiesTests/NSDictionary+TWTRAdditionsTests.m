@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRDictUtil.h"
+#import <TwitterKit/TWTRDictUtil.h>
 #import "TWTRTestCase.h"
 
 @interface TWTRDictUtilTests : TWTRTestCase

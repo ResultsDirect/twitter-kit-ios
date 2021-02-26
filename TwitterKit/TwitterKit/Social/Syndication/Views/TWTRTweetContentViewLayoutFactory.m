@@ -15,15 +15,15 @@
  *
  */
 
-#import "TWTRTweetContentViewLayoutFactory.h"
-#import "TWTRFontUtil.h"
-#import "TWTRProfileHeaderView.h"
+#import <TwitterKit/TWTRTweetContentViewLayoutFactory.h>
+#import <TwitterKit/TWTRFontUtil.h>
+#import <TwitterKit/TWTRProfileHeaderView.h>
 #import "TWTRTweetContentView+Layout.h"
-#import "TWTRTweetContentView.h"
-#import "TWTRTweetLabel.h"
-#import "TWTRTweetMediaView.h"
-#import "TWTRTweetViewMetrics.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRTweetContentView.h>
+#import <TwitterKit/TWTRTweetLabel.h>
+#import <TwitterKit/TWTRTweetMediaView.h>
+#import <TwitterKit/TWTRTweetViewMetrics.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 @interface TWTRTweetContentViewLayoutCompact : NSObject <TWTRTweetContentViewLayout>
 

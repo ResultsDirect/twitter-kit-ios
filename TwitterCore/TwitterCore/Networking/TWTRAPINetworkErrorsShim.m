@@ -15,9 +15,9 @@
  *
  */
 
-#import "TWTRAPINetworkErrorsShim.h"
-#import "TWTRAPIErrorCode.h"
-#import "TWTRNetworkingConstants.h"
+#import <TwitterKit/TWTRAPINetworkErrorsShim.h>
+#import <TwitterKit/TWTRAPIErrorCode.h>
+#import <TwitterKit/TWTRNetworkingConstants.h>
 
 @interface TWTRAPINetworkErrorsShim ()
 

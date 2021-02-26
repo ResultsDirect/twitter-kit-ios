@@ -15,9 +15,9 @@
  *
  */
 
-#import "TWTRAPIDateSync.h"
-#import "TWTRDateFormatters.h"
-#import "TWTRGCOAuth.h"
+#import <TwitterKit/TWTRAPIDateSync.h>
+#import <TwitterKit/TWTRDateFormatters.h>
+#import <TwitterKit/TWTRGCOAuth.h>
 
 NSString *const TWTRAPIDateHeader = @"date";
 NSTimeInterval const TWTRAPIDateAccuracy = 600;  // 10 minutes in seconds

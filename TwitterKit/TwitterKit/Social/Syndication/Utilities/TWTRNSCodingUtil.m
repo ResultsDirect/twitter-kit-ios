@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRNSCodingUtil.h"
+#import <TwitterKit/TWTRNSCodingUtil.h>
 
 NSString *const TWTRValidatedDictionaryEncoderKey = @"validatedDictionary";
 

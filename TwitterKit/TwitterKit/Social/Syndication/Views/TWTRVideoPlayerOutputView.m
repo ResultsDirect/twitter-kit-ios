@@ -15,14 +15,14 @@
  *
  */
 
-#import "TWTRVideoPlayerOutputView.h"
+#import <TwitterKit/TWTRVideoPlayerOutputView.h>
 #import <AVFoundation/AVFoundation.h>
 #import <CoreMedia/CoreMedia.h>
-#import "TWTRAssertionMacros.h"
-#import "TWTRImages.h"
-#import "TWTRNotificationConstants.h"
-#import "TWTRVideoPlaybackConfiguration.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRImages.h>
+#import <TwitterKit/TWTRNotificationConstants.h>
+#import <TwitterKit/TWTRVideoPlaybackConfiguration.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

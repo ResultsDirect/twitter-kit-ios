@@ -18,9 +18,9 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRMediaEntitySize.h"
-#import "TWTRTweetMediaEntity.h"
-#import "TWTRTweet_Private.h"
+#import <TwitterKit/TWTRMediaEntitySize.h>
+#import <TwitterKit/TWTRTweetMediaEntity.h>
+#import <TwitterKit/TWTRTweet_Private.h>
 
 @interface TWTRMediaEntitySizeTests : XCTestCase
 

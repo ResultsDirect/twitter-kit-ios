@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRImageLoaderTaskManager.h"
+#import <TwitterKit/TWTRImageLoaderTaskManager.h>
 #import "TWTRTestCase.h"
 
 @interface TWTRImageLoaderTaskManagerTests : TWTRTestCase

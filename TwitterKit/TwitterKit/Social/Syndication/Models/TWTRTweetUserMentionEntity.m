@@ -15,10 +15,10 @@
  *
  */
 
-#import "TWTRTweetUserMentionEntity.h"
+#import <TwitterKit/TWTRTweetUserMentionEntity.h>
 
-#import "TWTRDictUtil.h"
-#import "TWTRAPIConstantsStatus.h"
+#import <TwitterKit/TWTRDictUtil.h>
+#import <TwitterKit/TWTRAPIConstantsStatus.h>
 
 @implementation TWTRTweetUserMentionEntity
 

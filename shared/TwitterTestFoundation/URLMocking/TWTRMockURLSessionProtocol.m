@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Twitter. All rights reserved.
 //
 
-#import "TWTRAssertionMacros.h"
+#import <TwitterKit/TWTRAssertionMacros.h>
 #import "TWTRMockURLSessionProtocol.h"
 
 @implementation TWTRMockURLResponse

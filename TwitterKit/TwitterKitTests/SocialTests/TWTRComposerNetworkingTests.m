@@ -17,11 +17,11 @@
 
 #import <OCMock/OCMock.h>
 #import <XCTest/XCTest.h>
-#import "TWTRComposerAccount.h"
-#import "TWTRComposerNetworking.h"
+#import <TwitterKit/TWTRComposerAccount.h>
+#import <TwitterKit/TWTRComposerNetworking.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRImages.h"
-#import "TWTRSharedComposerWrapper.h"
+#import <TwitterKit/TWTRImages.h>
+#import <TwitterKit/TWTRSharedComposerWrapper.h>
 #import "TWTRStubTwitterClient.h"
 
 @interface TWTRComposerNetworking ()

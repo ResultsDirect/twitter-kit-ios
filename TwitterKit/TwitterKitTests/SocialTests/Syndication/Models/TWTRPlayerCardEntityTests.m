@@ -18,9 +18,9 @@
 #import <XCTest/XCTest.h>
 #import "TWTRCardEntity+Subclasses.h"
 #import "TWTRFixtureLoader.h"
-#import "TWTRMediaEntityDisplayConfiguration.h"
-#import "TWTRPlayerCardEntity.h"
-#import "TWTRVideoPlaybackConfiguration.h"
+#import <TwitterKit/TWTRMediaEntityDisplayConfiguration.h>
+#import <TwitterKit/TWTRPlayerCardEntity.h>
+#import <TwitterKit/TWTRVideoPlaybackConfiguration.h>
 
 @interface TWTRPlayerCardEntityTests : XCTestCase
 

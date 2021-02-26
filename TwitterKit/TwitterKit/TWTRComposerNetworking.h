@@ -20,7 +20,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "TWTRSENetworking.h"
+#import <TwitterKit/TWTRSENetworking.h>
 
 @class TWTRTweet;
 

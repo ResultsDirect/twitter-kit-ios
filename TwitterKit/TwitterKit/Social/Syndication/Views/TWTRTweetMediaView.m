@@ -15,29 +15,29 @@
  *
  */
 
-#import "TWTRTweetMediaView.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRColorUtil.h"
-#import "TWTRResourcesUtil.h"
-#import "TWTRUtils.h"
-#import "TWTRImageViewController.h"
-#import "TWTRMediaEntityDisplayConfiguration.h"
-#import "TWTRMultiImageViewController.h"
-#import "TWTRMultiPhotoLayout.h"
-#import "TWTRPlayIcon.h"
-#import "TWTRPlayerCardEntity.h"
-#import "TWTRTranslationsUtil.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetImageView.h"
-#import "TWTRTweetMediaEntity.h"
-#import "TWTRTweet_Private.h"
-#import "TWTRTwitter_Private.h"
-#import "TWTRVideoControlsView.h"
-#import "TWTRVideoMetaData.h"
-#import "TWTRVideoPlaybackConfiguration.h"
-#import "TWTRVideoPlayerView.h"
-#import "TWTRVideoViewController.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRTweetMediaView.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRColorUtil.h>
+#import <TwitterKit/TWTRResourcesUtil.h>
+#import <TwitterKit/TWTRUtils.h>
+#import <TwitterKit/TWTRImageViewController.h>
+#import <TwitterKit/TWTRMediaEntityDisplayConfiguration.h>
+#import <TwitterKit/TWTRMultiImageViewController.h>
+#import <TwitterKit/TWTRMultiPhotoLayout.h>
+#import <TwitterKit/TWTRPlayIcon.h>
+#import <TwitterKit/TWTRPlayerCardEntity.h>
+#import <TwitterKit/TWTRTranslationsUtil.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetImageView.h>
+#import <TwitterKit/TWTRTweetMediaEntity.h>
+#import <TwitterKit/TWTRTweet_Private.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
+#import <TwitterKit/TWTRVideoControlsView.h>
+#import <TwitterKit/TWTRVideoMetaData.h>
+#import <TwitterKit/TWTRVideoPlaybackConfiguration.h>
+#import <TwitterKit/TWTRVideoPlayerView.h>
+#import <TwitterKit/TWTRVideoViewController.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

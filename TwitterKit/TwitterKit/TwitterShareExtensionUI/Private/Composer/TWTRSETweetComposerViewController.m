@@ -92,27 +92,27 @@
 
 #pragma mark imports
 
-#import "TWTRSETweetComposerViewController.h"
-#import "TWTRBirdView.h"
-#import "TWTRSEAccount.h"
-#import "TWTRSEAccountSelectionTableViewController.h"
-#import "TWTRSEAutoCompletionTableViewController.h"
-#import "TWTRSEFonts.h"
-#import "TWTRSEFrameworkLazyLoading.h"
-#import "TWTRSEGeoPlace.h"
-#import "TWTRSELocalizedString.h"
-#import "TWTRSELocationSelectionTableViewController.h"
-#import "TWTRSENetworking.h"
-#import "TWTRSETweet.h"
-#import "TWTRSETweetAttachment.h"
-#import "TWTRSETweetComposerTableViewDataSource.h"
-#import "TWTRSETweetShareConfiguration.h"
-#import "TWTRSETweetShareViewControllerDelegate.h"
-#import "TWTRSETweetTextViewContainer.h"
-#import "TWTRSEUIBundle.h"
+#import <TwitterKit/TWTRSETweetComposerViewController.h>
+#import <TwitterKit/TWTRBirdView.h>
+#import <TwitterKit/TWTRSEAccount.h>
+#import <TwitterKit/TWTRSEAccountSelectionTableViewController.h>
+#import <TwitterKit/TWTRSEAutoCompletionTableViewController.h>
+#import <TwitterKit/TWTRSEFonts.h>
+#import <TwitterKit/TWTRSEFrameworkLazyLoading.h>
+#import <TwitterKit/TWTRSEGeoPlace.h>
+#import <TwitterKit/TWTRSELocalizedString.h>
+#import <TwitterKit/TWTRSELocationSelectionTableViewController.h>
+#import <TwitterKit/TWTRSENetworking.h>
+#import <TwitterKit/TWTRSETweet.h>
+#import <TwitterKit/TWTRSETweetAttachment.h>
+#import <TwitterKit/TWTRSETweetComposerTableViewDataSource.h>
+#import <TwitterKit/TWTRSETweetShareConfiguration.h>
+#import <TwitterKit/TWTRSETweetShareViewControllerDelegate.h>
+#import <TwitterKit/TWTRSETweetTextViewContainer.h>
+#import <TwitterKit/TWTRSEUIBundle.h>
 #import "UIView+TSEExtensions.h"
 
-#import "TWTRColorUtil.h"
+#import <TwitterKit/TWTRColorUtil.h>
 
 @import CoreLocation;
 

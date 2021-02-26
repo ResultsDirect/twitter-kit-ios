@@ -21,10 +21,10 @@
 //  internals were changed to use the shared composer code.
 //
 
-#import "TWTRComposer.h"
-#import "TWTRConstants.h"
-#import "TWTRComposerViewController.h"
-#import "TWTRTwitter.h"
+#import <TwitterKit/TWTRComposer.h>
+#import <TwitterKit/TWTRConstants.h>
+#import <TwitterKit/TWTRComposerViewController.h>
+#import <TwitterKit/TWTRTwitter.h>
 
 @interface TWTRComposer () <TWTRComposerViewControllerDelegate>
 

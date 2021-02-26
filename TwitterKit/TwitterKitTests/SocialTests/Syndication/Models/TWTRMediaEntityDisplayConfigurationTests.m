@@ -18,10 +18,10 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRMediaEntityDisplayConfiguration.h"
+#import <TwitterKit/TWTRMediaEntityDisplayConfiguration.h>
 #import "TWTRTestCase.h"
-#import "TWTRTweetMediaEntity.h"
-#import "TWTRTweet_Private.h"
+#import <TwitterKit/TWTRTweetMediaEntity.h>
+#import <TwitterKit/TWTRTweet_Private.h>
 
 @interface TWTRMediaEntityDisplayConfigurationTests : TWTRTestCase
 @property (nonatomic) TWTRTweetMediaEntity *obamaMediaEntity;

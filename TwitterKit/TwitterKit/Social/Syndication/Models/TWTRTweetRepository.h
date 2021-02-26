@@ -19,7 +19,7 @@
  This header is private to the Twitter Kit SDK and not exposed for public SDK consumption
  */
 
-#import "TWTRAPIClient.h"
+#import <TwitterKit/TWTRAPIClient.h>
 
 @class TWTRAPIClient;
 @class TWTRTweet;

@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRAPIConstantsStatus.h"
+#import <TwitterKit/TWTRAPIConstantsStatus.h>
 
 NSString *const TWTRAPIConstantsStatusShowURL = @"/1.1/statuses/show.json";
 NSString *const TWTRAPIConstantsStatusLookUpURL = @"/1.1/statuses/lookup.json";

@@ -15,10 +15,10 @@
  *
  */
 
-#import "TWTRTweetImageViewPill.h"
-#import "TWTRColorUtil.h"
-#import "TWTRMediaEntityDisplayConfiguration.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRTweetImageViewPill.h>
+#import <TwitterKit/TWTRColorUtil.h>
+#import <TwitterKit/TWTRMediaEntityDisplayConfiguration.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 static const CGFloat TWTRImagePillLabelHeight = 20.0;
 static const CGFloat TWTRImagePillLabelFontSize = 14.0;

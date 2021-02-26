@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRSEAutoCompletionResult.h"
+#import <TwitterKit/TWTRSEAutoCompletionResult.h>
 
 @implementation TWTRSEAutoCompletionResultHashtag
 

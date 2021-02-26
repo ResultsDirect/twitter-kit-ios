@@ -15,10 +15,10 @@
  *
  */
 
-#import "TWTRDateFormatter.h"
-#import "TWTRDateFormatters.h"
-#import "TWTRDateUtil.h"
-#import "TWTRTranslationsUtil.h"
+#import <TwitterKit/TWTRDateFormatter.h>
+#import <TwitterKit/TWTRDateFormatters.h>
+#import <TwitterKit/TWTRDateUtil.h>
+#import <TwitterKit/TWTRTranslationsUtil.h>
 
 @implementation TWTRDateFormatter
 

@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRSETweetTextViewContainer.h"
+#import <TwitterKit/TWTRSETweetTextViewContainer.h>
 
 @class TWTRSETweetShareConfiguration;
 

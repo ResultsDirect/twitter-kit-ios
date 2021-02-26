@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRNetworkingConstants.h"
+#import <TwitterKit/TWTRNetworkingConstants.h>
 
 NSString *const TWTRNetworkingErrorDomain = @"TWTRNetworkingErrorDomain";
 NSString *const TWTRNetworkingUserAgentHeaderKey = @"User-Agent";

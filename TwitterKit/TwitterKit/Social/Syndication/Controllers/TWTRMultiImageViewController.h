@@ -20,7 +20,7 @@
  */
 
 #import <UIKit/UIKit.h>
-#import "TWTRMediaContainerViewController.h"
+#import <TwitterKit/TWTRMediaContainerViewController.h>
 
 @class TWTRTweetMediaEntity;
 

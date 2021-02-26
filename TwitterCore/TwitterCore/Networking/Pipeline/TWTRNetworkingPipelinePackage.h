@@ -19,8 +19,8 @@
  This header is private to the Twitter Core SDK and not exposed for public SDK consumption
  */
 
-#import "TWTRSessionStore.h"
-#import "TWTRNetworkingPipeline.h"
+#import <TwitterKit/TWTRSessionStore.h>
+#import <TwitterKit/TWTRNetworkingPipeline.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

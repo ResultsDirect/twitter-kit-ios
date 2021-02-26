@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRSEConfigurationSelectionTableViewCell.h"
+#import <TwitterKit/TWTRSEConfigurationSelectionTableViewCell.h>
 #import "UIView+TSEExtensions.h"
 
 static const CGFloat kLabelMinHorizontalSeparation = 10.0;

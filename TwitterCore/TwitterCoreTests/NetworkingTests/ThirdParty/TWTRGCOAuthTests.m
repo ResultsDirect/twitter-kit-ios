@@ -17,7 +17,7 @@
 
 #import <OCMock/OCMock.h>
 #import <XCTest/XCTest.h>
-#import "TWTRGCOAuth.h"
+#import <TwitterKit/TWTRGCOAuth.h>
 
 static time_t TWTRGCOAuthTimeStampOffset;
 

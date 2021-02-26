@@ -17,15 +17,15 @@
 
 #import <OCMock/OCMock.h>
 #import <XCTest/XCTest.h>
-#import "TWTRBirdView.h"
+#import <TwitterKit/TWTRBirdView.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRProfileHeaderView.h"
-#import "TWTRRetweetView.h"
-#import "TWTRTimestampLabel.h"
-#import "TWTRTweet.h"
-#import "TWTRTwitter_Private.h"
-#import "TWTRUser.h"
-#import "TWTRVerifiedView.h"
+#import <TwitterKit/TWTRProfileHeaderView.h>
+#import <TwitterKit/TWTRRetweetView.h>
+#import <TwitterKit/TWTRTimestampLabel.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
+#import <TwitterKit/TWTRUser.h>
+#import <TwitterKit/TWTRVerifiedView.h>
 
 @interface TWTRProfileHeaderView ()
 

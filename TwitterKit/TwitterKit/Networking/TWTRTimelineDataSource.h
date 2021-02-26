@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRTimelineType.h"
+#import <TwitterKit/TWTRTimelineType.h>
 
 @class TWTRAPIClient;
 @class TWTRTimelineCursor;

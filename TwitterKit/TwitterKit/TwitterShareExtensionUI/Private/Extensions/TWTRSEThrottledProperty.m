@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRSEThrottledProperty.h"
+#import <TwitterKit/TWTRSEThrottledProperty.h>
 
 @interface TWTRSEThrottledProperty ()
 

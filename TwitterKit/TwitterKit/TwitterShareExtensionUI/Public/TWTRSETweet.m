@@ -15,9 +15,9 @@
  *
  */
 
-#import "TWTRSETweet.h"
-#import "TWTRSEAccount.h"
-#import "TWTRSETweetAttachment.h"
+#import <TwitterKit/TWTRSETweet.h>
+#import <TwitterKit/TWTRSEAccount.h>
+#import <TwitterKit/TWTRSETweetAttachment.h>
 
 @interface TWTRSETweet ()
 @property (nullable, nonatomic, readonly) NSString *textWithAttachmentURLs;

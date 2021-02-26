@@ -16,10 +16,10 @@
  */
 //  Lay out 1-4 views in a grid
 
-#import "TWTRMultiPhotoLayout.h"
-#import "TWTRAssertionMacros.h"
+#import <TwitterKit/TWTRMultiPhotoLayout.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
 #import <UIKit/UIKit.h>
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRViewUtil.h>
 
 @implementation NSArray (TWTRViewConstraints)
 

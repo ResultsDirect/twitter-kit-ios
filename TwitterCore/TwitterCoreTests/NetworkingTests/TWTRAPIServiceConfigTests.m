@@ -16,7 +16,7 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRAPIServiceConfig.h"
+#import <TwitterKit/TWTRAPIServiceConfig.h>
 #import "TWTRFakeAPIServiceConfig.h"
 #import "TWTRTestCase.h"
 

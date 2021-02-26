@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRSEFrameworkLazyLoading.h"
+#import <TwitterKit/TWTRSEFrameworkLazyLoading.h>
 #import <Foundation/Foundation.h>
 #include <dlfcn.h>
 

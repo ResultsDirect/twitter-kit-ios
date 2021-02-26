@@ -19,8 +19,8 @@
  This header is private to the Twitter Kit SDK and not exposed for public SDK consumption
  */
 
-#import "TWTRVideoPlayerView.h"
-#import "TWTRVideoViewController.h"
+#import <TwitterKit/TWTRVideoPlayerView.h>
+#import <TwitterKit/TWTRVideoViewController.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

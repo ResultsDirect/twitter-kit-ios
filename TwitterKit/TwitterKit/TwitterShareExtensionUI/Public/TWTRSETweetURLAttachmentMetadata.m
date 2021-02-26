@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRSETweetURLAttachmentMetadata.h"
+#import <TwitterKit/TWTRSETweetURLAttachmentMetadata.h>
 
 @implementation TWTRSETweetURLAttachmentMetadata
 

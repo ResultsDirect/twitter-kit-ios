@@ -10,7 +10,7 @@
 //  http://www.apache.org/licenses/LICENSE-2.0
 //
 
-#import "TWTRTwitterTextEntity.h"
+#import <TwitterKit/TWTRTwitterTextEntity.h>
 
 @implementation TWTRTwitterTextEntity
 

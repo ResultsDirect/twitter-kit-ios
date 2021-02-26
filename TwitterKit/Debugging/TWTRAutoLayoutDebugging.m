@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRAutoLayoutDebugging.h"
+#import <TwitterKit/TWTRAutoLayoutDebugging.h>
 
 #if TWTR_AUTO_LAYOUT_DEBUGGING_ENABLED
 

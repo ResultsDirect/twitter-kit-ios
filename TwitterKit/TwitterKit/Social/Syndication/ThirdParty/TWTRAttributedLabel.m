@@ -20,13 +20,13 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "TWTRAttributedLabel.h"
-#import "TWTRTweetCashtagEntity.h"
-#import "TWTRTweetEntity.h"
-#import "TWTRTweetHashtagEntity.h"
-#import "TWTRTweetPresenter.h"  // For TWTRTweetEntityRange
-#import "TWTRTweetUrlEntity.h"
-#import "TWTRTweetUserMentionEntity.h"
+#import <TwitterKit/TWTRAttributedLabel.h>
+#import <TwitterKit/TWTRTweetCashtagEntity.h>
+#import <TwitterKit/TWTRTweetEntity.h>
+#import <TwitterKit/TWTRTweetHashtagEntity.h>
+#import <TwitterKit/TWTRTweetPresenter.h>  // For TWTRTweetEntityRange
+#import <TwitterKit/TWTRTweetUrlEntity.h>
+#import <TwitterKit/TWTRTweetUserMentionEntity.h>
 
 #import <Availability.h>
 #import <QuartzCore/QuartzCore.h>

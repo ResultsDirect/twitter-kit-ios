@@ -15,10 +15,10 @@
  *
  */
 
-#import "TWTRUserAPIClient.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRAuthConfig.h"
-#import "TWTRGCOAuth.h"
+#import <TwitterKit/TWTRUserAPIClient.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRAuthConfig.h>
+#import <TwitterKit/TWTRGCOAuth.h>
 
 @interface TWTRUserAPIClient ()
 

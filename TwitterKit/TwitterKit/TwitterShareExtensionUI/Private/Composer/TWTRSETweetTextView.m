@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRSETweetTextView.h"
+#import <TwitterKit/TWTRSETweetTextView.h>
 
 @implementation TWTRSETweetTextView
 

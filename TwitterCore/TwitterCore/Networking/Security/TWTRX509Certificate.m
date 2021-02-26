@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRX509Certificate.h"
+#import <TwitterKit/TWTRX509Certificate.h>
 #import <CommonCrypto/CommonDigest.h>
 #import <Security/SecCertificate.h>
 #import <Security/Security.h>

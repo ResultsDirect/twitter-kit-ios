@@ -20,8 +20,8 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "TWTRTweet.h"
-#import "TWTRVersionedCacheable.h"
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRVersionedCacheable.h>
 
 @class TWTRCardEntity;
 @class TWTRTweetMediaEntity;

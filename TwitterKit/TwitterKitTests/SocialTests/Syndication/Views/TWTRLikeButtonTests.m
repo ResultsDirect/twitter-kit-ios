@@ -16,12 +16,12 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRAPIClient.h"
-#import "TWTRAPIClient_Private.h"
+#import <TwitterKit/TWTRAPIClient.h>
+#import <TwitterKit/TWTRAPIClient_Private.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRImages.h"
-#import "TWTRLikeButton.h"
-#import "TWTRLoginURLParser.h"
+#import <TwitterKit/TWTRImages.h>
+#import <TwitterKit/TWTRLikeButton.h>
+#import <TwitterKit/TWTRLoginURLParser.h>
 #import "TWTRStubTwitterClient.h"
 #import "TWTRTestCase.h"
 

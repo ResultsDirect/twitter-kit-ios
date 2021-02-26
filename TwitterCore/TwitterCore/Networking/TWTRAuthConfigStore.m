@@ -15,9 +15,9 @@
  *
  */
 
-#import "TWTRAuthConfigStore.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRGenericKeychainItem.h"
+#import <TwitterKit/TWTRAuthConfigStore.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRGenericKeychainItem.h>
 
 @interface TWTRAuthConfigStore ()
 

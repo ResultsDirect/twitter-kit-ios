@@ -15,20 +15,20 @@
  *
  */
 
-#import "TWTRVideoViewController.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRNotificationConstants.h"
-#import "TWTRTweet.h"
-#import "TWTRTwitter_Private.h"
-#import "TWTRUser.h"
-#import "TWTRVideoControlsView.h"
-#import "TWTRVideoMediaType.h"
-#import "TWTRVideoPlaybackConfiguration.h"
-#import "TWTRVideoPlaybackRules.h"
-#import "TWTRVideoPlayerOutputView.h"
-#import "TWTRVideoPlayerView.h"
-#import "TWTRVideoViewController_Private.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRVideoViewController.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRNotificationConstants.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
+#import <TwitterKit/TWTRUser.h>
+#import <TwitterKit/TWTRVideoControlsView.h>
+#import <TwitterKit/TWTRVideoMediaType.h>
+#import <TwitterKit/TWTRVideoPlaybackConfiguration.h>
+#import <TwitterKit/TWTRVideoPlaybackRules.h>
+#import <TwitterKit/TWTRVideoPlayerOutputView.h>
+#import <TwitterKit/TWTRVideoPlayerView.h>
+#import <TwitterKit/TWTRVideoViewController_Private.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 // TODO: What does this look like on iPad?
 

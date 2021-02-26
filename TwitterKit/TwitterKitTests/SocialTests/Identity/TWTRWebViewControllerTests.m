@@ -17,7 +17,7 @@
 
 #import <UIKit/UIKit.h>
 #import "TWTRTestCase.h"
-#import "TWTRWebViewController.h"
+#import <TwitterKit/TWTRWebViewController.h>
 
 @interface TWTRWebViewController () <WKNavigationDelegate>
 

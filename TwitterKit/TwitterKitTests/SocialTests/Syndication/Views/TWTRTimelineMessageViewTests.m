@@ -16,7 +16,7 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "TWTRTimelineMessageView.h"
+#import <TwitterKit/TWTRTimelineMessageView.h>
 
 @interface TWTRTimelineMessageViewTests : XCTestCase
 

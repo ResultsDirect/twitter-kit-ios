@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRAppAPIClient.h"
-#import "TWTRAuthenticationConstants.h"
+#import <TwitterKit/TWTRAppAPIClient.h>
+#import <TwitterKit/TWTRAuthenticationConstants.h>
 #import "TwitterAppAPIClient+Subclasses.h"
 
 @implementation TWTRAppAPIClient

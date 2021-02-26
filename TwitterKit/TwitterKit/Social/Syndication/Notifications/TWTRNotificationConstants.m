@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRNotificationConstants.h"
+#import <TwitterKit/TWTRNotificationConstants.h>
 
 #pragma mark - Tweet Notifications
 

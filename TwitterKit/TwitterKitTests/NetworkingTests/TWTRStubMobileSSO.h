@@ -15,9 +15,9 @@
  *
  */
 
-#import "TWTRNetworking.h"
+#import <TwitterKit/TWTRNetworking.h>
 #import <TwitterKit/TWTRKit.h>
-#import "TWTRMobileSSO.h"
+#import <TwitterKit/TWTRMobileSSO.h>
 
 /*
  *  Provide a stub implementation of the TWTRMobileSSO to more fully test any class which depend on what the TWTRMobileSSO returns.

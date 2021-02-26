@@ -17,16 +17,16 @@
 
 #import <OCMock/OCMock.h>
 #import <XCTest/XCTest.h>
-#import "TWTRAuthConfig.h"
-#import "TWTRAuthConfigSessionsValidator.h"
-#import "TWTRAuthConfigSessionsValidator_Private.h"
-#import "TWTRAuthConfigStore.h"
-#import "TWTRAuthenticationConstants.h"
+#import <TwitterKit/TWTRAuthConfig.h>
+#import <TwitterKit/TWTRAuthConfigSessionsValidator.h>
+#import <TwitterKit/TWTRAuthConfigSessionsValidator_Private.h>
+#import <TwitterKit/TWTRAuthConfigStore.h>
+#import <TwitterKit/TWTRAuthenticationConstants.h>
 #import "TWTRFakeAPIServiceConfig.h"
-#import "TWTRGuestSession.h"
-#import "TWTRSession.h"
-#import "TWTRSessionStore.h"
-#import "TWTRSessionStore_Private.h"
+#import <TwitterKit/TWTRGuestSession.h>
+#import <TwitterKit/TWTRSession.h>
+#import <TwitterKit/TWTRSessionStore.h>
+#import <TwitterKit/TWTRSessionStore_Private.h>
 
 @interface TWTRSessionStore ()
 

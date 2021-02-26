@@ -16,9 +16,9 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRAPIDateSync.h"
-#import "TWTRDateFormatters.h"
-#import "TWTRGCOAuth.h"
+#import <TwitterKit/TWTRAPIDateSync.h>
+#import <TwitterKit/TWTRDateFormatters.h>
+#import <TwitterKit/TWTRGCOAuth.h>
 #import "TWTRTestCase.h"
 
 @interface TWTRAPIDateSyncTests : XCTestCase

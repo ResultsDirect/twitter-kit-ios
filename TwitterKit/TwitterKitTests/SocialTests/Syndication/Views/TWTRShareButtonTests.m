@@ -16,16 +16,16 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRUtils.h"
+#import <TwitterKit/TWTRUtils.h>
 #import <XCTest/XCTest.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRNotificationCenter.h"
-#import "TWTRShareButton.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetShareItemProvider.h"
-#import "TWTRTweetView.h"
-#import "TWTRTweetView_Private.h"
-#import "TWTRTwitter_Private.h"
+#import <TwitterKit/TWTRNotificationCenter.h>
+#import <TwitterKit/TWTRShareButton.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetShareItemProvider.h>
+#import <TwitterKit/TWTRTweetView.h>
+#import <TwitterKit/TWTRTweetView_Private.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
 
 static TWTRTweet *testTweet;
 

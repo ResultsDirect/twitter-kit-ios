@@ -19,10 +19,10 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRFontUtil.h"
+#import <TwitterKit/TWTRFontUtil.h>
 #import "TWTRTestCase.h"
-#import "TWTRTweetTableViewCell.h"
-#import "TWTRTweetView.h"
+#import <TwitterKit/TWTRTweetTableViewCell.h>
+#import <TwitterKit/TWTRTweetView.h>
 
 @interface TWTRTweetTableViewCellTests : TWTRTestCase
 

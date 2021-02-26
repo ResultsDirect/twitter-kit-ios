@@ -20,7 +20,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "TWTRAuthenticationConstants.h"
+#import <TwitterKit/TWTRAuthenticationConstants.h>
 
 @interface TWTRKeychainWrapper : NSObject
 

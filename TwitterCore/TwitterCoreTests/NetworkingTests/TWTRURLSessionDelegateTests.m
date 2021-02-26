@@ -18,8 +18,8 @@
 #import <Foundation/Foundation.h>
 #import <OCMock/OCMock.h>
 #import <XCTest/XCTest.h>
-#import "TWTRServerTrustEvaluator.h"
-#import "TWTRURLSessionDelegate.h"
+#import <TwitterKit/TWTRServerTrustEvaluator.h>
+#import <TwitterKit/TWTRURLSessionDelegate.h>
 
 @interface TWTRURLSessionDelegate ()
 // Exposed for mocking

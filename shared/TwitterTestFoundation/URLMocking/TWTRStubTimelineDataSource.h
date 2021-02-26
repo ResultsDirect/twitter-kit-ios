@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TWTRTimelineDataSource.h"
+#import <TwitterKit/TWTRTimelineDataSource.h>
 
 /*
  *  Provide a stub implementation of TWTRTimelineDataSource which calls the completion method immediately with any provided properties. Allows testing of classes with depend particularly heavily on the response that a data source provides (e.g. TWTRTimelineViewController).

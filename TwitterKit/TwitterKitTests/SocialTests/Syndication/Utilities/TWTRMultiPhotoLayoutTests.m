@@ -16,7 +16,7 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "TWTRMultiPhotoLayout.h"
+#import <TwitterKit/TWTRMultiPhotoLayout.h>
 
 @interface TWTRMultiPhotoLayoutTests : XCTestCase
 

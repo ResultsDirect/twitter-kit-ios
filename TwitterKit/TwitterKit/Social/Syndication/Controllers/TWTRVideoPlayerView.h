@@ -20,7 +20,7 @@
  */
 
 #import <UIKit/UIKit.h>
-#import "TWTRVideoPlayerOutputView.h"
+#import <TwitterKit/TWTRVideoPlayerOutputView.h>
 
 @class TWTRTweet;
 @class TWTRVideoPlaybackConfiguration;

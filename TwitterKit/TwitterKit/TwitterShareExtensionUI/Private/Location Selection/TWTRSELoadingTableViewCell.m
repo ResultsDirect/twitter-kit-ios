@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRSELoadingTableViewCell.h"
+#import <TwitterKit/TWTRSELoadingTableViewCell.h>
 
 static const CGFloat kSpinnerTopPadding = 10.0;
 

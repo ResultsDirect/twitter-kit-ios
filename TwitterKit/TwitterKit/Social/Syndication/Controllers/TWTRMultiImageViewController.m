@@ -15,10 +15,10 @@
  *
  */
 
-#import "TWTRMultiImageViewController.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRImageViewController.h"
-#import "TWTRTwitter_Private.h"
+#import <TwitterKit/TWTRMultiImageViewController.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRImageViewController.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
 
 @interface TWTRMultiImageViewController () <UIPageViewControllerDataSource, UIPageViewControllerDelegate>
 

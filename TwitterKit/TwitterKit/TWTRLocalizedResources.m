@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRLocalizedResources.h"
-#import "TWTRTranslationsUtil.h"
+#import <TwitterKit/TWTRLocalizedResources.h>
+#import <TwitterKit/TWTRTranslationsUtil.h>
 
 @implementation TWTRLocalizedResources
 

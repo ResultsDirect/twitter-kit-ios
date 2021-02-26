@@ -16,7 +16,7 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "TWTRStringUtil.h"
+#import <TwitterKit/TWTRStringUtil.h>
 #import "limits.h"
 
 @interface TWTRStringUtilTests : XCTestCase

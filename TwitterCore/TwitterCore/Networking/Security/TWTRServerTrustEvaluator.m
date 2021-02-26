@@ -15,9 +15,9 @@
  *
  */
 
-#import "TWTRServerTrustEvaluator.h"
+#import <TwitterKit/TWTRServerTrustEvaluator.h>
 #import <CommonCrypto/CommonDigest.h>
-#import "TWTRX509Certificate.h"
+#import <TwitterKit/TWTRX509Certificate.h>
 
 static const int TWTR_DIGEST_HEX_STRING_LENGTH = 41;
 static char TWTR_TWITTER_PINS[][TWTR_DIGEST_HEX_STRING_LENGTH] = {

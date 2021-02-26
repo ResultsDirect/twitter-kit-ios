@@ -17,18 +17,18 @@
 
 #if !TARGET_OS_TV
 
-#import "TWTRAppleSocialAuthenticaticationProvider.h"
 #import <Accounts/Accounts.h>
 #import <Social/Social.h>
 #import <UIKit/UIKit.h>
 #import <objc/runtime.h>
-#import "TWTRAPIServiceConfig.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRConstants.h"
-#import "TWTRSession.h"
-#import "TWTRUserAPIClient.h"
-#import "TWTRUtils.h"
+#import <TwitterKit/TWTRAppleSocialAuthenticaticationProvider.h>
+#import <TwitterKit/TWTRAPIServiceConfig.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRConstants.h>
+#import <TwitterKit/TWTRSession.h>
+#import <TwitterKit/TWTRUserAPIClient.h>
+#import <TwitterKit/TWTRUtils.h>
 
 NSString *const TWTRSocialAppProviderActionSheetCompletionKey = @"TWTRAppleSocialAuthProviderCompletion";
 

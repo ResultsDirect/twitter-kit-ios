@@ -15,22 +15,22 @@
  *
  */
 
-#import "TWTRTweetRepository.h"
-#import "TWTRAPIConstants.h"
-#import "TWTRAPIServiceConfig.h"
-#import "TWTRAPIServiceConfigRegistry.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRConstants.h"
-#import "TWTRSessionStore.h"
-#import "TWTRAPIClient.h"
-#import "TWTRAPIConstantsStatus.h"
-#import "TWTRStore.h"
-#import "TWTRSubscriber.h"
-#import "TWTRSubscription.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetCache.h"
-#import "TWTRTwitter.h"
-#import "TWTRUser.h"
+#import <TwitterKit/TWTRTweetRepository.h>
+#import <TwitterKit/TWTRAPIConstants.h>
+#import <TwitterKit/TWTRAPIServiceConfig.h>
+#import <TwitterKit/TWTRAPIServiceConfigRegistry.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRConstants.h>
+#import <TwitterKit/TWTRSessionStore.h>
+#import <TwitterKit/TWTRAPIClient.h>
+#import <TwitterKit/TWTRAPIConstantsStatus.h>
+#import <TwitterKit/TWTRStore.h>
+#import <TwitterKit/TWTRSubscriber.h>
+#import <TwitterKit/TWTRSubscription.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetCache.h>
+#import <TwitterKit/TWTRTwitter.h>
+#import <TwitterKit/TWTRUser.h>
 
 typedef void (^TWTRTweetCacheLoadTweetIDsCompletion)(NSArray *cachedTweets, NSArray *cacheMissTweetIDs);
 static NSString *const TWTRTweetCachePath = @"cache/tweets";

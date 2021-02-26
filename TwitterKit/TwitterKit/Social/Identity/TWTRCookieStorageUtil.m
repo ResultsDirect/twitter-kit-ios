@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRCookieStorageUtil.h"
+#import <TwitterKit/TWTRCookieStorageUtil.h>
 
 @implementation TWTRCookieStorageUtil
 

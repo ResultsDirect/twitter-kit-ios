@@ -17,10 +17,10 @@
 
 #import <OCMock/OCMock.h>
 #import <XCTest/XCTest.h>
-#import "TWTRAuthConfig.h"
-#import "TWTRAuthConfigStore.h"
-#import "TWTRAuthConfigStore_Private.h"
-#import "TWTRGenericKeychainItem.h"
+#import <TwitterKit/TWTRAuthConfig.h>
+#import <TwitterKit/TWTRAuthConfigStore.h>
+#import <TwitterKit/TWTRAuthConfigStore_Private.h>
+#import <TwitterKit/TWTRGenericKeychainItem.h>
 
 @interface TWTRAuthConfigStoreTests : XCTestCase
 

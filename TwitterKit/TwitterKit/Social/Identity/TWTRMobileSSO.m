@@ -15,13 +15,13 @@
  *
  */
 
-#import "TWTRMobileSSO.h"
-#import "TWTRSession.h"
-#import "TWTRSessionStore.h"
-#import "TWTRErrors.h"
-#import "TWTRLoginURLParser.h"
-#import "TWTRTwitter.h"
-#import "TWTRTwitter_Private.h"
+#import <TwitterKit/TWTRMobileSSO.h>
+#import <TwitterKit/TWTRSession.h>
+#import <TwitterKit/TWTRSessionStore.h>
+#import <TwitterKit/TWTRErrors.h>
+#import <TwitterKit/TWTRLoginURLParser.h>
+#import <TwitterKit/TWTRTwitter.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
 
 @implementation TWTRMobileSSO
 

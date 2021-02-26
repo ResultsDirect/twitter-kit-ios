@@ -18,7 +18,7 @@
 #import <Foundation/Foundation.h>
 #import <OCMock/OCMock.h>
 #import "TWTRTestCase.h"
-#import "TWTRUtils.h"
+#import <TwitterKit/TWTRUtils.h>
 
 @interface TWTRUtilsTests : TWTRTestCase
 

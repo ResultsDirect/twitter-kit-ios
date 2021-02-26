@@ -15,15 +15,15 @@
  *
  */
 
-#import "TWTRVideoMetaData.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRDictUtil.h"
-#import "TWTRAPIConstantsStatus.h"
-#import "TWTRJSONKeyRequirement.h"
-#import "TWTRJSONValidator.h"
-#import "TWTRNSCodingUtil.h"
-#import "TWTRValueTransformers.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRVideoMetaData.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRDictUtil.h>
+#import <TwitterKit/TWTRAPIConstantsStatus.h>
+#import <TwitterKit/TWTRJSONKeyRequirement.h>
+#import <TwitterKit/TWTRJSONValidator.h>
+#import <TwitterKit/TWTRNSCodingUtil.h>
+#import <TwitterKit/TWTRValueTransformers.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 static NSString *const TWTRDurationKey = @"duration";
 static NSString *const TWTRVideoURLKey = @"videoURL";

@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRCoreConstants.h"
+#import <TwitterKit/TWTRCoreConstants.h>
 
 #define TWC_SDK_BUNDLE_ID TWC_STR(TWC_BUNDLE_IDENTIFIER)
 

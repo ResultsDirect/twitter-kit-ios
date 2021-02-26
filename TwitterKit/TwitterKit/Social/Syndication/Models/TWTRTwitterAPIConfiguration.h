@@ -20,7 +20,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "TWTRMediaEntitySize.h"
+#import <TwitterKit/TWTRMediaEntitySize.h>
 
 /**
  *  `TWTRTwitterAPIConfiguration` is an immutable representation of the API configuration response.

@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRNetworkingUtil.h"
+#import <TwitterKit/TWTRNetworkingUtil.h>
 #import "TWTRTestCase.h"
 
 @interface TWTRNetworkUtilTests : TWTRTestCase

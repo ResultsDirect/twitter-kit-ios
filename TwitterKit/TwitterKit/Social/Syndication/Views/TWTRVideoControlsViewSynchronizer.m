@@ -15,11 +15,11 @@
  *
  */
 
-#import "TWTRVideoControlsViewSynchronizer.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRStringUtil.h"
-#import "TWTRVideoControlsView.h"
-#import "TWTRVideoPlaybackState.h"
+#import <TwitterKit/TWTRVideoControlsViewSynchronizer.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRStringUtil.h>
+#import <TwitterKit/TWTRVideoControlsView.h>
+#import <TwitterKit/TWTRVideoPlaybackState.h>
 
 /**
  * This object provides a mechanism for breaking the retain cycle

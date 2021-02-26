@@ -15,14 +15,14 @@
  *
  */
 
-#import "TWTRTimelineParser.h"
-#import "TWTRAPIConstants.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRDictUtil.h"
-#import "TWTRAPIConstantsStatus.h"
-#import "TWTRTweet.h"
-#import "TWTRTweet_Private.h"
-#import "TWTRUser.h"
+#import <TwitterKit/TWTRTimelineParser.h>
+#import <TwitterKit/TWTRAPIConstants.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRDictUtil.h>
+#import <TwitterKit/TWTRAPIConstantsStatus.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweet_Private.h>
+#import <TwitterKit/TWTRUser.h>
 
 NSString *_Nullable decrementTweetPosition(NSString *tweetPosition)
 {

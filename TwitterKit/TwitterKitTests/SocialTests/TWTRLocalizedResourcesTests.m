@@ -16,7 +16,7 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "TWTRLocalizedResources.h"
+#import <TwitterKit/TWTRLocalizedResources.h>
 
 @interface TWTRLocalizedResourcesTests : XCTestCase
 

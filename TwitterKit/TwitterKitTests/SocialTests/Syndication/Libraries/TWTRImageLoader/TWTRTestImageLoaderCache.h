@@ -20,7 +20,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "TWTRImageLoaderCache.h"
+#import <TwitterKit/TWTRImageLoaderCache.h>
 
 /**
  *  Class conforming to <TWTRImageLoaderCache> used for testing purposes only.

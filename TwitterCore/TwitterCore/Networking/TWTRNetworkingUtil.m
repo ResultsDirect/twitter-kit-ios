@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRNetworkingUtil.h"
+#import <TwitterKit/TWTRNetworkingUtil.h>
 // See https://tools.ietf.org/html/rfc5849#section-3.6 OAuth signature safe escaping
 static NSString *const CharactersToBeEscapedInQueryString = @"%:/?&=;+!@#$(){}',*[] \"\n|^<>`";
 static NSString *const CharactersToLeaveUnescapedInQueryStringPairKey = @".~-_";

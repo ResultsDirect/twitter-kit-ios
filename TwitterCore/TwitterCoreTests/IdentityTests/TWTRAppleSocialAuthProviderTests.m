@@ -19,12 +19,12 @@
 
 #import <Accounts/Accounts.h>
 #import <OCMock/OCMock.h>
-#import "TWTRConstants.h"
-#import "TWTRUtils.h"
-#import "TWTRAPIServiceConfig.h"
-#import "TWTRAppleSocialAuthenticaticationProvider.h"
-#import "TWTRAppleSocialAuthenticaticationProvider_Private.h"
-#import "TWTRSession.h"
+#import <TwitterKit/TWTRConstants.h>
+#import <TwitterKit/TWTRUtils.h>
+#import <TwitterKit/TWTRAPIServiceConfig.h>
+#import <TwitterKit/TWTRAppleSocialAuthenticaticationProvider.h>
+#import <TwitterKit/TWTRAppleSocialAuthenticaticationProvider_Private.h>
+#import <TwitterKit/TWTRSession.h>
 #import "TWTRTestCase.h"
 
 @interface TWTRAppleSocialAuthProviderTests : TWTRTestCase

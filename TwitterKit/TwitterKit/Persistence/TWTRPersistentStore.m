@@ -15,9 +15,9 @@
  *
  */
 
-#import "TWTRPersistentStore.h"
-#import "TWTRUtils.h"
-#import "TWTROSVersionInfo.h"
+#import <TwitterKit/TWTRPersistentStore.h>
+#import <TwitterKit/TWTRUtils.h>
+#import <TwitterKit/TWTROSVersionInfo.h>
 
 @interface TWTRPersistentStoreObject : NSObject
 

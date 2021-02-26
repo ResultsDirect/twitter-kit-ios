@@ -16,12 +16,12 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRAuthConfig.h"
-#import "TWTRAppAuthProvider.h"
-#import "TWTRAppAuthProvider_Private.h"
-#import "TWTRAuthenticationConstants.h"
+#import <TwitterKit/TWTRAuthConfig.h>
+#import <TwitterKit/TWTRAppAuthProvider.h>
+#import <TwitterKit/TWTRAppAuthProvider_Private.h>
+#import <TwitterKit/TWTRAuthenticationConstants.h>
 #import "TWTRFakeAPIServiceConfig.h"
-#import "TWTRNetworking.h"
+#import <TwitterKit/TWTRNetworking.h>
 #import "TWTRTestCase.h"
 
 @interface TWTRAppAuthProvider ()

@@ -15,15 +15,15 @@
  *
  */
 
-#import "TWTRSEAccountTableViewCell.h"
-#import "TWTRImages.h"
-#import "TWTRSEAccount.h"
-#import "TWTRSEColors.h"
-#import "TWTRSEFonts.h"
-#import "TWTRSEImageDownloader.h"
-#import "TWTRSENetworking.h"
-#import "TWTRSETwitterUser.h"
-#import "TWTRSEUIBundle.h"
+#import <TwitterKit/TWTRSEAccountTableViewCell.h>
+#import <TwitterKit/TWTRImages.h>
+#import <TwitterKit/TWTRSEAccount.h>
+#import <TwitterKit/TWTRSEColors.h>
+#import <TwitterKit/TWTRSEFonts.h>
+#import <TwitterKit/TWTRSEImageDownloader.h>
+#import <TwitterKit/TWTRSENetworking.h>
+#import <TwitterKit/TWTRSETwitterUser.h>
+#import <TwitterKit/TWTRSEUIBundle.h>
 #import "UIView+TSEExtensions.h"
 
 static const CGFloat kAvatarImageViewSideLength = 40.0;

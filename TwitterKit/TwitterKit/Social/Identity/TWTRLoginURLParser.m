@@ -15,14 +15,14 @@
  *
  */
 
-#import "TWTRLoginURLParser.h"
+#import <TwitterKit/TWTRLoginURLParser.h>
 #import <SafariServices/SafariServices.h>
-#import "TWTRAuthConfig.h"
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRNetworkingUtil.h"
-#import "TWTRTwitter.h"
-#import "TWTRWebAuthenticationFlow.h"
-#import "TWTRWebAuthenticationViewController.h"
+#import <TwitterKit/TWTRAuthConfig.h>
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRNetworkingUtil.h>
+#import <TwitterKit/TWTRTwitter.h>
+#import <TwitterKit/TWTRWebAuthenticationFlow.h>
+#import <TwitterKit/TWTRWebAuthenticationViewController.h>
 
 @interface TWTRLoginURLParser ()
 

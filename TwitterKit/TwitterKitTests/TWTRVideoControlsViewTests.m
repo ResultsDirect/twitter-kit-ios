@@ -16,8 +16,8 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "TWTRImages.h"
-#import "TWTRVideoControlsView.h"
+#import <TwitterKit/TWTRImages.h>
+#import <TwitterKit/TWTRVideoControlsView.h>
 
 @interface TWTRVideoControlsView ()
 

@@ -16,9 +16,9 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRCoreConstants.h"
-#import "TWTRCoreLanguage.h"
-#import "TWTRResourcesUtil_Private.h"
+#import <TwitterKit/TWTRCoreConstants.h>
+#import <TwitterKit/TWTRCoreLanguage.h>
+#import <TwitterKit/TWTRResourcesUtil_Private.h>
 #import "TWTRTestCase.h"
 
 @interface TWTRResourcesUtilTests : TWTRTestCase

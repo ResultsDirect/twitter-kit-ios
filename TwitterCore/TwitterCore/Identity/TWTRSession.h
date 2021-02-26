@@ -19,9 +19,9 @@
  This header is private to the Twitter Core SDK and not exposed for public SDK consumption
  */
 
-#import "TWTRAuthConfig.h"
-#import "TWTRAuthSession.h"
-#import "TWTRGuestSession.h"
+#import <TwitterKit/TWTRAuthConfig.h>
+#import <TwitterKit/TWTRAuthSession.h>
+#import <TwitterKit/TWTRGuestSession.h>
 
 @class TWTRSession;
 

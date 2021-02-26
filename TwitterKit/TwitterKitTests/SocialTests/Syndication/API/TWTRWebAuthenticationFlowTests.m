@@ -18,12 +18,12 @@
 #import <OCMock/OCMock.h>
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-#import "TWTRLoginURLParser.h"
+#import <TwitterKit/TWTRLoginURLParser.h>
 #import "TWTRTestSessionStore.h"
-#import "TWTRTwitter.h"
-#import "TWTRTwitter_Private.h"
-#import "TWTRWebAuthenticationFlow.h"
-#import "TWTRWebAuthenticationViewController.h"
+#import <TwitterKit/TWTRTwitter.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
+#import <TwitterKit/TWTRWebAuthenticationFlow.h>
+#import <TwitterKit/TWTRWebAuthenticationViewController.h>
 
 @interface TWTRWebAuthenticationFlowTests : XCTestCase
 

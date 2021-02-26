@@ -15,11 +15,11 @@
  *
  */
 
-#import "TWTRTweetShareItemProvider.h"
-#import "TWTRTranslationsUtil.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetShareItemProvider_Private.h"
-#import "TWTRUser.h"
+#import <TwitterKit/TWTRTweetShareItemProvider.h>
+#import <TwitterKit/TWTRTranslationsUtil.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetShareItemProvider_Private.h>
+#import <TwitterKit/TWTRUser.h>
 
 NSString *const TWTRTweetShareItemProviderPlaceholder = @"";
 NSString *const TWTRTweetShareItemProviderTweetItemSubjectFormatString = @"tw__share_tweet_subject_format";

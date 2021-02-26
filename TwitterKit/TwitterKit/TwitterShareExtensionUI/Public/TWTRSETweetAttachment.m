@@ -17,7 +17,7 @@
 
 #pragma mark imports
 
-#import "TWTRSETweetAttachment.h"
+#import <TwitterKit/TWTRSETweetAttachment.h>
 
 @import Foundation;
 @import MobileCoreServices.UTCoreTypes;

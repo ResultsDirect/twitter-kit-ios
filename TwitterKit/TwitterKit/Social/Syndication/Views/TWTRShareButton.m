@@ -15,18 +15,18 @@
  *
  */
 
-#import "TWTRShareButton.h"
-#import "TWTRColorUtil.h"
-#import "TWTRUtils.h"
-#import "TWTRFontUtil.h"
-#import "TWTRImages.h"
-#import "TWTRNotificationCenter.h"
-#import "TWTRNotificationConstants.h"
-#import "TWTRTranslationsUtil.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetShareItemProvider.h"
-#import "TWTRTweetView_Private.h"
-#import "TWTRTwitter_Private.h"
+#import <TwitterKit/TWTRShareButton.h>
+#import <TwitterKit/TWTRColorUtil.h>
+#import <TwitterKit/TWTRUtils.h>
+#import <TwitterKit/TWTRFontUtil.h>
+#import <TwitterKit/TWTRImages.h>
+#import <TwitterKit/TWTRNotificationCenter.h>
+#import <TwitterKit/TWTRNotificationConstants.h>
+#import <TwitterKit/TWTRTranslationsUtil.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetShareItemProvider.h>
+#import <TwitterKit/TWTRTweetView_Private.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
 
 @interface TWTRShareButton ()
 

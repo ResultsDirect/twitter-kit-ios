@@ -15,12 +15,12 @@
  *
  */
 
-#import "TWTRLogInButton.h"
-#import "TWTRColorUtil.h"
-#import "TWTRBirdView.h"
-#import "TWTRTranslationsUtil.h"
-#import "TWTRTwitter.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRLogInButton.h>
+#import <TwitterKit/TWTRColorUtil.h>
+#import <TwitterKit/TWTRBirdView.h>
+#import <TwitterKit/TWTRTranslationsUtil.h>
+#import <TwitterKit/TWTRTwitter.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 #define TWTR_SIGN_IN_BUTTON_HEIGHT 40
 #define TWTR_SIGN_IN_BUTTON_WIDTH (TWTR_SIGN_IN_BUTTON_HEIGHT * 7)

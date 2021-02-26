@@ -15,14 +15,14 @@
  *
  */
 
-#import "TWTRDateFormatters.h"
-#import "TWTRDateFormatters_Private.h"
+#import <TwitterKit/TWTRDateFormatters.h>
+#import <TwitterKit/TWTRDateFormatters_Private.h>
 #import <XCTest/XCTest.h>
 #import "TUDelorean+Rollback.h"
 #import "TUDelorean.h"
 #import "TWTRFixtureLoader.h"
-#import "TWTRTimestampLabel.h"
-#import "TWTRTweet.h"
+#import <TwitterKit/TWTRTimestampLabel.h>
+#import <TwitterKit/TWTRTweet.h>
 
 @interface TWTRTimestampLabelTests : XCTestCase
 

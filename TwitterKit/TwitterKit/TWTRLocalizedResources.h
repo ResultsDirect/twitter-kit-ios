@@ -20,7 +20,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "TWTRSELocalizedResources.h"
+#import <TwitterKit/TWTRSELocalizedResources.h>
 
 @interface TWTRLocalizedResources : NSObject <TWTRSELocalizedResources>
 

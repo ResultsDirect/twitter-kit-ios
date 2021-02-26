@@ -20,7 +20,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "TWTRNetworkingPipeline.h"
+#import <TwitterKit/TWTRNetworkingPipeline.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

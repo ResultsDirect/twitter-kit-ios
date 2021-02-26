@@ -17,15 +17,15 @@
 
 #pragma mark imports
 
-#import "TWTRSELocationSelectionTableViewController.h"
+#import <TwitterKit/TWTRSELocationSelectionTableViewController.h>
 #import "NSArray+Helpers.h"
-#import "TWTRSEFonts.h"
-#import "TWTRSEGeoPlace.h"
-#import "TWTRSEGeoPlaceTableViewCell.h"
-#import "TWTRSEGeoTagging.h"
-#import "TWTRSELoadingTableViewCell.h"
-#import "TWTRSELocalizedString.h"
-#import "TWTRSELocationMapTableViewHeaderView.h"
+#import <TwitterKit/TWTRSEFonts.h>
+#import <TwitterKit/TWTRSEGeoPlace.h>
+#import <TwitterKit/TWTRSEGeoPlaceTableViewCell.h>
+#import <TwitterKit/TWTRSEGeoTagging.h>
+#import <TwitterKit/TWTRSELoadingTableViewCell.h>
+#import <TwitterKit/TWTRSELocalizedString.h>
+#import <TwitterKit/TWTRSELocationMapTableViewHeaderView.h>
 #import "UIView+TSEExtensions.h"
 
 @import MapKit;

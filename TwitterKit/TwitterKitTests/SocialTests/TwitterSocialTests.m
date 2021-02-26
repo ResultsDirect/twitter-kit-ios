@@ -16,27 +16,27 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRAppInstallationUUID.h"
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRAuthenticator.h"
-#import "TWTRGuestSession.h"
-#import "TWTRSession.h"
-#import "TWTRSessionStore.h"
-#import "TWTRSessionStore_Private.h"
-#import "TWTRAPIClient.h"
-#import "TWTRAPIClient_Private.h"
-#import "TWTRCookieStorageUtil.h"
+#import <TwitterKit/TWTRAppInstallationUUID.h>
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRAuthenticator.h>
+#import <TwitterKit/TWTRGuestSession.h>
+#import <TwitterKit/TWTRSession.h>
+#import <TwitterKit/TWTRSessionStore.h>
+#import <TwitterKit/TWTRSessionStore_Private.h>
+#import <TwitterKit/TWTRAPIClient.h>
+#import <TwitterKit/TWTRAPIClient_Private.h>
+#import <TwitterKit/TWTRCookieStorageUtil.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRLoginURLParser.h"
-#import "TWTRMobileSSO.h"
+#import <TwitterKit/TWTRLoginURLParser.h>
+#import <TwitterKit/TWTRMobileSSO.h>
 #import "TWTRMockURLSessionProtocol.h"
-#import "TWTRNotificationConstants.h"
+#import <TwitterKit/TWTRNotificationConstants.h>
 #import "TWTRStubMobileSSO.h"
 #import "TWTRStubTwitterClient.h"
 #import "TWTRTestCase.h"
 #import "TWTRTestSessionStore.h"
-#import "TWTRTwitter_Private.h"
-#import "TWTRUser.h"
+#import <TwitterKit/TWTRTwitter_Private.h>
+#import <TwitterKit/TWTRUser.h>
 
 @interface TWTRTwitter ()
 - (void)performWebBasedLogin:(UIViewController *)viewController completion:(TWTRLogInCompletion)completion;

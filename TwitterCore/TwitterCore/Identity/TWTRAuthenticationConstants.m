@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRAuthenticationConstants.h"
+#import <TwitterKit/TWTRAuthenticationConstants.h>
 
 #pragma mark Twitter API
 NSString *const TWTRTwitterDomain = @"twitter.com";

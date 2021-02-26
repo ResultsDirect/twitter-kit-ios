@@ -15,10 +15,10 @@
  *
  */
 
-#import "TWTRTweetUrlEntity.h"
+#import <TwitterKit/TWTRTweetUrlEntity.h>
 
-#import "TWTRDictUtil.h"
-#import "TWTRAPIConstantsStatus.h"
+#import <TwitterKit/TWTRDictUtil.h>
+#import <TwitterKit/TWTRAPIConstantsStatus.h>
 
 @implementation TWTRTweetUrlEntity
 

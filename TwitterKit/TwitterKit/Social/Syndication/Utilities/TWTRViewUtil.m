@@ -15,12 +15,12 @@
  *
  */
 
-#import "TWTRViewUtil.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRDictUtil.h"
-#import "TWTRAPIConstantsStatus.h"
-#import "TWTRMediaEntitySize.h"
-#import "TWTRTweetMediaEntity.h"
+#import <TwitterKit/TWTRViewUtil.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRDictUtil.h>
+#import <TwitterKit/TWTRAPIConstantsStatus.h>
+#import <TwitterKit/TWTRMediaEntitySize.h>
+#import <TwitterKit/TWTRTweetMediaEntity.h>
 
 static CGFloat const TWTRTweetMediaViewDefaultWidthHint = 300.0;
 

@@ -16,8 +16,8 @@
  */
 
 #import <XCTest/XCTest.h>
-#import "TWTRVideoCTAView.h"
-#import "TWTRVideoDeeplinkConfiguration.h"
+#import <TwitterKit/TWTRVideoCTAView.h>
+#import <TwitterKit/TWTRVideoDeeplinkConfiguration.h>
 
 @interface TWTRVideoCTAViewTestsDelegate : NSObject <TWTRVideoCTAViewDelegate>
 @property (nonatomic, readonly) BOOL didGetCalled;

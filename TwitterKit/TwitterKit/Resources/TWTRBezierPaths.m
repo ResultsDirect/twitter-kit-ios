@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRBezierPaths.h"
+#import <TwitterKit/TWTRBezierPaths.h>
 
 @implementation TWTRBezierPaths
 

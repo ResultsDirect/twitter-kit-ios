@@ -16,7 +16,7 @@
  */
 
 @import MapKit;
-#import "TWTRSELocationMapTableViewHeaderView.h"
+#import <TwitterKit/TWTRSELocationMapTableViewHeaderView.h>
 
 static const CLLocationDistance kMapHorizontalPadding = 3000;
 static const CLLocationDistance kMapVerticalPadding = 1000;

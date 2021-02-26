@@ -18,17 +18,17 @@
 //  Image view which updates it's own height and aspect ratio based on
 //  the image passed in.
 
-#import "TWTRTweetImageView.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRColorUtil.h"
-#import "TWTRUtils.h"
-#import "TWTRImageLoader.h"
-#import "TWTRMediaEntityDisplayConfiguration.h"
-#import "TWTRTweetImageViewPill.h"
-#import "TWTRTweetMediaEntity.h"
-#import "TWTRTwitter_Private.h"
-#import "TWTRVideoMetaData.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRTweetImageView.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRColorUtil.h>
+#import <TwitterKit/TWTRUtils.h>
+#import <TwitterKit/TWTRImageLoader.h>
+#import <TwitterKit/TWTRMediaEntityDisplayConfiguration.h>
+#import <TwitterKit/TWTRTweetImageViewPill.h>
+#import <TwitterKit/TWTRTweetMediaEntity.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
+#import <TwitterKit/TWTRVideoMetaData.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 @interface TWTRTweetImageView ()
 

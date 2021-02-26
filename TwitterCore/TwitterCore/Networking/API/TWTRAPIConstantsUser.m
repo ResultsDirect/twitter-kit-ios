@@ -15,7 +15,7 @@
  *
  */
 
-#import "TWTRAPIConstantsUser.h"
+#import <TwitterKit/TWTRAPIConstantsUser.h>
 #import <Foundation/Foundation.h>
 
 NSString *const TWTRAPIConstantsUserShowURL = @"/1.1/users/show.json";

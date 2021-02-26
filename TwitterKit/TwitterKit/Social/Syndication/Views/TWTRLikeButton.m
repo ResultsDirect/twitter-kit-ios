@@ -15,26 +15,26 @@
  *
  */
 
-#import "TWTRLikeButton.h"
-#import "TWTRAPIErrorCode.h"
-#import "TWTRSessionStore.h"
-#import "TWTRUtils.h"
-#import "TWTRAPIClient_Private.h"
-#import "TWTRAnimatableImageView.h"
-#import "TWTRButtonAnimator.h"
-#import "TWTRFrameSheet.h"
-#import "TWTRImageSequenceConfiguration.h"
-#import "TWTRImages.h"
-#import "TWTRNotificationCenter.h"
-#import "TWTRNotificationConstants.h"
-#import "TWTRStore.h"
-#import "TWTRTranslationsUtil.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetRepository.h"
-#import "TWTRTweet_Private.h"
-#import "TWTRTwitter.h"
-#import "TWTRTwitter_Private.h"
-#import "TWTRViewUtil.h"
+#import <TwitterKit/TWTRLikeButton.h>
+#import <TwitterKit/TWTRAPIErrorCode.h>
+#import <TwitterKit/TWTRSessionStore.h>
+#import <TwitterKit/TWTRUtils.h>
+#import <TwitterKit/TWTRAPIClient_Private.h>
+#import <TwitterKit/TWTRAnimatableImageView.h>
+#import <TwitterKit/TWTRButtonAnimator.h>
+#import <TwitterKit/TWTRFrameSheet.h>
+#import <TwitterKit/TWTRImageSequenceConfiguration.h>
+#import <TwitterKit/TWTRImages.h>
+#import <TwitterKit/TWTRNotificationCenter.h>
+#import <TwitterKit/TWTRNotificationConstants.h>
+#import <TwitterKit/TWTRStore.h>
+#import <TwitterKit/TWTRTranslationsUtil.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetRepository.h>
+#import <TwitterKit/TWTRTweet_Private.h>
+#import <TwitterKit/TWTRTwitter.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
+#import <TwitterKit/TWTRViewUtil.h>
 
 typedef void (^TWTRTweetActionAPIClientCompletion)(TWTRAPIClient *_Nullable APIClient, NSError *_Nullable error);
 

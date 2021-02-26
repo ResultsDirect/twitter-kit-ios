@@ -17,16 +17,16 @@
 
 #import <Foundation/Foundation.h>
 #import <XCTest/XCTest.h>
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRGuestSession.h"
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRGuestSession.h>
 #import "TWTRMockURLSessionProtocol.h"
-#import "TWTRNetworkingPipeline.h"
-#import "TWTRNetworkingPipelinePackage.h"
-#import "TWTRNetworkingPipelineQueue.h"
+#import <TwitterKit/TWTRNetworkingPipeline.h>
+#import <TwitterKit/TWTRNetworkingPipelinePackage.h>
+#import <TwitterKit/TWTRNetworkingPipelineQueue.h>
 #import "TWTRPipelineSessionMock.h"
-#import "TWTRSession.h"
+#import <TwitterKit/TWTRSession.h>
 #import "TWTRSessionFixtureLoader.h"
-#import "TWTRSessionStore.h"
+#import <TwitterKit/TWTRSessionStore.h>
 
 @interface TWTRNetworkingPipelineQueueTests : XCTestCase <TWTRNetworkingResponseValidating>
 

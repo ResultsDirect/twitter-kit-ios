@@ -16,17 +16,17 @@
  */
 
 #import <OCMock/OCMock.h>
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRNetworking.h"
-#import "TWTRAPIClient.h"
-#import "TWTRAPIClient_Private.h"
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRNetworking.h>
+#import <TwitterKit/TWTRAPIClient.h>
+#import <TwitterKit/TWTRAPIClient_Private.h>
 #import "TWTRFixtureLoader.h"
 #import "TWTRImageTestHelper.h"
 #import "TWTRStubTwitterClient.h"
 #import "TWTRTestCase.h"
 #import "TWTRTestSessionStore.h"
-#import "TWTRTimelineCursor.h"
-#import "TWTRTwitter.h"
+#import <TwitterKit/TWTRTimelineCursor.h>
+#import <TwitterKit/TWTRTwitter.h>
 
 @interface TWTRAPIClient ()
 

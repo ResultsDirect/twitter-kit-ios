@@ -15,9 +15,9 @@
  *
  */
 
-#import "TWTRVideoDeeplinkConfiguration.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRVideoPlaybackConfiguration.h"
+#import <TwitterKit/TWTRVideoDeeplinkConfiguration.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRVideoPlaybackConfiguration.h>
 
 @implementation TWTRVideoDeeplinkConfiguration
 

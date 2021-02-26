@@ -20,8 +20,8 @@
  */
 
 #import <UIKit/UIKit.h>
-#import "TWTRAttributedLabel.h"
-#import "TWTRTweetPresenter.h"
+#import <TwitterKit/TWTRAttributedLabel.h>
+#import <TwitterKit/TWTRTweetPresenter.h>
 
 @class TWTRTweet;
 

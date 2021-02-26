@@ -15,21 +15,21 @@
  *
  */
 
-#import "TWTRWebAuthenticationViewController.h"
+#import <TwitterKit/TWTRWebAuthenticationViewController.h>
 #import <SafariServices/SafariServices.h>
-#import "TWTRAPIServiceConfig.h"
-#import "TWTRAPIServiceConfigRegistry.h"
-#import "TWTRAssertionMacros.h"
-#import "TWTRAuthConfig.h"
-#import "TWTRAuthenticationConstants.h"
-#import "TWTRSession.h"
-#import "TWTRSession_Private.h"
-#import "TWTRUserAPIClient.h"
-#import "TWTRUtils.h"
-#import "TWTRErrors.h"
-#import "TWTRLoginURLParser.h"
-#import "TWTRTwitter_Private.h"
-#import "TWTRWebViewController.h"
+#import <TwitterKit/TWTRAPIServiceConfig.h>
+#import <TwitterKit/TWTRAPIServiceConfigRegistry.h>
+#import <TwitterKit/TWTRAssertionMacros.h>
+#import <TwitterKit/TWTRAuthConfig.h>
+#import <TwitterKit/TWTRAuthenticationConstants.h>
+#import <TwitterKit/TWTRSession.h>
+#import <TwitterKit/TWTRSession_Private.h>
+#import <TwitterKit/TWTRUserAPIClient.h>
+#import <TwitterKit/TWTRUtils.h>
+#import <TwitterKit/TWTRErrors.h>
+#import <TwitterKit/TWTRLoginURLParser.h>
+#import <TwitterKit/TWTRTwitter_Private.h>
+#import <TwitterKit/TWTRWebViewController.h>
 
 @interface TWTRWebAuthenticationViewController () <SFSafariViewControllerDelegate>
 

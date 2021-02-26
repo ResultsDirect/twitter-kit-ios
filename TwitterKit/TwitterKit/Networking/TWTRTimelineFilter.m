@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRTimelineFilter.h"
-#import "TWTRDictUtil.h"
+#import <TwitterKit/TWTRTimelineFilter.h>
+#import <TwitterKit/TWTRDictUtil.h>
 
 @implementation TWTRTimelineFilter
 

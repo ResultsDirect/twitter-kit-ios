@@ -15,8 +15,8 @@
  *
  */
 
-#import "TWTRAuthenticationProvider.h"
-#import "TWTRConstants.h"
+#import <TwitterKit/TWTRAuthenticationProvider.h>
+#import <TwitterKit/TWTRConstants.h>
 
 @implementation TWTRAuthenticationProvider
 

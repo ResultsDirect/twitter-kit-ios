@@ -18,10 +18,10 @@
 #import <Foundation/Foundation.h>
 #import <OCMock/OCMock.h>
 #import <XCTest/XCTest.h>
-#import "TWTRGuestSession.h"
-#import "TWTRNetworkingPipeline.h"
-#import "TWTRNetworkingPipelinePackage.h"
-#import "TWTRNetworkingPipelineQueue.h"
+#import <TwitterKit/TWTRGuestSession.h>
+#import <TwitterKit/TWTRNetworkingPipeline.h>
+#import <TwitterKit/TWTRNetworkingPipelinePackage.h>
+#import <TwitterKit/TWTRNetworkingPipelineQueue.h>
 #import "TWTRPipelineSessionMock.h"
 
 @interface TWTRNetworkingPipeline (Testing)

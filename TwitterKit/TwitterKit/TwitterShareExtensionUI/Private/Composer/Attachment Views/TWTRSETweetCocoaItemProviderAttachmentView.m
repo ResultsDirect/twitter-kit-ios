@@ -15,13 +15,13 @@
  *
  */
 
-#import "TWTRSETweetCocoaItemProviderAttachmentView.h"
-#import "TWTRSECardPreviewProvider.h"
-#import "TWTRSEImageDownloader.h"
-#import "TWTRSEImageProvider.h"
-#import "TWTRSETweetAttachment.h"
-#import "TWTRSETweetAttachmentView.h"
-#import "TWTRSETweetURLAttachmentView.h"
+#import <TwitterKit/TWTRSETweetCocoaItemProviderAttachmentView.h>
+#import <TwitterKit/TWTRSECardPreviewProvider.h>
+#import <TwitterKit/TWTRSEImageDownloader.h>
+#import <TwitterKit/TWTRSEImageProvider.h>
+#import <TwitterKit/TWTRSETweetAttachment.h>
+#import <TwitterKit/TWTRSETweetAttachmentView.h>
+#import <TwitterKit/TWTRSETweetURLAttachmentView.h>
 
 @import MobileCoreServices;
 

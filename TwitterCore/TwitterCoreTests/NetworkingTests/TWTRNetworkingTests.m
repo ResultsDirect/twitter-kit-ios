@@ -18,10 +18,10 @@
 #import <OCMock/OCMock.h>
 @import TwitterKit;
 #import "TWTRFakeAuthenticationChallengeSender.h"
-#import "TWTRNetworking.h"
-#import "TWTRServerTrustEvaluator.h"
+#import <TwitterKit/TWTRNetworking.h>
+#import <TwitterKit/TWTRServerTrustEvaluator.h>
 #import "TWTRTestCase.h"
-#import "TWTRUserAPIClient.h"
+#import <TwitterKit/TWTRUserAPIClient.h>
 
 @interface TWTRNetworkingTests : TWTRTestCase
 

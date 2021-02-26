@@ -18,11 +18,11 @@
 #import <XCTest/XCTest.h>
 #import "TWTRFixtureLoader.h"
 #import "TWTRImageTestHelper.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetImageView.h"
-#import "TWTRTweetMediaView.h"
-#import "TWTRTweetMediaView_Private.h"
-#import "TWTRTweet_Private.h"
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetImageView.h>
+#import <TwitterKit/TWTRTweetMediaView.h>
+#import <TwitterKit/TWTRTweetMediaView_Private.h>
+#import <TwitterKit/TWTRTweet_Private.h>
 
 @interface TWTRTweetMediaViewDelegateStub : NSObject <TWTRTweetMediaViewDelegate>
 @property (nonatomic) BOOL shouldPresent;

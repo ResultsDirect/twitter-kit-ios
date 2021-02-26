@@ -15,17 +15,17 @@
  *
  */
 
-#import "TWTRUtils.h"
+#import <TwitterKit/TWTRUtils.h>
 #import <XCTest/XCTest.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRMediaContainerViewController.h"
-#import "TWTRNotificationConstants.h"
-#import "TWTRVideoControlsView.h"
-#import "TWTRVideoPlaybackConfiguration.h"
-#import "TWTRVideoPlayerView.h"
-#import "TWTRVideoPlayerView_Private.h"
-#import "TWTRVideoViewController.h"
-#import "TWTRVideoViewController_Private.h"
+#import <TwitterKit/TWTRMediaContainerViewController.h>
+#import <TwitterKit/TWTRNotificationConstants.h>
+#import <TwitterKit/TWTRVideoControlsView.h>
+#import <TwitterKit/TWTRVideoPlaybackConfiguration.h>
+#import <TwitterKit/TWTRVideoPlayerView.h>
+#import <TwitterKit/TWTRVideoPlayerView_Private.h>
+#import <TwitterKit/TWTRVideoViewController.h>
+#import <TwitterKit/TWTRVideoViewController_Private.h>
 
 @interface TWTRVideoViewController ()
 

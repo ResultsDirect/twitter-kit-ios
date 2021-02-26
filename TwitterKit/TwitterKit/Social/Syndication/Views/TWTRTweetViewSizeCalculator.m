@@ -15,10 +15,10 @@
  *
  */
 
-#import "TWTRTweetViewSizeCalculator.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetView.h"
-#import "TWTRTweetView_Private.h"
+#import <TwitterKit/TWTRTweetViewSizeCalculator.h>
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetView.h>
+#import <TwitterKit/TWTRTweetView_Private.h>
 
 @interface TWTRTweetViewSizeCalculator ()
 

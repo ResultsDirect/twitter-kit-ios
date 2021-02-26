@@ -19,11 +19,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 #import "TWTRFixtureLoader.h"
-#import "TWTRTweet.h"
-#import "TWTRTweetHashtagEntity.h"
-#import "TWTRTweetPresenter.h"
-#import "TWTRTweetUrlEntity.h"
-#import "TWTRUser.h"
+#import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweetHashtagEntity.h>
+#import <TwitterKit/TWTRTweetPresenter.h>
+#import <TwitterKit/TWTRTweetUrlEntity.h>
+#import <TwitterKit/TWTRUser.h>
 
 @interface TWTRTweetPresenterTests : XCTestCase
 @property (nonatomic, strong) TWTRTweetPresenter *regularPresenter;

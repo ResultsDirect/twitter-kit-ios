@@ -17,7 +17,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "TWTRAPIConstants.h"
+#import <TwitterKit/TWTRAPIConstants.h>
 
 NSString *const TWTRAPIConstantsParamID = @"id";
 NSString *const TWTRAPIConstantsFieldID = @"id";

@@ -19,8 +19,8 @@
  This header is private to the Twitter Kit SDK and not exposed for public SDK consumption
  */
 
-#import "TWTRMediaType.h"
-#import "TWTRNotificationConstants.h"
+#import <TwitterKit/TWTRMediaType.h>
+#import <TwitterKit/TWTRNotificationConstants.h>
 
 /**
  *  Return the type of video being displayed inside of a

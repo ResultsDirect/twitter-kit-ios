@@ -20,7 +20,7 @@
  */
 
 #import <UIKit/UIKit.h>
-#import "TWTRTweetView.h"
+#import <TwitterKit/TWTRTweetView.h>
 
 @class TWTRTweetMediaView;
 @class TWTRProfileHeaderView;

@@ -20,8 +20,8 @@
 #else
 #import <Cocoa/Cocoa.h>
 #endif
-#import "TWTRDateUtil.h"
-#import "TWTRUserSessionVerifier.h"
+#import <TwitterKit/TWTRDateUtil.h>
+#import <TwitterKit/TWTRUserSessionVerifier.h>
 
 NSTimeInterval const TWTRUserSessionVerifierIntervalDaily = 86400;
 NSTimeInterval const TWTRUserSessionVerifierDefaultDelay = 3;
