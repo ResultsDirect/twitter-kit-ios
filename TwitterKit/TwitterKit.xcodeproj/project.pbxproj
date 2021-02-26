@@ -3286,7 +3286,7 @@
 		A97654DD18E0B29B00E25169 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = Twitter;
 				TargetAttributes = {
 					A966541318EB687000B61CEE = {
