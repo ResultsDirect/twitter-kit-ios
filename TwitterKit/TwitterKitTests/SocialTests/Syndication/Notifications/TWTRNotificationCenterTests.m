@@ -24,7 +24,6 @@
 
 @interface TWTRNotificationCenterTests : TWTRTestCase
 
-@property (nonatomic, readonly) id notificationCenterObserver;
 @property (nonatomic, readonly) TWTRTweet *tweet;
 
 @end
@@ -34,52 +33,36 @@
 - (void)setUp
 {
     [super setUp];
-
     _tweet = [TWTRFixtureLoader obamaTweet];
-    _notificationCenterObserver = OCMObserverMock();
-    [[NSNotificationCenter defaultCenter] addMockObserver:_notificationCenterObserver name:nil object:nil];
-}
-
-- (void)tearDown
-{
-    [[NSNotificationCenter defaultCenter] removeObserver:self.notificationCenterObserver];
-
-    [super tearDown];
-}
-
-- (void)testNotificationWasPosted
-{
-    [[self.notificationCenterObserver expect] notificationWithName:OCMOCK_ANY object:nil userInfo:OCMOCK_ANY];
-    [TWTRNotificationCenter postNotificationName:@"name" tweet:self.tweet userInfo:nil];
-    [self.notificationCenterObserver verify];
 }
 
 - (void)testNotificationWasPostedWithCorrectName
 {
-    [[self.notificationCenterObserver expect] notificationWithName:[OCMArg checkWithBlock:^BOOL(NSString *notificationName) {
-                                                  return [notificationName isEqualToString:@"name"];
-                                              }]
-                                                            object:nil
-                                                          userInfo:OCMOCK_ANY];
+    XCTestExpectation *expectation = [[XCTNSNotificationExpectation alloc] initWithName:@"name"];
     [TWTRNotificationCenter postNotificationName:@"name" tweet:self.tweet userInfo:nil];
-    [self.notificationCenterObserver verify];
+    [self waitForExpectations:@[expectation] timeout:1.0];
 }
 
 - (void)testNotificationWasBroadcasted
 {
-    [[self.notificationCenterObserver expect] notificationWithName:@"name" object:[OCMArg isNil] userInfo:OCMOCK_ANY];
+    XCTNSNotificationExpectation *expectation = [[XCTNSNotificationExpectation alloc] initWithName:@"name" object:nil];
     [TWTRNotificationCenter postNotificationName:@"name" tweet:self.tweet userInfo:nil];
-    [self.notificationCenterObserver verify];
+    [self waitForExpectations:@[expectation] timeout:1.0];
 }
 
 - (void)testNotificationWasPostedWithTweet
 {
-    [[self.notificationCenterObserver expect] notificationWithName:@"name" object:nil userInfo:[OCMArg checkWithBlock:^BOOL(NSDictionary *userInfo) {
-                                                                                          TWTRTweet *tweet = userInfo[TWTRNotificationInfoTweet];
-                                                                                          return tweet != nil && [tweet.tweetID isEqualToString:@"266031293945503744"];
-                                                                                      }]];
+    XCTNSNotificationExpectation *expectation = [[XCTNSNotificationExpectation alloc] initWithName:@"name"];
+    expectation.handler = ^(NSNotification *notification) {
+        XCTAssertNil(notification.object);
+        XCTAssertNotNil(notification.userInfo);
+        TWTRTweet *tweet = notification.userInfo[TWTRNotificationInfoTweet];
+        XCTAssertTrue([tweet isKindOfClass:[TWTRTweet class]]);
+        XCTAssertEqualObjects(@"266031293945503744", tweet.tweetID);
+        return YES;
+    };
     [TWTRNotificationCenter postNotificationName:@"name" tweet:self.tweet userInfo:nil];
-    [self.notificationCenterObserver verify];
+    [self waitForExpectations:@[expectation] timeout:1.0];
 }
 
 @end
