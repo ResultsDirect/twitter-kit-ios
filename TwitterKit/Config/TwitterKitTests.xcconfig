@@ -27,3 +27,5 @@ OTHER_LDFLAGS[sdk=iphoneos*] = $(inherited) -all_load -framework OCMock
 OTHER_LDFLAGS[sdk=iphonesimulator*] = $(inherited) -all_load -framework OCMock
 
 FRAMEWORK_SEARCH_PATHS = $(inherited) $(PROJECT_DIR)/../Carthage/Build/iOS
+
+ONLY_ACTIVE_ARCH = NO

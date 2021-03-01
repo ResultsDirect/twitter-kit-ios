@@ -3794,6 +3794,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Developer ID Application";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.twitter.sdk.ios.${PRODUCT_NAME:rfc1034identifier}";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
@@ -3802,6 +3803,7 @@
 			baseConfigurationReference = F6BE158823E20E7200819ACF /* TwitterKitTests.xcconfig */;
 			buildSettings = {
 				PRODUCT_BUNDLE_IDENTIFIER = "com.twitter.sdk.ios.${PRODUCT_NAME:rfc1034identifier}";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};
