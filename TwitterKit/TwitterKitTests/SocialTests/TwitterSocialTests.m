@@ -222,7 +222,7 @@
     TWTRSession *sampleSession = [[TWTRSession alloc] initWithAuthToken:@"token'" authTokenSecret:@"secret" userName:@"username" userID:@"9843"];
     id mockMobileSSO = OCMClassMock([TWTRMobileSSO class]);
     OCMStub([mockMobileSSO alloc]).andReturn(mockMobileSSO);
-    OCMStub([mockMobileSSO initWithAuthConfig:OCMOCK_ANY]).andReturn(mockMobileSSO);
+    OCMStub([mockMobileSSO initWithSessionStore:OCMOCK_ANY]).andReturn(mockMobileSSO);
 
     OCMExpect([mockMobileSSO attemptAppLoginWithCompletion:[OCMArg checkWithBlock:^BOOL(TWTRLogInCompletion completion) {
                                  completion(sampleSession, nil);

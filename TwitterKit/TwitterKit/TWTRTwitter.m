@@ -324,7 +324,7 @@ static TWTRTwitter *sharedTwitter;
         [NSException raise:TWTRInvalidInitializationException format:@"Attempt made to Log in or Like a Tweet without a valid Twitter Kit URL Scheme set up in the app settings. Please see https://dev.twitter.com/twitterkit/ios/installation for more info."];
     } else {
         __weak typeof(viewController) weakViewController = viewController;
-        self.mobileSSO = [[TWTRMobileSSO alloc] initWithAuthConfig:self.sessionStore.authConfig];
+        self.mobileSSO = [[TWTRMobileSSO alloc] initWithSessionStore:self.sessionStore];
         [self.mobileSSO attemptAppLoginWithCompletion:^(TWTRSession *session, NSError *error) {
             if (session) {
                 completion(session, error);

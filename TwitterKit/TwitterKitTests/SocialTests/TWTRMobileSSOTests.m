@@ -18,9 +18,11 @@
 #import <OCMock/OCMock.h>
 #import <XCTest/XCTest.h>
 #import <TwitterKit/TWTRMobileSSO.h>
+#import "TWTRTestSessionStore.h"
 
 @interface TWTRMobileSSOTests : XCTestCase
 
+@property (nonatomic) id<TWTRSessionStore> store;
 @property (nonatomic) TWTRMobileSSO *mobileSSO;
 @end
 
@@ -30,39 +32,21 @@
 {
     [super setUp];
 
-    TWTRAuthConfig *authConfig = [[TWTRAuthConfig alloc] initWithConsumerKey:@"xK8du" consumerSecret:@"s7r5p2"];
-    self.mobileSSO = [[TWTRMobileSSO alloc] initWithAuthConfig:authConfig];
+    self.store = [[TWTRTestSessionStore alloc] initWithUserSessions:@[] guestSession:nil];
+    self.mobileSSO = [[TWTRMobileSSO alloc] initWithSessionStore:self.store];
 }
-
-#pragma mark - App Login
-
-//- (void)testAttemptAppLogin_opensURL
-//{
-//    id mockApplication = OCMClassMock([UIApplication class]);
-//    OCMStub([mockApplication sharedApplication]).andReturn(mockApplication);
-//
-//    NSURL *url = [NSURL URLWithString:@"twitterauth://authorize?consumer_key=xK8du&consumer_secret=s7r5p2&oauth_callback=twitterkit-xK8du"];
-//    OCMStub([mockApplication openURL:OCMOCK_ANY options:OCMOCK_ANY completionHandler:OCMOCK_ANY]);
-//    OCMExpect([mockApplication openURL:url options:OCMOCK_ANY completionHandler:OCMOCK_ANY]);
-//
-//    [self.mobileSSO attemptAppLoginWithCompletion:^(TWTRSession *session, NSError *error){
-//    }];
-//
-//    OCMVerifyAll(mockApplication);
-//    [mockApplication stopMocking];
-//}
 
 #pragma mark - Process Redirect
 
 - (void)testProcessURL_returnsYesForSuccess
 {
-    NSURL *successURL = [NSURL URLWithString:@"twitterkit-xK8du://secret=RVfziSc&token=23698-mzYEJHqJ&username=fabric_tester"];
+    NSURL *successURL = [NSURL URLWithString:@"twitterkit-consumer://secret=RVfziSc&token=23698-mzYEJHqJ&username=fabric_tester"];
     XCTAssertTrue([self.mobileSSO processRedirectURL:successURL]);
 }
 
 - (void)testProcessURL_returnsYesForCancel
 {
-    NSURL *cancelURL = [NSURL URLWithString:@"twitterkit-xK8du://"];
+    NSURL *cancelURL = [NSURL URLWithString:@"twitterkit-consumer://"];
     self.mobileSSO.completion = ^(TWTRSession *_Nullable session, NSError *_Nullable error) {
     };
     XCTAssertTrue([self.mobileSSO processRedirectURL:cancelURL]);
@@ -70,14 +54,13 @@
 
 - (void)testProcessURL_returnsNoForSafariURL
 {
-    NSURL *safariURL = [NSURL URLWithString:@"twitterkit-xK8du://oauth_verifier=238932u8"];
+    NSURL *safariURL = [NSURL URLWithString:@"twitterkit-consumer://oauth_verifier=238932u8"];
     XCTAssertFalse([self.mobileSSO processRedirectURL:safariURL]);
 }
 
 - (void)testProcessURL_savesCorrectSession
 {
-    NSURL *successURL = [NSURL URLWithString:@"twitterkit-xK8du://secret=RVfziSc&token=23698-mzYEJHqJ&username=fabric_tester"];
-    [[TWTRTwitter sharedInstance] startWithConsumerKey:@"xK8du" consumerSecret:@"s7r5p2"];
+    NSURL *successURL = [NSURL URLWithString:@"twitterkit-consumer://secret=RVfziSc&token=23698-mzYEJHqJ&username=fabric_tester"];
 
     XCTestExpectation *token = [self expectationWithDescription:@"Token is correct"];
     XCTestExpectation *secret = [self expectationWithDescription:@"Secret is correct"];

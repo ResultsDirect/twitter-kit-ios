@@ -30,11 +30,10 @@ typedef void (^TWTRMobileSSOCompletion)(BOOL twitterAppInstalled);
 
 @interface TWTRMobileSSO : NSObject
 
-@property (nonatomic) TWTRAuthConfig *authConfig;
 @property (nonatomic) TWTRLoginURLParser *loginURLParser;
 @property (nonatomic, copy) TWTRLogInCompletion completion;
 
-- (instancetype)initWithAuthConfig:(TWTRAuthConfig *)authConfig;
+- (instancetype)initWithSessionStore:(id<TWTRSessionStore>)store;
 
 /*
  *  Attempt to authenticate with the Twitter iOS app if installed

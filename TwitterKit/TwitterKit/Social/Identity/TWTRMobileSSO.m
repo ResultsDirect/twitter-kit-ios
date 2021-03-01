@@ -23,13 +23,19 @@
 #import <TwitterKit/TWTRTwitter.h>
 #import <TwitterKit/TWTRTwitter_Private.h>
 
+@interface TWTRMobileSSO ()
+
+@property (nonatomic, strong) id<TWTRSessionStore> store;
+
+@end
+
 @implementation TWTRMobileSSO
 
-- (instancetype)initWithAuthConfig:(TWTRAuthConfig *)authConfig
+- (instancetype)initWithSessionStore:(id<TWTRSessionStore>)store
 {
     if (self = [super init]) {
-        self.authConfig = authConfig;
-        self.loginURLParser = [[TWTRLoginURLParser alloc] initWithAuthConfig:authConfig];
+        self.store = store;
+        self.loginURLParser = [[TWTRLoginURLParser alloc] initWithAuthConfig:store.authConfig];
     }
 
     return self;
@@ -112,11 +118,13 @@
         // The user finished the flow, the Twitter app gave us valid tokens
         NSDictionary *parameters = [self.loginURLParser parametersForSSOURL:url];
         TWTRSession *newSession = [[TWTRSession alloc] initWithSSOResponse:parameters];
-        TWTRSessionStore *store = [TWTRTwitter sharedInstance].sessionStore;
-        [store saveSession:newSession
-                completion:^(id<TWTRAuthSession> session, NSError *error) {
-                    self.completion(session, error);
-                }];
+        [self.store saveSession:newSession
+                     completion:^(id<TWTRAuthSession> session, NSError *error) {
+            TWTRLogInCompletion completion = self.completion;
+            if (completion) {
+                completion(session, error);
+            }
+        }];
         return YES;
     }
 
