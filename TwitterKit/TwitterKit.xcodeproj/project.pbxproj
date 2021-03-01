@@ -1536,14 +1536,6 @@
 			path = TWTRImageLoader;
 			sourceTree = "<group>";
 		};
-		3D3E0C341993F2A100E0C667 /* Scribe */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Scribe;
-			path = SocialTests/Syndication/Scribe;
-			sourceTree = "<group>";
-		};
 		3D5BD6FB197F75FE00C9C0F4 /* Fixtures */ = {
 			isa = PBXGroup;
 			children = (
@@ -2359,7 +2351,6 @@
 				3DCBF12E1C694B800071B049 /* Notifications */,
 				22BA0E6D192560F400A9F03E /* PersistenceTests */,
 				3DC4761719AFB6B800FE846C /* ResourcesTests */,
-				3D3E0C341993F2A100E0C667 /* Scribe */,
 				A9FB560B18FDC99B001A4137 /* SocialTests */,
 				3DEF45631990BF77003C13F7 /* Test Helpers */,
 				3D915F1C190430A500FDC151 /* Utilities */,
