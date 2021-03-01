@@ -6,6 +6,20 @@
 	objectVersion = 52;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		F6E8FC6025ED8DB6003CB140 /* XCFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F6E8FC6125ED8DB6003CB140 /* Build configuration list for PBXAggregateTarget "XCFramework" */;
+			buildPhases = (
+				F6E8FC6425ED8DC8003CB140 /* Build XCFramework */,
+			);
+			dependencies = (
+			);
+			name = XCFramework;
+			productName = XCFramework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		2002E6031E5F5BDA007AF951 /* TWTRTweetDelegationHelperTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2002E6021E5F5BDA007AF951 /* TWTRTweetDelegationHelperTest.m */; };
 		208B91451E6E38050028378B /* SendTweet.json in Resources */ = {isa = PBXBuildFile; fileRef = 208B91441E6E38050028378B /* SendTweet.json */; };
@@ -3297,6 +3311,9 @@
 					BFE8395F1ADF23590035CBA1 = {
 						CreatedOnToolsVersion = 6.3;
 					};
+					F6E8FC6025ED8DB6003CB140 = {
+						CreatedOnToolsVersion = 12.5;
+					};
 				};
 			};
 			buildConfigurationList = A97654E018E0B29B00E25169 /* Build configuration list for PBXProject "TwitterKit" */;
@@ -3316,6 +3333,7 @@
 			targets = (
 				BFE8395F1ADF23590035CBA1 /* TwitterKit */,
 				A966541318EB687000B61CEE /* TwitterKit Tests */,
+				F6E8FC6025ED8DB6003CB140 /* XCFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -3383,6 +3401,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F6E8FC6425ED8DC8003CB140 /* Build XCFramework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build XCFramework";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# archive once for devices\nxcodebuild archive -project ${PROJECT_FILE_PATH} -scheme TwitterKit -destination \"generic/platform=iOS\" -archivePath ${SRCROOT}/../Artifacts/TwitterKit-iOS SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES\n\n# archive again for simulators\nxcodebuild archive -project ${PROJECT_FILE_PATH} -scheme TwitterKit -destination \"generic/platform=iOS Simulator\" -archivePath ${SRCROOT}/../Artifacts/TwitterKit-Simulator SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES\n\n# combine those two frameworks into an XCFramework wrapper \nxcodebuild -create-xcframework -framework ${SRCROOT}/../Artifacts/TwitterKit-iOS.xcarchive/Products/Library/Frameworks/TwitterKit.framework -framework ${SRCROOT}/../Artifacts/TwitterKit-Simulator.xcarchive/Products/Library/Frameworks/TwitterKit.framework -output ${SRCROOT}/../Artifacts/TwitterKit.xcframework\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A966541018EB687000B61CEE /* Sources */ = {
@@ -3845,6 +3884,20 @@
 			};
 			name = Release;
 		};
+		F6E8FC6225ED8DB6003CB140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F6E8FC6325ED8DB6003CB140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3871,6 +3924,15 @@
 			buildConfigurations = (
 				BFE839731ADF23590035CBA1 /* Debug */,
 				BFE839751ADF23590035CBA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E8FC6125ED8DB6003CB140 /* Build configuration list for PBXAggregateTarget "XCFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E8FC6225ED8DB6003CB140 /* Debug */,
+				F6E8FC6325ED8DB6003CB140 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
