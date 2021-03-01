@@ -25,6 +25,7 @@
 #import <TwitterKit/TWTRImages.h>
 #import <TwitterKit/TWTRSharedComposerWrapper.h>
 #import <TwitterKit/TWTRTweet.h>
+#import <TwitterKit/TWTRTweet_Private.h>
 #import <TwitterKit/TWTRTwitter.h>
 #import <TwitterKit/TWTRTwitter_Private.h>
 
@@ -226,7 +227,8 @@
                           }];
 
     // Run the action
-    [composer composerDidSucceed:[TWTRComposerViewController new] withTweet:[TWTRTweet new]];
+    TWTRTweet *tweet = [[TWTRTweet alloc] initWithJSONDictionary:@{}];
+    [composer composerDidSucceed:[[TWTRComposerViewController alloc] initWithInitialText:nil image:nil videoURL:nil] withTweet:tweet];
 
     [self waitForExpectations:@[expectation] timeout:0];
 }
@@ -244,7 +246,7 @@
                           }];
 
     // Run the action
-    [composer composerDidCancel:[TWTRComposerViewController new]];
+    [composer composerDidCancel:[[TWTRComposerViewController alloc] initWithInitialText:nil image:nil videoURL:nil]];
 
     [self waitForExpectations:@[expectation] timeout:0];
 }
@@ -262,7 +264,7 @@
                           }];
 
     // Run the action
-    [composer composerDidFail:[TWTRComposerViewController new] withError:[NSError errorWithDomain:@"domain" code:0 userInfo:nil]];
+    [composer composerDidFail:[[TWTRComposerViewController alloc] initWithInitialText:nil image:nil videoURL:nil] withError:[NSError errorWithDomain:@"domain" code:0 userInfo:nil]];
 
     [self waitForExpectations:@[expectation] timeout:0];
 }
