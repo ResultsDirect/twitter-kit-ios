@@ -3869,7 +3869,7 @@
 			baseConfigurationReference = F6BE157623E20E7200819ACF /* TwitterKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				MARKETING_VERSION = 5.1.0;
+				MARKETING_VERSION = 5.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.twitter.sdk.ios;
 			};
 			name = Debug;
@@ -3879,7 +3879,7 @@
 			baseConfigurationReference = F6BE157623E20E7200819ACF /* TwitterKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				MARKETING_VERSION = 5.1.0;
+				MARKETING_VERSION = 5.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.twitter.sdk.ios;
 			};
 			name = Release;
