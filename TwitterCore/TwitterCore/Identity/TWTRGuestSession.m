@@ -44,8 +44,14 @@ static NSTimeInterval const TWTRGuestSessionExpirationDuration = 3600;  // One h
 {
     TWTRParameterAssertOrReturnValue(sessionDictionary, nil);
     NSString *accessToken = sessionDictionary[TWTRAuthAppOAuthTokenKey];
-    NSString *guestToken = sessionDictionary[TWTRGuestAuthOAuthTokenKey];
-
+    NSString *guestToken = nil;
+    
+    id rawToken = sessionDictionary[TWTRGuestAuthOAuthTokenKey];
+    if ([rawToken isKindOfClass:[NSNumber class]]) {
+        guestToken = [(NSNumber *)rawToken stringValue];
+    } else {
+        guestToken = rawToken;
+    }
     return [self initWithAccessToken:accessToken guestToken:guestToken creationDate:date];
 }
 

@@ -43,6 +43,14 @@
     XCTAssertEqualObjects(session.guestToken, self.guestToken);
 }
 
+- (void)testInitSessionDictionaryNumericGuestToken
+{
+    NSDictionary *dictionary = @{TWTRAuthAppOAuthTokenKey: self.accessToken, TWTRGuestAuthOAuthTokenKey: @12345678};
+    TWTRGuestSession *session = [[TWTRGuestSession alloc] initWithSessionDictionary:dictionary];
+    XCTAssertEqualObjects(session.accessToken, self.accessToken);
+    XCTAssertEqualObjects(session.guestToken, @"12345678");
+}
+
 - (void)testInit
 {
     TWTRGuestSession *session = [[TWTRGuestSession alloc] initWithAccessToken:self.accessToken guestToken:self.guestToken];
